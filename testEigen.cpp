@@ -5,6 +5,8 @@
 using namespace std;
 using namespace Eigen;
 using namespace cv;
+float returnMinus(float);
+
 int main(){ 
     //Standard matrix
     Matrix <float, 3, 3> matrixA;
@@ -63,4 +65,22 @@ int main(){
     cout << v << endl;
     cout << typeid(v).name() << endl;
     
+
+    Matrix<float, 3, 6> nice;
+    nice << 3, 3, 3, 3, 3, 3,
+            3, 3, 3, 3, 3, 3,
+            3, 3, 3, 3, 3, 3, 
+    cout << D * nice << endl;
+
+    //vectorize nice matrix with using the returnMinus function
+    //std::function<float(float)> func = returnMinus;
+    Matrix<float, 3, 6> result2 = nice.unaryExpr(std::function<float(float)>(returnMinus));
+
+    cout << result2 << endl;
 }
+
+float returnMinus(float elem){
+    return elem - 4;
+};
+
+
