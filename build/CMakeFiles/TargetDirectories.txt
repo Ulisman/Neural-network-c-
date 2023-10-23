@@ -1,0 +1,4 @@
+/Users/ulrikisdahl/cplusplus/NeuralNetwork/build/CMakeFiles/nn.dir
+/Users/ulrikisdahl/cplusplus/NeuralNetwork/build/CMakeFiles/test.dir
+/Users/ulrikisdahl/cplusplus/NeuralNetwork/build/CMakeFiles/edit_cache.dir
+/Users/ulrikisdahl/cplusplus/NeuralNetwork/build/CMakeFiles/rebuild_cache.dir
