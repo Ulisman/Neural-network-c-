@@ -6,6 +6,8 @@ using namespace std;
 using namespace Eigen;
 using namespace cv;
 float returnMinus(float);
+float sigmoid(float);
+float binaryError(float, float);
 
 int main(){ 
     //Standard matrix
@@ -77,10 +79,63 @@ int main(){
     Matrix<float, 3, 6> result2 = nice.unaryExpr(std::function<float(float)>(returnMinus));
 
     cout << result2 << endl;
+
+    cout << "test" << endl;
+
+    VectorXf test(3);
+    test << 3, 3, 3;
+
+    VectorXf test2(3);
+    test2 << 4, 5, 6;
+
+    VectorXf resultTest(3);
+    resultTest = test2 - test;
+    cout << resultTest << endl;
+
+    std::function<float(float)> func = sigmoid;
+    VectorXf sigmoidVec = resultTest.unaryExpr(func);
+
+    cout << sigmoidVec << endl;
+
+
+    VectorXf outputs(3);
+    outputs << 0.1, 0.2, 0.3;
+    VectorXf labels(3);
+    labels << 0, 1, 0;
+
+    std::function<float(float, float)> func2 = binaryError;
+    VectorXf error = outputs.binaryExpr(labels, func2);
+
+
+    //dot porduct
+    MatrixXf threeByFour(3, 4);
+    threeByFour << 1, 1, 1, 1,
+                   1, 1, 1, 1,
+                   1, 1, 1, 1;
+
+    MatrixXf dotProd = labels.transpose() * threeByFour; // (3, 1).T * (3, 4) = (1, 4)
+    cout << dotProd << endl;
+
+    cout << labels.rows() << endl;
+    cout << labels.transpose().rows() << endl;
+    cout << labels.rows() << endl;
+
 }
 
 float returnMinus(float elem){
     return elem - 4;
 };
+
+float sigmoid(float x) {
+    return 1.0f / (1.0f + std::exp(-x));
+}
+
+float binaryError(float x, float y){
+    return -y * std::log(x) - (1 - y) * std::log(1 - x);
+}
+
+// Eigen::VectorXf sigmoid(const Eigen::VectorXf& x) {
+//     return x.unaryExpr([](float v) { return 1.0f / (1.0f + std::exp(-v)); });
+// }
 
 
