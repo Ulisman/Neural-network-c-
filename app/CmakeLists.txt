@@ -1,0 +1,4 @@
+add_executable(main main.cpp)
+
+#links
+target_link_libraries(main PRIVATE modules Eigen3::Eigen ${OpenCV_LIBS}) #link opencv library
