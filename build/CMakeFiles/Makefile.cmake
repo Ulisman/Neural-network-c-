@@ -11,6 +11,8 @@ set(CMAKE_MAKEFILE_DEPENDS
   "CMakeFiles/3.27.7/CMakeCCompiler.cmake"
   "CMakeFiles/3.27.7/CMakeCXXCompiler.cmake"
   "CMakeFiles/3.27.7/CMakeSystem.cmake"
+  "/Users/ulrikisdahl/cplusplus/NeuralNetwork/inference/CMakeLists.txt"
+  "/Users/ulrikisdahl/cplusplus/NeuralNetwork/modules/CMakeLists.txt"
   "/opt/homebrew/Cellar/cmake/3.27.7/share/cmake/Modules/CMakeCInformation.cmake"
   "/opt/homebrew/Cellar/cmake/3.27.7/share/cmake/Modules/CMakeCXXInformation.cmake"
   "/opt/homebrew/Cellar/cmake/3.27.7/share/cmake/Modules/CMakeCommonLanguageInclude.cmake"
@@ -52,10 +54,14 @@ set(CMAKE_MAKEFILE_OUTPUTS
 # Byproducts of CMake generate step:
 set(CMAKE_MAKEFILE_PRODUCTS
   "CMakeFiles/CMakeDirectoryInformation.cmake"
+  "modules/CMakeFiles/CMakeDirectoryInformation.cmake"
+  "inference/CMakeFiles/CMakeDirectoryInformation.cmake"
   )
 
 # Dependency information for all targets:
 set(CMAKE_DEPEND_INFO_FILES
   "CMakeFiles/nn.dir/DependInfo.cmake"
   "CMakeFiles/test.dir/DependInfo.cmake"
+  "modules/CMakeFiles/modules.dir/DependInfo.cmake"
+  "inference/CMakeFiles/main.dir/DependInfo.cmake"
   )

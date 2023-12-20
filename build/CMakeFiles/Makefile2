@@ -65,16 +65,51 @@ CMAKE_BINARY_DIR = /Users/ulrikisdahl/cplusplus/NeuralNetwork/build
 # The main recursive "all" target.
 all: CMakeFiles/nn.dir/all
 all: CMakeFiles/test.dir/all
+all: modules/all
+all: inference/all
 .PHONY : all
 
 # The main recursive "preinstall" target.
-preinstall:
+preinstall: modules/preinstall
+preinstall: inference/preinstall
 .PHONY : preinstall
 
 # The main recursive "clean" target.
 clean: CMakeFiles/nn.dir/clean
 clean: CMakeFiles/test.dir/clean
+clean: modules/clean
+clean: inference/clean
 .PHONY : clean
+
+#=============================================================================
+# Directory level rules for directory inference
+
+# Recursive "all" directory target.
+inference/all: inference/CMakeFiles/main.dir/all
+.PHONY : inference/all
+
+# Recursive "preinstall" directory target.
+inference/preinstall:
+.PHONY : inference/preinstall
+
+# Recursive "clean" directory target.
+inference/clean: inference/CMakeFiles/main.dir/clean
+.PHONY : inference/clean
+
+#=============================================================================
+# Directory level rules for directory modules
+
+# Recursive "all" directory target.
+modules/all: modules/CMakeFiles/modules.dir/all
+.PHONY : modules/all
+
+# Recursive "preinstall" directory target.
+modules/preinstall:
+.PHONY : modules/preinstall
+
+# Recursive "clean" directory target.
+modules/clean: modules/CMakeFiles/modules.dir/clean
+.PHONY : modules/clean
 
 #=============================================================================
 # Target rules for target CMakeFiles/nn.dir
@@ -83,7 +118,7 @@ clean: CMakeFiles/test.dir/clean
 CMakeFiles/nn.dir/all:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/nn.dir/build.make CMakeFiles/nn.dir/depend
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/nn.dir/build.make CMakeFiles/nn.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/Users/ulrikisdahl/cplusplus/NeuralNetwork/build/CMakeFiles --progress-num=1,2 "Built target nn"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/Users/ulrikisdahl/cplusplus/NeuralNetwork/build/CMakeFiles --progress-num=5,6 "Built target nn"
 .PHONY : CMakeFiles/nn.dir/all
 
 # Build rule for subdir invocation for target.
@@ -109,7 +144,7 @@ CMakeFiles/nn.dir/clean:
 CMakeFiles/test.dir/all:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/test.dir/build.make CMakeFiles/test.dir/depend
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/test.dir/build.make CMakeFiles/test.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/Users/ulrikisdahl/cplusplus/NeuralNetwork/build/CMakeFiles --progress-num=3,4 "Built target test"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/Users/ulrikisdahl/cplusplus/NeuralNetwork/build/CMakeFiles --progress-num=7,8 "Built target test"
 .PHONY : CMakeFiles/test.dir/all
 
 # Build rule for subdir invocation for target.
@@ -127,6 +162,58 @@ test: CMakeFiles/test.dir/rule
 CMakeFiles/test.dir/clean:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/test.dir/build.make CMakeFiles/test.dir/clean
 .PHONY : CMakeFiles/test.dir/clean
+
+#=============================================================================
+# Target rules for target modules/CMakeFiles/modules.dir
+
+# All Build rule for target.
+modules/CMakeFiles/modules.dir/all:
+	$(MAKE) $(MAKESILENT) -f modules/CMakeFiles/modules.dir/build.make modules/CMakeFiles/modules.dir/depend
+	$(MAKE) $(MAKESILENT) -f modules/CMakeFiles/modules.dir/build.make modules/CMakeFiles/modules.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/Users/ulrikisdahl/cplusplus/NeuralNetwork/build/CMakeFiles --progress-num=3,4 "Built target modules"
+.PHONY : modules/CMakeFiles/modules.dir/all
+
+# Build rule for subdir invocation for target.
+modules/CMakeFiles/modules.dir/rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start /Users/ulrikisdahl/cplusplus/NeuralNetwork/build/CMakeFiles 2
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 modules/CMakeFiles/modules.dir/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /Users/ulrikisdahl/cplusplus/NeuralNetwork/build/CMakeFiles 0
+.PHONY : modules/CMakeFiles/modules.dir/rule
+
+# Convenience name for target.
+modules: modules/CMakeFiles/modules.dir/rule
+.PHONY : modules
+
+# clean rule for target.
+modules/CMakeFiles/modules.dir/clean:
+	$(MAKE) $(MAKESILENT) -f modules/CMakeFiles/modules.dir/build.make modules/CMakeFiles/modules.dir/clean
+.PHONY : modules/CMakeFiles/modules.dir/clean
+
+#=============================================================================
+# Target rules for target inference/CMakeFiles/main.dir
+
+# All Build rule for target.
+inference/CMakeFiles/main.dir/all: modules/CMakeFiles/modules.dir/all
+	$(MAKE) $(MAKESILENT) -f inference/CMakeFiles/main.dir/build.make inference/CMakeFiles/main.dir/depend
+	$(MAKE) $(MAKESILENT) -f inference/CMakeFiles/main.dir/build.make inference/CMakeFiles/main.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/Users/ulrikisdahl/cplusplus/NeuralNetwork/build/CMakeFiles --progress-num=1,2 "Built target main"
+.PHONY : inference/CMakeFiles/main.dir/all
+
+# Build rule for subdir invocation for target.
+inference/CMakeFiles/main.dir/rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start /Users/ulrikisdahl/cplusplus/NeuralNetwork/build/CMakeFiles 4
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 inference/CMakeFiles/main.dir/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /Users/ulrikisdahl/cplusplus/NeuralNetwork/build/CMakeFiles 0
+.PHONY : inference/CMakeFiles/main.dir/rule
+
+# Convenience name for target.
+main: inference/CMakeFiles/main.dir/rule
+.PHONY : main
+
+# clean rule for target.
+inference/CMakeFiles/main.dir/clean:
+	$(MAKE) $(MAKESILENT) -f inference/CMakeFiles/main.dir/build.make inference/CMakeFiles/main.dir/clean
+.PHONY : inference/CMakeFiles/main.dir/clean
 
 #=============================================================================
 # Special targets to cleanup operation of make.

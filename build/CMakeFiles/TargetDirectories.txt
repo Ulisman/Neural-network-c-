@@ -2,3 +2,9 @@
 /Users/ulrikisdahl/cplusplus/NeuralNetwork/build/CMakeFiles/test.dir
 /Users/ulrikisdahl/cplusplus/NeuralNetwork/build/CMakeFiles/edit_cache.dir
 /Users/ulrikisdahl/cplusplus/NeuralNetwork/build/CMakeFiles/rebuild_cache.dir
+/Users/ulrikisdahl/cplusplus/NeuralNetwork/build/modules/CMakeFiles/modules.dir
+/Users/ulrikisdahl/cplusplus/NeuralNetwork/build/modules/CMakeFiles/edit_cache.dir
+/Users/ulrikisdahl/cplusplus/NeuralNetwork/build/modules/CMakeFiles/rebuild_cache.dir
+/Users/ulrikisdahl/cplusplus/NeuralNetwork/build/inference/CMakeFiles/main.dir
+/Users/ulrikisdahl/cplusplus/NeuralNetwork/build/inference/CMakeFiles/edit_cache.dir
+/Users/ulrikisdahl/cplusplus/NeuralNetwork/build/inference/CMakeFiles/rebuild_cache.dir

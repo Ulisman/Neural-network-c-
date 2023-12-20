@@ -87,14 +87,14 @@ rebuild_cache/fast: rebuild_cache
 
 # The main all target
 all: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /Users/ulrikisdahl/cplusplus/NeuralNetwork/build/CMakeFiles /Users/ulrikisdahl/cplusplus/NeuralNetwork/build//CMakeFiles/progress.marks
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 all
+	cd /Users/ulrikisdahl/cplusplus/NeuralNetwork/build && $(CMAKE_COMMAND) -E cmake_progress_start /Users/ulrikisdahl/cplusplus/NeuralNetwork/build/CMakeFiles /Users/ulrikisdahl/cplusplus/NeuralNetwork/build/inference//CMakeFiles/progress.marks
+	cd /Users/ulrikisdahl/cplusplus/NeuralNetwork/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 inference/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /Users/ulrikisdahl/cplusplus/NeuralNetwork/build/CMakeFiles 0
 .PHONY : all
 
 # The main clean target
 clean:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 clean
+	cd /Users/ulrikisdahl/cplusplus/NeuralNetwork/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 inference/clean
 .PHONY : clean
 
 # The main clean target
@@ -103,118 +103,56 @@ clean/fast: clean
 
 # Prepare targets for installation.
 preinstall: all
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 preinstall
+	cd /Users/ulrikisdahl/cplusplus/NeuralNetwork/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 inference/preinstall
 .PHONY : preinstall
 
 # Prepare targets for installation.
 preinstall/fast:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 preinstall
+	cd /Users/ulrikisdahl/cplusplus/NeuralNetwork/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 inference/preinstall
 .PHONY : preinstall/fast
 
 # clear depends
 depend:
-	$(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 1
+	cd /Users/ulrikisdahl/cplusplus/NeuralNetwork/build && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 1
 .PHONY : depend
 
-#=============================================================================
-# Target rules for targets named nn
+# Convenience name for target.
+inference/CMakeFiles/main.dir/rule:
+	cd /Users/ulrikisdahl/cplusplus/NeuralNetwork/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 inference/CMakeFiles/main.dir/rule
+.PHONY : inference/CMakeFiles/main.dir/rule
 
-# Build rule for target.
-nn: cmake_check_build_system
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 nn
-.PHONY : nn
-
-# fast build rule for target.
-nn/fast:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/nn.dir/build.make CMakeFiles/nn.dir/build
-.PHONY : nn/fast
-
-#=============================================================================
-# Target rules for targets named test
-
-# Build rule for target.
-test: cmake_check_build_system
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 test
-.PHONY : test
-
-# fast build rule for target.
-test/fast:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/test.dir/build.make CMakeFiles/test.dir/build
-.PHONY : test/fast
-
-#=============================================================================
-# Target rules for targets named modules
-
-# Build rule for target.
-modules: cmake_check_build_system
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 modules
-.PHONY : modules
-
-# fast build rule for target.
-modules/fast:
-	$(MAKE) $(MAKESILENT) -f modules/CMakeFiles/modules.dir/build.make modules/CMakeFiles/modules.dir/build
-.PHONY : modules/fast
-
-#=============================================================================
-# Target rules for targets named main
-
-# Build rule for target.
-main: cmake_check_build_system
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 main
+# Convenience name for target.
+main: inference/CMakeFiles/main.dir/rule
 .PHONY : main
 
 # fast build rule for target.
 main/fast:
-	$(MAKE) $(MAKESILENT) -f inference/CMakeFiles/main.dir/build.make inference/CMakeFiles/main.dir/build
+	cd /Users/ulrikisdahl/cplusplus/NeuralNetwork/build && $(MAKE) $(MAKESILENT) -f inference/CMakeFiles/main.dir/build.make inference/CMakeFiles/main.dir/build
 .PHONY : main/fast
 
-nn.o: nn.cpp.o
-.PHONY : nn.o
+main.o: main.cpp.o
+.PHONY : main.o
 
 # target to build an object file
-nn.cpp.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/nn.dir/build.make CMakeFiles/nn.dir/nn.cpp.o
-.PHONY : nn.cpp.o
+main.cpp.o:
+	cd /Users/ulrikisdahl/cplusplus/NeuralNetwork/build && $(MAKE) $(MAKESILENT) -f inference/CMakeFiles/main.dir/build.make inference/CMakeFiles/main.dir/main.cpp.o
+.PHONY : main.cpp.o
 
-nn.i: nn.cpp.i
-.PHONY : nn.i
-
-# target to preprocess a source file
-nn.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/nn.dir/build.make CMakeFiles/nn.dir/nn.cpp.i
-.PHONY : nn.cpp.i
-
-nn.s: nn.cpp.s
-.PHONY : nn.s
-
-# target to generate assembly for a file
-nn.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/nn.dir/build.make CMakeFiles/nn.dir/nn.cpp.s
-.PHONY : nn.cpp.s
-
-testEigen.o: testEigen.cpp.o
-.PHONY : testEigen.o
-
-# target to build an object file
-testEigen.cpp.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/test.dir/build.make CMakeFiles/test.dir/testEigen.cpp.o
-.PHONY : testEigen.cpp.o
-
-testEigen.i: testEigen.cpp.i
-.PHONY : testEigen.i
+main.i: main.cpp.i
+.PHONY : main.i
 
 # target to preprocess a source file
-testEigen.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/test.dir/build.make CMakeFiles/test.dir/testEigen.cpp.i
-.PHONY : testEigen.cpp.i
+main.cpp.i:
+	cd /Users/ulrikisdahl/cplusplus/NeuralNetwork/build && $(MAKE) $(MAKESILENT) -f inference/CMakeFiles/main.dir/build.make inference/CMakeFiles/main.dir/main.cpp.i
+.PHONY : main.cpp.i
 
-testEigen.s: testEigen.cpp.s
-.PHONY : testEigen.s
+main.s: main.cpp.s
+.PHONY : main.s
 
 # target to generate assembly for a file
-testEigen.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/test.dir/build.make CMakeFiles/test.dir/testEigen.cpp.s
-.PHONY : testEigen.cpp.s
+main.cpp.s:
+	cd /Users/ulrikisdahl/cplusplus/NeuralNetwork/build && $(MAKE) $(MAKESILENT) -f inference/CMakeFiles/main.dir/build.make inference/CMakeFiles/main.dir/main.cpp.s
+.PHONY : main.cpp.s
 
 # Help Target
 help:
@@ -225,15 +163,9 @@ help:
 	@echo "... edit_cache"
 	@echo "... rebuild_cache"
 	@echo "... main"
-	@echo "... modules"
-	@echo "... nn"
-	@echo "... test"
-	@echo "... nn.o"
-	@echo "... nn.i"
-	@echo "... nn.s"
-	@echo "... testEigen.o"
-	@echo "... testEigen.i"
-	@echo "... testEigen.s"
+	@echo "... main.o"
+	@echo "... main.i"
+	@echo "... main.s"
 .PHONY : help
 
 
@@ -245,6 +177,6 @@ help:
 # No rule that depends on this can have commands that come from listfiles
 # because they might be regenerated.
 cmake_check_build_system:
-	$(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 0
+	cd /Users/ulrikisdahl/cplusplus/NeuralNetwork/build && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 0
 .PHONY : cmake_check_build_system
 

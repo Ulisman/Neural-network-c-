@@ -1,0 +1,9 @@
+add_library(
+    modules
+    src/modules/dense.cpp
+    src/modules/dense.hpp
+)
+
+target_include_directories(modules PUBLIC "${CMAKE_CURRENT_SOURCE_DIR}/src")
+
+
