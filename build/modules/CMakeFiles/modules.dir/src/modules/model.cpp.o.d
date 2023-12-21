@@ -1,5 +1,6 @@
-modules/CMakeFiles/modules.dir/src/modules/dense.cpp.o: \
-  /Users/ulrikisdahl/cplusplus/NeuralNetwork/modules/src/modules/dense.cpp \
+modules/CMakeFiles/modules.dir/src/modules/model.cpp.o: \
+  /Users/ulrikisdahl/cplusplus/NeuralNetwork/modules/src/modules/model.cpp \
+  /Users/ulrikisdahl/cplusplus/NeuralNetwork/modules/src/modules/model.hpp \
   /Users/ulrikisdahl/cplusplus/NeuralNetwork/modules/src/modules/dense.hpp \
   /opt/homebrew/include/eigen3/Eigen/Dense \
   /opt/homebrew/include/eigen3/Eigen/Core \

@@ -130,6 +130,30 @@ modules/fast:
 	cd /Users/ulrikisdahl/cplusplus/NeuralNetwork/build && $(MAKE) $(MAKESILENT) -f modules/CMakeFiles/modules.dir/build.make modules/CMakeFiles/modules.dir/build
 .PHONY : modules/fast
 
+src/modules/activations.o: src/modules/activations.cpp.o
+.PHONY : src/modules/activations.o
+
+# target to build an object file
+src/modules/activations.cpp.o:
+	cd /Users/ulrikisdahl/cplusplus/NeuralNetwork/build && $(MAKE) $(MAKESILENT) -f modules/CMakeFiles/modules.dir/build.make modules/CMakeFiles/modules.dir/src/modules/activations.cpp.o
+.PHONY : src/modules/activations.cpp.o
+
+src/modules/activations.i: src/modules/activations.cpp.i
+.PHONY : src/modules/activations.i
+
+# target to preprocess a source file
+src/modules/activations.cpp.i:
+	cd /Users/ulrikisdahl/cplusplus/NeuralNetwork/build && $(MAKE) $(MAKESILENT) -f modules/CMakeFiles/modules.dir/build.make modules/CMakeFiles/modules.dir/src/modules/activations.cpp.i
+.PHONY : src/modules/activations.cpp.i
+
+src/modules/activations.s: src/modules/activations.cpp.s
+.PHONY : src/modules/activations.s
+
+# target to generate assembly for a file
+src/modules/activations.cpp.s:
+	cd /Users/ulrikisdahl/cplusplus/NeuralNetwork/build && $(MAKE) $(MAKESILENT) -f modules/CMakeFiles/modules.dir/build.make modules/CMakeFiles/modules.dir/src/modules/activations.cpp.s
+.PHONY : src/modules/activations.cpp.s
+
 src/modules/dense.o: src/modules/dense.cpp.o
 .PHONY : src/modules/dense.o
 
@@ -154,6 +178,30 @@ src/modules/dense.cpp.s:
 	cd /Users/ulrikisdahl/cplusplus/NeuralNetwork/build && $(MAKE) $(MAKESILENT) -f modules/CMakeFiles/modules.dir/build.make modules/CMakeFiles/modules.dir/src/modules/dense.cpp.s
 .PHONY : src/modules/dense.cpp.s
 
+src/modules/model.o: src/modules/model.cpp.o
+.PHONY : src/modules/model.o
+
+# target to build an object file
+src/modules/model.cpp.o:
+	cd /Users/ulrikisdahl/cplusplus/NeuralNetwork/build && $(MAKE) $(MAKESILENT) -f modules/CMakeFiles/modules.dir/build.make modules/CMakeFiles/modules.dir/src/modules/model.cpp.o
+.PHONY : src/modules/model.cpp.o
+
+src/modules/model.i: src/modules/model.cpp.i
+.PHONY : src/modules/model.i
+
+# target to preprocess a source file
+src/modules/model.cpp.i:
+	cd /Users/ulrikisdahl/cplusplus/NeuralNetwork/build && $(MAKE) $(MAKESILENT) -f modules/CMakeFiles/modules.dir/build.make modules/CMakeFiles/modules.dir/src/modules/model.cpp.i
+.PHONY : src/modules/model.cpp.i
+
+src/modules/model.s: src/modules/model.cpp.s
+.PHONY : src/modules/model.s
+
+# target to generate assembly for a file
+src/modules/model.cpp.s:
+	cd /Users/ulrikisdahl/cplusplus/NeuralNetwork/build && $(MAKE) $(MAKESILENT) -f modules/CMakeFiles/modules.dir/build.make modules/CMakeFiles/modules.dir/src/modules/model.cpp.s
+.PHONY : src/modules/model.cpp.s
+
 # Help Target
 help:
 	@echo "The following are some of the valid targets for this Makefile:"
@@ -163,9 +211,15 @@ help:
 	@echo "... edit_cache"
 	@echo "... rebuild_cache"
 	@echo "... modules"
+	@echo "... src/modules/activations.o"
+	@echo "... src/modules/activations.i"
+	@echo "... src/modules/activations.s"
 	@echo "... src/modules/dense.o"
 	@echo "... src/modules/dense.i"
 	@echo "... src/modules/dense.s"
+	@echo "... src/modules/model.o"
+	@echo "... src/modules/model.i"
+	@echo "... src/modules/model.s"
 .PHONY : help
 
 

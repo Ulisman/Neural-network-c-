@@ -406,6 +406,7 @@ inference/CMakeFiles/main.dir/main.cpp.o
  /Library/Developer/CommandLineTools/SDKs/MacOSX13.3.sdk/usr/include/c++/v1/__thread/poll_with_backoff.h
  /Library/Developer/CommandLineTools/SDKs/MacOSX13.3.sdk/usr/include/c++/v1/__thread/timed_backoff_policy.h
  /Library/Developer/CommandLineTools/SDKs/MacOSX13.3.sdk/usr/include/c++/v1/__threading_support
+ /Library/Developer/CommandLineTools/SDKs/MacOSX13.3.sdk/usr/include/c++/v1/__tree
  /Library/Developer/CommandLineTools/SDKs/MacOSX13.3.sdk/usr/include/c++/v1/__tuple
  /Library/Developer/CommandLineTools/SDKs/MacOSX13.3.sdk/usr/include/c++/v1/__type_traits/add_const.h
  /Library/Developer/CommandLineTools/SDKs/MacOSX13.3.sdk/usr/include/c++/v1/__type_traits/add_cv.h
@@ -550,10 +551,12 @@ inference/CMakeFiles/main.dir/main.cpp.o
  /Library/Developer/CommandLineTools/SDKs/MacOSX13.3.sdk/usr/include/c++/v1/cassert
  /Library/Developer/CommandLineTools/SDKs/MacOSX13.3.sdk/usr/include/c++/v1/cctype
  /Library/Developer/CommandLineTools/SDKs/MacOSX13.3.sdk/usr/include/c++/v1/cerrno
+ /Library/Developer/CommandLineTools/SDKs/MacOSX13.3.sdk/usr/include/c++/v1/cfloat
  /Library/Developer/CommandLineTools/SDKs/MacOSX13.3.sdk/usr/include/c++/v1/chrono
  /Library/Developer/CommandLineTools/SDKs/MacOSX13.3.sdk/usr/include/c++/v1/climits
  /Library/Developer/CommandLineTools/SDKs/MacOSX13.3.sdk/usr/include/c++/v1/cmath
  /Library/Developer/CommandLineTools/SDKs/MacOSX13.3.sdk/usr/include/c++/v1/compare
+ /Library/Developer/CommandLineTools/SDKs/MacOSX13.3.sdk/usr/include/c++/v1/complex
  /Library/Developer/CommandLineTools/SDKs/MacOSX13.3.sdk/usr/include/c++/v1/concepts
  /Library/Developer/CommandLineTools/SDKs/MacOSX13.3.sdk/usr/include/c++/v1/cstdarg
  /Library/Developer/CommandLineTools/SDKs/MacOSX13.3.sdk/usr/include/c++/v1/cstddef
@@ -565,10 +568,13 @@ inference/CMakeFiles/main.dir/main.cpp.o
  /Library/Developer/CommandLineTools/SDKs/MacOSX13.3.sdk/usr/include/c++/v1/ctype.h
  /Library/Developer/CommandLineTools/SDKs/MacOSX13.3.sdk/usr/include/c++/v1/cwchar
  /Library/Developer/CommandLineTools/SDKs/MacOSX13.3.sdk/usr/include/c++/v1/cwctype
+ /Library/Developer/CommandLineTools/SDKs/MacOSX13.3.sdk/usr/include/c++/v1/deque
  /Library/Developer/CommandLineTools/SDKs/MacOSX13.3.sdk/usr/include/c++/v1/errno.h
  /Library/Developer/CommandLineTools/SDKs/MacOSX13.3.sdk/usr/include/c++/v1/exception
+ /Library/Developer/CommandLineTools/SDKs/MacOSX13.3.sdk/usr/include/c++/v1/float.h
  /Library/Developer/CommandLineTools/SDKs/MacOSX13.3.sdk/usr/include/c++/v1/functional
  /Library/Developer/CommandLineTools/SDKs/MacOSX13.3.sdk/usr/include/c++/v1/initializer_list
+ /Library/Developer/CommandLineTools/SDKs/MacOSX13.3.sdk/usr/include/c++/v1/iomanip
  /Library/Developer/CommandLineTools/SDKs/MacOSX13.3.sdk/usr/include/c++/v1/ios
  /Library/Developer/CommandLineTools/SDKs/MacOSX13.3.sdk/usr/include/c++/v1/iosfwd
  /Library/Developer/CommandLineTools/SDKs/MacOSX13.3.sdk/usr/include/c++/v1/iostream
@@ -576,15 +582,20 @@ inference/CMakeFiles/main.dir/main.cpp.o
  /Library/Developer/CommandLineTools/SDKs/MacOSX13.3.sdk/usr/include/c++/v1/iterator
  /Library/Developer/CommandLineTools/SDKs/MacOSX13.3.sdk/usr/include/c++/v1/limits
  /Library/Developer/CommandLineTools/SDKs/MacOSX13.3.sdk/usr/include/c++/v1/limits.h
+ /Library/Developer/CommandLineTools/SDKs/MacOSX13.3.sdk/usr/include/c++/v1/list
  /Library/Developer/CommandLineTools/SDKs/MacOSX13.3.sdk/usr/include/c++/v1/locale
  /Library/Developer/CommandLineTools/SDKs/MacOSX13.3.sdk/usr/include/c++/v1/locale.h
+ /Library/Developer/CommandLineTools/SDKs/MacOSX13.3.sdk/usr/include/c++/v1/map
  /Library/Developer/CommandLineTools/SDKs/MacOSX13.3.sdk/usr/include/c++/v1/math.h
  /Library/Developer/CommandLineTools/SDKs/MacOSX13.3.sdk/usr/include/c++/v1/memory
  /Library/Developer/CommandLineTools/SDKs/MacOSX13.3.sdk/usr/include/c++/v1/mutex
  /Library/Developer/CommandLineTools/SDKs/MacOSX13.3.sdk/usr/include/c++/v1/new
  /Library/Developer/CommandLineTools/SDKs/MacOSX13.3.sdk/usr/include/c++/v1/optional
  /Library/Developer/CommandLineTools/SDKs/MacOSX13.3.sdk/usr/include/c++/v1/ostream
+ /Library/Developer/CommandLineTools/SDKs/MacOSX13.3.sdk/usr/include/c++/v1/queue
  /Library/Developer/CommandLineTools/SDKs/MacOSX13.3.sdk/usr/include/c++/v1/ratio
+ /Library/Developer/CommandLineTools/SDKs/MacOSX13.3.sdk/usr/include/c++/v1/set
+ /Library/Developer/CommandLineTools/SDKs/MacOSX13.3.sdk/usr/include/c++/v1/sstream
  /Library/Developer/CommandLineTools/SDKs/MacOSX13.3.sdk/usr/include/c++/v1/stddef.h
  /Library/Developer/CommandLineTools/SDKs/MacOSX13.3.sdk/usr/include/c++/v1/stdexcept
  /Library/Developer/CommandLineTools/SDKs/MacOSX13.3.sdk/usr/include/c++/v1/stdint.h
@@ -607,6 +618,7 @@ inference/CMakeFiles/main.dir/main.cpp.o
  /Library/Developer/CommandLineTools/SDKs/MacOSX13.3.sdk/usr/include/c++/v1/wctype.h
  /Library/Developer/CommandLineTools/SDKs/MacOSX13.3.sdk/usr/include/ctype.h
  /Library/Developer/CommandLineTools/SDKs/MacOSX13.3.sdk/usr/include/errno.h
+ /Library/Developer/CommandLineTools/SDKs/MacOSX13.3.sdk/usr/include/float.h
  /Library/Developer/CommandLineTools/SDKs/MacOSX13.3.sdk/usr/include/libkern/_OSByteOrder.h
  /Library/Developer/CommandLineTools/SDKs/MacOSX13.3.sdk/usr/include/libkern/arm/OSByteOrder.h
  /Library/Developer/CommandLineTools/SDKs/MacOSX13.3.sdk/usr/include/limits.h
@@ -730,9 +742,308 @@ inference/CMakeFiles/main.dir/main.cpp.o
  /Library/Developer/CommandLineTools/SDKs/MacOSX13.3.sdk/usr/include/xlocale/_wchar.h
  /Library/Developer/CommandLineTools/SDKs/MacOSX13.3.sdk/usr/include/xlocale/_wctype.h
  /Library/Developer/CommandLineTools/usr/lib/clang/14.0.3/include/__stddef_max_align_t.h
+ /Library/Developer/CommandLineTools/usr/lib/clang/14.0.3/include/arm_fp16.h
+ /Library/Developer/CommandLineTools/usr/lib/clang/14.0.3/include/arm_neon.h
+ /Library/Developer/CommandLineTools/usr/lib/clang/14.0.3/include/float.h
  /Library/Developer/CommandLineTools/usr/lib/clang/14.0.3/include/limits.h
  /Library/Developer/CommandLineTools/usr/lib/clang/14.0.3/include/stdarg.h
  /Library/Developer/CommandLineTools/usr/lib/clang/14.0.3/include/stddef.h
  /Library/Developer/CommandLineTools/usr/lib/clang/14.0.3/include/stdint.h
  /Users/ulrikisdahl/cplusplus/NeuralNetwork/modules/src/modules/dense.hpp
+ /Users/ulrikisdahl/cplusplus/NeuralNetwork/modules/src/modules/model.hpp
+ /opt/homebrew/Cellar/opencv/4.8.1_1/include/opencv4/opencv2/imgproc/segmentation.hpp
+ /opt/homebrew/Cellar/opencv/4.8.1_1/include/opencv4/opencv2/calib3d.hpp
+ /opt/homebrew/Cellar/opencv/4.8.1_1/include/opencv4/opencv2/core.hpp
+ /opt/homebrew/Cellar/opencv/4.8.1_1/include/opencv4/opencv2/core/affine.hpp
+ /opt/homebrew/Cellar/opencv/4.8.1_1/include/opencv4/opencv2/core/async.hpp
+ /opt/homebrew/Cellar/opencv/4.8.1_1/include/opencv4/opencv2/core/base.hpp
+ /opt/homebrew/Cellar/opencv/4.8.1_1/include/opencv4/opencv2/core/bufferpool.hpp
+ /opt/homebrew/Cellar/opencv/4.8.1_1/include/opencv4/opencv2/core/check.hpp
+ /opt/homebrew/Cellar/opencv/4.8.1_1/include/opencv4/opencv2/core/cuda.hpp
+ /opt/homebrew/Cellar/opencv/4.8.1_1/include/opencv4/opencv2/core/cuda.inl.hpp
+ /opt/homebrew/Cellar/opencv/4.8.1_1/include/opencv4/opencv2/core/cuda_types.hpp
+ /opt/homebrew/Cellar/opencv/4.8.1_1/include/opencv4/opencv2/core/cv_cpu_dispatch.h
+ /opt/homebrew/Cellar/opencv/4.8.1_1/include/opencv4/opencv2/core/cvdef.h
+ /opt/homebrew/Cellar/opencv/4.8.1_1/include/opencv4/opencv2/core/cvstd.hpp
+ /opt/homebrew/Cellar/opencv/4.8.1_1/include/opencv4/opencv2/core/cvstd.inl.hpp
+ /opt/homebrew/Cellar/opencv/4.8.1_1/include/opencv4/opencv2/core/cvstd_wrapper.hpp
+ /opt/homebrew/Cellar/opencv/4.8.1_1/include/opencv4/opencv2/core/fast_math.hpp
+ /opt/homebrew/Cellar/opencv/4.8.1_1/include/opencv4/opencv2/core/hal/interface.h
+ /opt/homebrew/Cellar/opencv/4.8.1_1/include/opencv4/opencv2/core/mat.hpp
+ /opt/homebrew/Cellar/opencv/4.8.1_1/include/opencv4/opencv2/core/mat.inl.hpp
+ /opt/homebrew/Cellar/opencv/4.8.1_1/include/opencv4/opencv2/core/matx.hpp
+ /opt/homebrew/Cellar/opencv/4.8.1_1/include/opencv4/opencv2/core/neon_utils.hpp
+ /opt/homebrew/Cellar/opencv/4.8.1_1/include/opencv4/opencv2/core/operations.hpp
+ /opt/homebrew/Cellar/opencv/4.8.1_1/include/opencv4/opencv2/core/optim.hpp
+ /opt/homebrew/Cellar/opencv/4.8.1_1/include/opencv4/opencv2/core/ovx.hpp
+ /opt/homebrew/Cellar/opencv/4.8.1_1/include/opencv4/opencv2/core/persistence.hpp
+ /opt/homebrew/Cellar/opencv/4.8.1_1/include/opencv4/opencv2/core/saturate.hpp
+ /opt/homebrew/Cellar/opencv/4.8.1_1/include/opencv4/opencv2/core/traits.hpp
+ /opt/homebrew/Cellar/opencv/4.8.1_1/include/opencv4/opencv2/core/types.hpp
+ /opt/homebrew/Cellar/opencv/4.8.1_1/include/opencv4/opencv2/core/utility.hpp
+ /opt/homebrew/Cellar/opencv/4.8.1_1/include/opencv4/opencv2/core/version.hpp
+ /opt/homebrew/Cellar/opencv/4.8.1_1/include/opencv4/opencv2/core/vsx_utils.hpp
+ /opt/homebrew/Cellar/opencv/4.8.1_1/include/opencv4/opencv2/dnn.hpp
+ /opt/homebrew/Cellar/opencv/4.8.1_1/include/opencv4/opencv2/dnn/version.hpp
+ /opt/homebrew/Cellar/opencv/4.8.1_1/include/opencv4/opencv2/dnn/dict.hpp
+ /opt/homebrew/Cellar/opencv/4.8.1_1/include/opencv4/opencv2/dnn/dnn.hpp
+ /opt/homebrew/Cellar/opencv/4.8.1_1/include/opencv4/opencv2/dnn/dnn.inl.hpp
+ /opt/homebrew/Cellar/opencv/4.8.1_1/include/opencv4/opencv2/dnn/layer.hpp
+ /opt/homebrew/Cellar/opencv/4.8.1_1/include/opencv4/opencv2/dnn/dnn.hpp
+ /opt/homebrew/Cellar/opencv/4.8.1_1/include/opencv4/opencv2/dnn/utils/inference_engine.hpp
+ /opt/homebrew/Cellar/opencv/4.8.1_1/include/opencv4/opencv2/features2d.hpp
+ /opt/homebrew/Cellar/opencv/4.8.1_1/include/opencv4/opencv2/flann.hpp
+ /opt/homebrew/Cellar/opencv/4.8.1_1/include/opencv4/opencv2/flann/all_indices.h
+ /opt/homebrew/Cellar/opencv/4.8.1_1/include/opencv4/opencv2/flann/allocator.h
+ /opt/homebrew/Cellar/opencv/4.8.1_1/include/opencv4/opencv2/flann/any.h
+ /opt/homebrew/Cellar/opencv/4.8.1_1/include/opencv4/opencv2/flann/autotuned_index.h
+ /opt/homebrew/Cellar/opencv/4.8.1_1/include/opencv4/opencv2/flann/composite_index.h
+ /opt/homebrew/Cellar/opencv/4.8.1_1/include/opencv4/opencv2/flann/config.h
+ /opt/homebrew/Cellar/opencv/4.8.1_1/include/opencv4/opencv2/flann/defines.h
+ /opt/homebrew/Cellar/opencv/4.8.1_1/include/opencv4/opencv2/flann/dist.h
+ /opt/homebrew/Cellar/opencv/4.8.1_1/include/opencv4/opencv2/flann/dynamic_bitset.h
+ /opt/homebrew/Cellar/opencv/4.8.1_1/include/opencv4/opencv2/flann/flann_base.hpp
+ /opt/homebrew/Cellar/opencv/4.8.1_1/include/opencv4/opencv2/flann/general.h
+ /opt/homebrew/Cellar/opencv/4.8.1_1/include/opencv4/opencv2/flann/ground_truth.h
+ /opt/homebrew/Cellar/opencv/4.8.1_1/include/opencv4/opencv2/flann/heap.h
+ /opt/homebrew/Cellar/opencv/4.8.1_1/include/opencv4/opencv2/flann/hierarchical_clustering_index.h
+ /opt/homebrew/Cellar/opencv/4.8.1_1/include/opencv4/opencv2/flann/index_testing.h
+ /opt/homebrew/Cellar/opencv/4.8.1_1/include/opencv4/opencv2/flann/kdtree_index.h
+ /opt/homebrew/Cellar/opencv/4.8.1_1/include/opencv4/opencv2/flann/kdtree_single_index.h
+ /opt/homebrew/Cellar/opencv/4.8.1_1/include/opencv4/opencv2/flann/kmeans_index.h
+ /opt/homebrew/Cellar/opencv/4.8.1_1/include/opencv4/opencv2/flann/linear_index.h
+ /opt/homebrew/Cellar/opencv/4.8.1_1/include/opencv4/opencv2/flann/logger.h
+ /opt/homebrew/Cellar/opencv/4.8.1_1/include/opencv4/opencv2/flann/lsh_index.h
+ /opt/homebrew/Cellar/opencv/4.8.1_1/include/opencv4/opencv2/flann/lsh_table.h
+ /opt/homebrew/Cellar/opencv/4.8.1_1/include/opencv4/opencv2/flann/matrix.h
+ /opt/homebrew/Cellar/opencv/4.8.1_1/include/opencv4/opencv2/flann/miniflann.hpp
+ /opt/homebrew/Cellar/opencv/4.8.1_1/include/opencv4/opencv2/flann/nn_index.h
+ /opt/homebrew/Cellar/opencv/4.8.1_1/include/opencv4/opencv2/flann/params.h
+ /opt/homebrew/Cellar/opencv/4.8.1_1/include/opencv4/opencv2/flann/random.h
+ /opt/homebrew/Cellar/opencv/4.8.1_1/include/opencv4/opencv2/flann/result_set.h
+ /opt/homebrew/Cellar/opencv/4.8.1_1/include/opencv4/opencv2/flann/sampling.h
+ /opt/homebrew/Cellar/opencv/4.8.1_1/include/opencv4/opencv2/flann/saving.h
+ /opt/homebrew/Cellar/opencv/4.8.1_1/include/opencv4/opencv2/flann/timer.h
+ /opt/homebrew/Cellar/opencv/4.8.1_1/include/opencv4/opencv2/highgui.hpp
+ /opt/homebrew/Cellar/opencv/4.8.1_1/include/opencv4/opencv2/imgcodecs.hpp
+ /opt/homebrew/Cellar/opencv/4.8.1_1/include/opencv4/opencv2/imgproc.hpp
+ /opt/homebrew/Cellar/opencv/4.8.1_1/include/opencv4/opencv2/ml.hpp
+ /opt/homebrew/Cellar/opencv/4.8.1_1/include/opencv4/opencv2/ml/ml.inl.hpp
+ /opt/homebrew/Cellar/opencv/4.8.1_1/include/opencv4/opencv2/objdetect.hpp
+ /opt/homebrew/Cellar/opencv/4.8.1_1/include/opencv4/opencv2/objdetect/aruco_board.hpp
+ /opt/homebrew/Cellar/opencv/4.8.1_1/include/opencv4/opencv2/objdetect/aruco_detector.hpp
+ /opt/homebrew/Cellar/opencv/4.8.1_1/include/opencv4/opencv2/objdetect/aruco_dictionary.hpp
+ /opt/homebrew/Cellar/opencv/4.8.1_1/include/opencv4/opencv2/objdetect/barcode.hpp
+ /opt/homebrew/Cellar/opencv/4.8.1_1/include/opencv4/opencv2/objdetect/charuco_detector.hpp
+ /opt/homebrew/Cellar/opencv/4.8.1_1/include/opencv4/opencv2/objdetect/detection_based_tracker.hpp
+ /opt/homebrew/Cellar/opencv/4.8.1_1/include/opencv4/opencv2/objdetect/face.hpp
+ /opt/homebrew/Cellar/opencv/4.8.1_1/include/opencv4/opencv2/objdetect/graphical_code_detector.hpp
+ /opt/homebrew/Cellar/opencv/4.8.1_1/include/opencv4/opencv2/opencv.hpp
+ /opt/homebrew/Cellar/opencv/4.8.1_1/include/opencv4/opencv2/opencv_modules.hpp
+ /opt/homebrew/Cellar/opencv/4.8.1_1/include/opencv4/opencv2/photo.hpp
+ /opt/homebrew/Cellar/opencv/4.8.1_1/include/opencv4/opencv2/stitching.hpp
+ /opt/homebrew/Cellar/opencv/4.8.1_1/include/opencv4/opencv2/stitching/detail/blenders.hpp
+ /opt/homebrew/Cellar/opencv/4.8.1_1/include/opencv4/opencv2/stitching/detail/camera.hpp
+ /opt/homebrew/Cellar/opencv/4.8.1_1/include/opencv4/opencv2/stitching/detail/exposure_compensate.hpp
+ /opt/homebrew/Cellar/opencv/4.8.1_1/include/opencv4/opencv2/stitching/detail/matchers.hpp
+ /opt/homebrew/Cellar/opencv/4.8.1_1/include/opencv4/opencv2/stitching/detail/motion_estimators.hpp
+ /opt/homebrew/Cellar/opencv/4.8.1_1/include/opencv4/opencv2/stitching/detail/seam_finders.hpp
+ /opt/homebrew/Cellar/opencv/4.8.1_1/include/opencv4/opencv2/stitching/detail/util.hpp
+ /opt/homebrew/Cellar/opencv/4.8.1_1/include/opencv4/opencv2/stitching/detail/util_inl.hpp
+ /opt/homebrew/Cellar/opencv/4.8.1_1/include/opencv4/opencv2/stitching/detail/warpers.hpp
+ /opt/homebrew/Cellar/opencv/4.8.1_1/include/opencv4/opencv2/stitching/detail/warpers_inl.hpp
+ /opt/homebrew/Cellar/opencv/4.8.1_1/include/opencv4/opencv2/stitching/warpers.hpp
+ /opt/homebrew/Cellar/opencv/4.8.1_1/include/opencv4/opencv2/video.hpp
+ /opt/homebrew/Cellar/opencv/4.8.1_1/include/opencv4/opencv2/video/background_segm.hpp
+ /opt/homebrew/Cellar/opencv/4.8.1_1/include/opencv4/opencv2/video/tracking.hpp
+ /opt/homebrew/Cellar/opencv/4.8.1_1/include/opencv4/opencv2/videoio.hpp
+ /opt/homebrew/include/eigen3/Eigen/Cholesky
+ /opt/homebrew/include/eigen3/Eigen/Core
+ /opt/homebrew/include/eigen3/Eigen/Dense
+ /opt/homebrew/include/eigen3/Eigen/Eigenvalues
+ /opt/homebrew/include/eigen3/Eigen/Geometry
+ /opt/homebrew/include/eigen3/Eigen/Householder
+ /opt/homebrew/include/eigen3/Eigen/Jacobi
+ /opt/homebrew/include/eigen3/Eigen/LU
+ /opt/homebrew/include/eigen3/Eigen/QR
+ /opt/homebrew/include/eigen3/Eigen/SVD
+ /opt/homebrew/include/eigen3/Eigen/src/Cholesky/LDLT.h
+ /opt/homebrew/include/eigen3/Eigen/src/Cholesky/LLT.h
+ /opt/homebrew/include/eigen3/Eigen/src/plugins/ArrayCwiseBinaryOps.h
+ /opt/homebrew/include/eigen3/Eigen/src/plugins/ArrayCwiseUnaryOps.h
+ /opt/homebrew/include/eigen3/Eigen/src/plugins/BlockMethods.h
+ /opt/homebrew/include/eigen3/Eigen/src/plugins/CommonCwiseBinaryOps.h
+ /opt/homebrew/include/eigen3/Eigen/src/plugins/CommonCwiseUnaryOps.h
+ /opt/homebrew/include/eigen3/Eigen/src/plugins/IndexedViewMethods.h
+ /opt/homebrew/include/eigen3/Eigen/src/plugins/MatrixCwiseBinaryOps.h
+ /opt/homebrew/include/eigen3/Eigen/src/plugins/MatrixCwiseUnaryOps.h
+ /opt/homebrew/include/eigen3/Eigen/src/plugins/ReshapedMethods.h
+ /opt/homebrew/include/eigen3/Eigen/src/Core/ArithmeticSequence.h
+ /opt/homebrew/include/eigen3/Eigen/src/Core/Array.h
+ /opt/homebrew/include/eigen3/Eigen/src/Core/ArrayBase.h
+ /opt/homebrew/include/eigen3/Eigen/src/Core/ArrayWrapper.h
+ /opt/homebrew/include/eigen3/Eigen/src/Core/Assign.h
+ /opt/homebrew/include/eigen3/Eigen/src/Core/AssignEvaluator.h
+ /opt/homebrew/include/eigen3/Eigen/src/Core/BandMatrix.h
+ /opt/homebrew/include/eigen3/Eigen/src/Core/Block.h
+ /opt/homebrew/include/eigen3/Eigen/src/Core/BooleanRedux.h
+ /opt/homebrew/include/eigen3/Eigen/src/Core/CommaInitializer.h
+ /opt/homebrew/include/eigen3/Eigen/src/Core/ConditionEstimator.h
+ /opt/homebrew/include/eigen3/Eigen/src/Core/CoreEvaluators.h
+ /opt/homebrew/include/eigen3/Eigen/src/Core/CoreIterators.h
+ /opt/homebrew/include/eigen3/Eigen/src/Core/CwiseBinaryOp.h
+ /opt/homebrew/include/eigen3/Eigen/src/Core/CwiseNullaryOp.h
+ /opt/homebrew/include/eigen3/Eigen/src/Core/CwiseTernaryOp.h
+ /opt/homebrew/include/eigen3/Eigen/src/Core/CwiseUnaryOp.h
+ /opt/homebrew/include/eigen3/Eigen/src/Core/CwiseUnaryView.h
+ /opt/homebrew/include/eigen3/Eigen/src/Core/DenseBase.h
+ /opt/homebrew/include/eigen3/Eigen/src/Core/DenseCoeffsBase.h
+ /opt/homebrew/include/eigen3/Eigen/src/Core/DenseStorage.h
+ /opt/homebrew/include/eigen3/Eigen/src/Core/Diagonal.h
+ /opt/homebrew/include/eigen3/Eigen/src/Core/DiagonalMatrix.h
+ /opt/homebrew/include/eigen3/Eigen/src/Core/DiagonalProduct.h
+ /opt/homebrew/include/eigen3/Eigen/src/Core/Dot.h
+ /opt/homebrew/include/eigen3/Eigen/src/Core/EigenBase.h
+ /opt/homebrew/include/eigen3/Eigen/src/Core/Fuzzy.h
+ /opt/homebrew/include/eigen3/Eigen/src/Core/GeneralProduct.h
+ /opt/homebrew/include/eigen3/Eigen/src/Core/GenericPacketMath.h
+ /opt/homebrew/include/eigen3/Eigen/src/Core/GlobalFunctions.h
+ /opt/homebrew/include/eigen3/Eigen/src/Core/IO.h
+ /opt/homebrew/include/eigen3/Eigen/src/Core/IndexedView.h
+ /opt/homebrew/include/eigen3/Eigen/src/Core/Inverse.h
+ /opt/homebrew/include/eigen3/Eigen/src/Core/Map.h
+ /opt/homebrew/include/eigen3/Eigen/src/Core/MapBase.h
+ /opt/homebrew/include/eigen3/Eigen/src/Core/MathFunctions.h
+ /opt/homebrew/include/eigen3/Eigen/src/Core/MathFunctionsImpl.h
+ /opt/homebrew/include/eigen3/Eigen/src/Core/Matrix.h
+ /opt/homebrew/include/eigen3/Eigen/src/Core/MatrixBase.h
+ /opt/homebrew/include/eigen3/Eigen/src/Core/NestByValue.h
+ /opt/homebrew/include/eigen3/Eigen/src/Core/NoAlias.h
+ /opt/homebrew/include/eigen3/Eigen/src/Core/NumTraits.h
+ /opt/homebrew/include/eigen3/Eigen/src/Core/PartialReduxEvaluator.h
+ /opt/homebrew/include/eigen3/Eigen/src/Core/PermutationMatrix.h
+ /opt/homebrew/include/eigen3/Eigen/src/Core/PlainObjectBase.h
+ /opt/homebrew/include/eigen3/Eigen/src/Core/Product.h
+ /opt/homebrew/include/eigen3/Eigen/src/Core/ProductEvaluators.h
+ /opt/homebrew/include/eigen3/Eigen/src/Core/Random.h
+ /opt/homebrew/include/eigen3/Eigen/src/Core/Redux.h
+ /opt/homebrew/include/eigen3/Eigen/src/Core/Ref.h
+ /opt/homebrew/include/eigen3/Eigen/src/Core/Replicate.h
+ /opt/homebrew/include/eigen3/Eigen/src/Core/Reshaped.h
+ /opt/homebrew/include/eigen3/Eigen/src/Core/ReturnByValue.h
+ /opt/homebrew/include/eigen3/Eigen/src/Core/Reverse.h
+ /opt/homebrew/include/eigen3/Eigen/src/Core/Select.h
+ /opt/homebrew/include/eigen3/Eigen/src/Core/SelfAdjointView.h
+ /opt/homebrew/include/eigen3/Eigen/src/Core/SelfCwiseBinaryOp.h
+ /opt/homebrew/include/eigen3/Eigen/src/Core/Solve.h
+ /opt/homebrew/include/eigen3/Eigen/src/Core/SolveTriangular.h
+ /opt/homebrew/include/eigen3/Eigen/src/Core/SolverBase.h
+ /opt/homebrew/include/eigen3/Eigen/src/Core/StableNorm.h
+ /opt/homebrew/include/eigen3/Eigen/src/Core/StlIterators.h
+ /opt/homebrew/include/eigen3/Eigen/src/Core/Stride.h
+ /opt/homebrew/include/eigen3/Eigen/src/Core/Swap.h
+ /opt/homebrew/include/eigen3/Eigen/src/Core/Transpose.h
+ /opt/homebrew/include/eigen3/Eigen/src/Core/Transpositions.h
+ /opt/homebrew/include/eigen3/Eigen/src/Core/TriangularMatrix.h
+ /opt/homebrew/include/eigen3/Eigen/src/Core/VectorBlock.h
+ /opt/homebrew/include/eigen3/Eigen/src/Core/VectorwiseOp.h
+ /opt/homebrew/include/eigen3/Eigen/src/Core/Visitor.h
+ /opt/homebrew/include/eigen3/Eigen/src/Core/arch/Default/BFloat16.h
+ /opt/homebrew/include/eigen3/Eigen/src/Core/arch/Default/ConjHelper.h
+ /opt/homebrew/include/eigen3/Eigen/src/Core/arch/Default/GenericPacketMathFunctions.h
+ /opt/homebrew/include/eigen3/Eigen/src/Core/arch/Default/GenericPacketMathFunctionsFwd.h
+ /opt/homebrew/include/eigen3/Eigen/src/Core/arch/Default/Half.h
+ /opt/homebrew/include/eigen3/Eigen/src/Core/arch/Default/Settings.h
+ /opt/homebrew/include/eigen3/Eigen/src/Core/arch/Default/TypeCasting.h
+ /opt/homebrew/include/eigen3/Eigen/src/Core/arch/NEON/Complex.h
+ /opt/homebrew/include/eigen3/Eigen/src/Core/arch/NEON/GeneralBlockPanelKernel.h
+ /opt/homebrew/include/eigen3/Eigen/src/Core/arch/NEON/MathFunctions.h
+ /opt/homebrew/include/eigen3/Eigen/src/Core/arch/NEON/PacketMath.h
+ /opt/homebrew/include/eigen3/Eigen/src/Core/arch/NEON/TypeCasting.h
+ /opt/homebrew/include/eigen3/Eigen/src/Core/functors/AssignmentFunctors.h
+ /opt/homebrew/include/eigen3/Eigen/src/Core/functors/BinaryFunctors.h
+ /opt/homebrew/include/eigen3/Eigen/src/Core/functors/NullaryFunctors.h
+ /opt/homebrew/include/eigen3/Eigen/src/Core/functors/StlFunctors.h
+ /opt/homebrew/include/eigen3/Eigen/src/Core/functors/TernaryFunctors.h
+ /opt/homebrew/include/eigen3/Eigen/src/Core/functors/UnaryFunctors.h
+ /opt/homebrew/include/eigen3/Eigen/src/Core/products/GeneralBlockPanelKernel.h
+ /opt/homebrew/include/eigen3/Eigen/src/Core/products/GeneralMatrixMatrix.h
+ /opt/homebrew/include/eigen3/Eigen/src/Core/products/GeneralMatrixMatrixTriangular.h
+ /opt/homebrew/include/eigen3/Eigen/src/Core/products/GeneralMatrixVector.h
+ /opt/homebrew/include/eigen3/Eigen/src/Core/products/Parallelizer.h
+ /opt/homebrew/include/eigen3/Eigen/src/Core/products/SelfadjointMatrixMatrix.h
+ /opt/homebrew/include/eigen3/Eigen/src/Core/products/SelfadjointMatrixVector.h
+ /opt/homebrew/include/eigen3/Eigen/src/Core/products/SelfadjointProduct.h
+ /opt/homebrew/include/eigen3/Eigen/src/Core/products/SelfadjointRank2Update.h
+ /opt/homebrew/include/eigen3/Eigen/src/Core/products/TriangularMatrixMatrix.h
+ /opt/homebrew/include/eigen3/Eigen/src/Core/products/TriangularMatrixVector.h
+ /opt/homebrew/include/eigen3/Eigen/src/Core/products/TriangularSolverMatrix.h
+ /opt/homebrew/include/eigen3/Eigen/src/Core/products/TriangularSolverVector.h
+ /opt/homebrew/include/eigen3/Eigen/src/Core/util/BlasUtil.h
+ /opt/homebrew/include/eigen3/Eigen/src/Core/util/ConfigureVectorization.h
+ /opt/homebrew/include/eigen3/Eigen/src/Core/util/Constants.h
+ /opt/homebrew/include/eigen3/Eigen/src/Core/util/DisableStupidWarnings.h
+ /opt/homebrew/include/eigen3/Eigen/src/Core/util/ForwardDeclarations.h
+ /opt/homebrew/include/eigen3/Eigen/src/Core/util/IndexedViewHelper.h
+ /opt/homebrew/include/eigen3/Eigen/src/Core/util/IntegralConstant.h
+ /opt/homebrew/include/eigen3/Eigen/src/Core/util/MKL_support.h
+ /opt/homebrew/include/eigen3/Eigen/src/Core/util/Macros.h
+ /opt/homebrew/include/eigen3/Eigen/src/Core/util/Memory.h
+ /opt/homebrew/include/eigen3/Eigen/src/Core/util/Meta.h
+ /opt/homebrew/include/eigen3/Eigen/src/Core/util/ReenableStupidWarnings.h
+ /opt/homebrew/include/eigen3/Eigen/src/Core/util/ReshapedHelper.h
+ /opt/homebrew/include/eigen3/Eigen/src/Core/util/StaticAssert.h
+ /opt/homebrew/include/eigen3/Eigen/src/Core/util/SymbolicIndex.h
+ /opt/homebrew/include/eigen3/Eigen/src/Core/util/XprHelper.h
+ /opt/homebrew/include/eigen3/Eigen/src/Eigenvalues/ComplexSchur.h
+ /opt/homebrew/include/eigen3/Eigen/src/Eigenvalues/HessenbergDecomposition.h
+ /opt/homebrew/include/eigen3/Eigen/src/Eigenvalues/RealQZ.h
+ /opt/homebrew/include/eigen3/Eigen/src/Eigenvalues/RealSchur.h
+ /opt/homebrew/include/eigen3/Eigen/src/Eigenvalues/Tridiagonalization.h
+ /opt/homebrew/include/eigen3/Eigen/src/Eigenvalues/ComplexEigenSolver.h
+ /opt/homebrew/include/eigen3/Eigen/src/Eigenvalues/ComplexSchur.h
+ /opt/homebrew/include/eigen3/Eigen/src/Eigenvalues/EigenSolver.h
+ /opt/homebrew/include/eigen3/Eigen/src/Eigenvalues/GeneralizedEigenSolver.h
+ /opt/homebrew/include/eigen3/Eigen/src/Eigenvalues/GeneralizedSelfAdjointEigenSolver.h
+ /opt/homebrew/include/eigen3/Eigen/src/Eigenvalues/HessenbergDecomposition.h
+ /opt/homebrew/include/eigen3/Eigen/src/Eigenvalues/MatrixBaseEigenvalues.h
+ /opt/homebrew/include/eigen3/Eigen/src/Eigenvalues/RealQZ.h
+ /opt/homebrew/include/eigen3/Eigen/src/Eigenvalues/RealSchur.h
+ /opt/homebrew/include/eigen3/Eigen/src/Eigenvalues/SelfAdjointEigenSolver.h
+ /opt/homebrew/include/eigen3/Eigen/src/Eigenvalues/Tridiagonalization.h
+ /opt/homebrew/include/eigen3/Eigen/src/Geometry/AlignedBox.h
+ /opt/homebrew/include/eigen3/Eigen/src/Geometry/AngleAxis.h
+ /opt/homebrew/include/eigen3/Eigen/src/Geometry/EulerAngles.h
+ /opt/homebrew/include/eigen3/Eigen/src/Geometry/Homogeneous.h
+ /opt/homebrew/include/eigen3/Eigen/src/Geometry/Hyperplane.h
+ /opt/homebrew/include/eigen3/Eigen/src/Geometry/OrthoMethods.h
+ /opt/homebrew/include/eigen3/Eigen/src/Geometry/ParametrizedLine.h
+ /opt/homebrew/include/eigen3/Eigen/src/Geometry/Quaternion.h
+ /opt/homebrew/include/eigen3/Eigen/src/Geometry/Rotation2D.h
+ /opt/homebrew/include/eigen3/Eigen/src/Geometry/RotationBase.h
+ /opt/homebrew/include/eigen3/Eigen/src/Geometry/Scaling.h
+ /opt/homebrew/include/eigen3/Eigen/src/Geometry/Transform.h
+ /opt/homebrew/include/eigen3/Eigen/src/Geometry/Translation.h
+ /opt/homebrew/include/eigen3/Eigen/src/Geometry/Umeyama.h
+ /opt/homebrew/include/eigen3/Eigen/src/Geometry/arch/Geometry_SIMD.h
+ /opt/homebrew/include/eigen3/Eigen/src/Householder/BlockHouseholder.h
+ /opt/homebrew/include/eigen3/Eigen/src/Householder/Householder.h
+ /opt/homebrew/include/eigen3/Eigen/src/Householder/HouseholderSequence.h
+ /opt/homebrew/include/eigen3/Eigen/src/Jacobi/Jacobi.h
+ /opt/homebrew/include/eigen3/Eigen/src/LU/Determinant.h
+ /opt/homebrew/include/eigen3/Eigen/src/LU/FullPivLU.h
+ /opt/homebrew/include/eigen3/Eigen/src/LU/InverseImpl.h
+ /opt/homebrew/include/eigen3/Eigen/src/LU/PartialPivLU.h
+ /opt/homebrew/include/eigen3/Eigen/src/LU/arch/InverseSize4.h
+ /opt/homebrew/include/eigen3/Eigen/src/QR/ColPivHouseholderQR.h
+ /opt/homebrew/include/eigen3/Eigen/src/QR/CompleteOrthogonalDecomposition.h
+ /opt/homebrew/include/eigen3/Eigen/src/QR/FullPivHouseholderQR.h
+ /opt/homebrew/include/eigen3/Eigen/src/QR/HouseholderQR.h
+ /opt/homebrew/include/eigen3/Eigen/src/SVD/BDCSVD.h
+ /opt/homebrew/include/eigen3/Eigen/src/SVD/JacobiSVD.h
+ /opt/homebrew/include/eigen3/Eigen/src/SVD/SVDBase.h
+ /opt/homebrew/include/eigen3/Eigen/src/SVD/UpperBidiagonalization.h
+ /opt/homebrew/include/eigen3/Eigen/src/misc/Image.h
+ /opt/homebrew/include/eigen3/Eigen/src/misc/Kernel.h
+ /opt/homebrew/include/eigen3/Eigen/src/misc/RealSvd2x2.h
 

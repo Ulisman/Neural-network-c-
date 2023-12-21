@@ -4,7 +4,7 @@
 # compile CXX with /Library/Developer/CommandLineTools/usr/bin/c++
 CXX_DEFINES = 
 
-CXX_INCLUDES = -I/opt/homebrew/include/eigen3 -I/opt/homebrew/Cellar/opencv/4.8.1_1/include/opencv4 -I/Users/ulrikisdahl/cplusplus/NeuralNetwork/modules/src
+CXX_INCLUDES = -I/Users/ulrikisdahl/cplusplus/NeuralNetwork/modules/src -isystem /opt/homebrew/include/eigen3 -isystem /opt/homebrew/Cellar/opencv/4.8.1_1/include/opencv4
 
 CXX_FLAGSarm64 = -std=gnu++11 -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX13.3.sdk
 
