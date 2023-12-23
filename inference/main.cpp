@@ -1,7 +1,9 @@
 #include <iostream>
 #include <modules/dense.hpp>
 #include <modules/model.hpp>
+#include <modules/input.hpp>
 #include <opencv2/opencv.hpp>
+#include <memory>
 using namespace std;
 
 Eigen::MatrixXf loadData(){
@@ -40,20 +42,26 @@ int main(){
 
     Model model = Model("binary crossentropy", 8);
 
-    Dense dense(64, "sigmoid");
-    model.addLayer(dense);
+    //Input inp(data, "inputLayer"); 
+    model.addLayer(std::make_unique<Input>(data, "inputLayer")); 
 
-    Dense dense2(64, "sigmoid");
-    model.addLayer(dense2);
+    //Dense dense(64, "sigmoid", "hidden1");
+    //model.addLayer(dense);
+    model.addLayer(std::make_unique<Dense>(64, "sigmoid", "hidden1"));
 
-    Dense dense3(1, "sigmoid"); //biary cross entropy expects a probability as input
-    model.addLayer(dense3);
+    // Dense dense2(64, "sigmoid", "hidden2");
+    // model.addLayer(dense2);
+    model.addLayer(std::make_unique<Dense>(64, "sigmoid", "hidden2"));
+
+    // Dense dense3(1, "sigmoid", "output"); //biary cross entropy expects a probability as input
+    // model.addLayer(dense3);
+    model.addLayer(std::make_unique<Dense>(1, "sigmoid", "output"));
 
     Eigen::VectorXf test(8);
     test << 0, 0, 0, 0, 0, 0, 0, 0; 
     cout << test.rows() << endl;
 
-    model.fit(data, test);
+    model.fit(data, test, 0.001f);
 
     //compute loss
 

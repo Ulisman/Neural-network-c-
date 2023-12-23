@@ -6,6 +6,9 @@ add_library(
     src/modules/model.hpp
     src/modules/activations.cpp
     src/modules/activations.hpp
+    src/modules/input.cpp
+    src/modules/input.hpp
+    src/modules/layer.hpp
 )
 
 target_include_directories(modules PUBLIC "${CMAKE_CURRENT_SOURCE_DIR}/src")

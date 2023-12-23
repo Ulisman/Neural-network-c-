@@ -6,10 +6,11 @@
 using namespace std;
 
 
-Dense::Dense(int neurons, string activationFunction){ //Dense::Dense -> Dense constructor belongs to Dense class
+Dense::Dense(int neurons, string activationFunction, string layerName){ //Dense::Dense -> Dense constructor belongs to Dense class
     this->neurons = neurons;
     this->isInitialized = false;
     this->activationFunction = activationFunction;
+    this->layerName = layerName;
 }
 
 /**
@@ -33,26 +34,50 @@ Eigen::MatrixXf Dense::forward(const Eigen::MatrixXf& input){
     }
 
     this->rawOutputs = input * this->weights;
-    Eigen::MatrixXf activations; //We don't need the activations for backprop (only raw outputs) so we can use local variable here
+     //We don't need the activations for backprop (only raw outputs) so we can use local variable here
     if(this->activationFunction == "sigmoid"){
-        activations = this->rawOutputs.unaryExpr(std::function<float(float)>(activations::sigmoid));
+        this->outputActivations = this->rawOutputs.unaryExpr(std::function<float(float)>(activations::sigmoid));
     } else {
         return this->rawOutputs;
     }
 
-    return activations;
+    return this->outputActivations;
 }
 
-Eigen::MatrixXf Dense::getWeights(){
+Eigen::MatrixXf Dense::getWeights() const{
     return this->weights;
 }
 
-Eigen::MatrixXf Dense::getRawOutput(){
-    return this->rawOutputs;
+// Eigen::MatrixXf Dense::getRawOutput() const{
+//     return this->rawOutputs;
+// }
+
+Eigen::MatrixXf Dense::getSigmoidDerivative() const{
+    return this->rawOutputs.unaryExpr(std::function<float(float)>(activations::sigmoidDerivative));
 }
 
-Eigen::MatrixXf Dense::getSigmoidDerivative(){
-    return this->rawOutputs.unaryExpr(std::function<float(float)>(activations::sigmoidDerivative));
+void Dense::setGradients(Eigen::MatrixXf& gradients) {
+    this->gradients = gradients;
+}
+
+void Dense::setDeltas(Eigen::MatrixXf& deltas) {
+    this->outputDeltas = deltas;
+}
+
+Eigen::MatrixXf Dense::getDeltas() const{
+    return this->outputDeltas;
+}
+
+void Dense::applyGradients(float lr){
+    this->weights -= lr * this->gradients;
+}
+
+Eigen::MatrixXf Dense::getOutputActivations() const{
+    return this->outputActivations;
+}
+
+string Dense::getLayerName() const{
+    return this->layerName;
 }
 
 void Dense::backprop(){
