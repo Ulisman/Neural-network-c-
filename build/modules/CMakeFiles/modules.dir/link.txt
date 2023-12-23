@@ -1,2 +1,2 @@
-/Library/Developer/CommandLineTools/usr/bin/ar qc libmodules.a CMakeFiles/modules.dir/src/modules/dense.cpp.o CMakeFiles/modules.dir/src/modules/model.cpp.o CMakeFiles/modules.dir/src/modules/activations.cpp.o
+/Library/Developer/CommandLineTools/usr/bin/ar qc libmodules.a CMakeFiles/modules.dir/src/modules/dense.cpp.o CMakeFiles/modules.dir/src/modules/model.cpp.o CMakeFiles/modules.dir/src/modules/activations.cpp.o CMakeFiles/modules.dir/src/modules/input.cpp.o
 /Library/Developer/CommandLineTools/usr/bin/ranlib libmodules.a

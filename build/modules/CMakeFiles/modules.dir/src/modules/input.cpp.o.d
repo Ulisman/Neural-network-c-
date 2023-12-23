@@ -1,6 +1,6 @@
-modules/CMakeFiles/modules.dir/src/modules/dense.cpp.o: \
-  /Users/ulrikisdahl/cplusplus/NeuralNetwork/modules/src/modules/dense.cpp \
-  /Users/ulrikisdahl/cplusplus/NeuralNetwork/modules/src/modules/dense.hpp \
+modules/CMakeFiles/modules.dir/src/modules/input.cpp.o: \
+  /Users/ulrikisdahl/cplusplus/NeuralNetwork/modules/src/modules/input.cpp \
+  /Users/ulrikisdahl/cplusplus/NeuralNetwork/modules/src/modules/layer.hpp \
   /opt/homebrew/include/eigen3/Eigen/Dense \
   /opt/homebrew/include/eigen3/Eigen/Core \
   /opt/homebrew/include/eigen3/Eigen/src/Core/util/DisableStupidWarnings.h \
@@ -924,6 +924,5 @@ modules/CMakeFiles/modules.dir/src/modules/dense.cpp.o: \
   /opt/homebrew/include/eigen3/Eigen/src/Eigenvalues/GeneralizedEigenSolver.h \
   /opt/homebrew/include/eigen3/Eigen/src/Eigenvalues/./RealQZ.h \
   /opt/homebrew/include/eigen3/Eigen/src/Eigenvalues/MatrixBaseEigenvalues.h \
-  /Users/ulrikisdahl/cplusplus/NeuralNetwork/modules/src/modules/layer.hpp \
-  /Users/ulrikisdahl/cplusplus/NeuralNetwork/modules/src/modules/activations.hpp \
+  /Users/ulrikisdahl/cplusplus/NeuralNetwork/modules/src/modules/input.hpp \
   /Library/Developer/CommandLineTools/SDKs/MacOSX13.3.sdk/usr/include/c++/v1/iostream

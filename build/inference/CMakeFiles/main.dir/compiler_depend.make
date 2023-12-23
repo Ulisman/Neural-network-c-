@@ -749,6 +749,8 @@ inference/CMakeFiles/main.dir/main.cpp.o: /Users/ulrikisdahl/cplusplus/NeuralNet
   /Library/Developer/CommandLineTools/usr/lib/clang/14.0.3/include/stddef.h \
   /Library/Developer/CommandLineTools/usr/lib/clang/14.0.3/include/stdint.h \
   /Users/ulrikisdahl/cplusplus/NeuralNetwork/modules/src/modules/dense.hpp \
+  /Users/ulrikisdahl/cplusplus/NeuralNetwork/modules/src/modules/input.hpp \
+  /Users/ulrikisdahl/cplusplus/NeuralNetwork/modules/src/modules/layer.hpp \
   /Users/ulrikisdahl/cplusplus/NeuralNetwork/modules/src/modules/model.hpp \
   /opt/homebrew/Cellar/opencv/4.8.1_1/include/opencv4/opencv2/imgproc/segmentation.hpp \
   /opt/homebrew/Cellar/opencv/4.8.1_1/include/opencv4/opencv2/calib3d.hpp \
@@ -1376,6 +1378,10 @@ inference/CMakeFiles/main.dir/main.cpp.o: /Users/ulrikisdahl/cplusplus/NeuralNet
 /opt/homebrew/Cellar/opencv/4.8.1_1/include/opencv4/opencv2/core/async.hpp:
 
 /opt/homebrew/Cellar/opencv/4.8.1_1/include/opencv4/opencv2/imgproc/segmentation.hpp:
+
+/Library/Developer/CommandLineTools/SDKs/MacOSX13.3.sdk/usr/include/c++/v1/__algorithm/sift_down.h:
+
+/Users/ulrikisdahl/cplusplus/NeuralNetwork/modules/src/modules/input.hpp:
 
 /opt/homebrew/Cellar/opencv/4.8.1_1/include/opencv4/opencv2/features2d.hpp:
 
@@ -2301,6 +2307,10 @@ inference/CMakeFiles/main.dir/main.cpp.o: /Users/ulrikisdahl/cplusplus/NeuralNet
 
 /Library/Developer/CommandLineTools/SDKs/MacOSX13.3.sdk/usr/include/c++/v1/__compare/three_way_comparable.h:
 
+/Library/Developer/CommandLineTools/SDKs/MacOSX13.3.sdk/usr/include/c++/v1/__concepts/constructible.h:
+
+/Users/ulrikisdahl/cplusplus/NeuralNetwork/modules/src/modules/layer.hpp:
+
 /opt/homebrew/include/eigen3/Eigen/src/Core/util/Memory.h:
 
 /Library/Developer/CommandLineTools/SDKs/MacOSX13.3.sdk/usr/include/c++/v1/__algorithm/ranges_remove_if.h:
@@ -2372,8 +2382,6 @@ inference/CMakeFiles/main.dir/main.cpp.o: /Users/ulrikisdahl/cplusplus/NeuralNet
 /Library/Developer/CommandLineTools/SDKs/MacOSX13.3.sdk/usr/include/c++/v1/__memory/uses_allocator.h:
 
 /Library/Developer/CommandLineTools/SDKs/MacOSX13.3.sdk/usr/include/c++/v1/__type_traits/is_scoped_enum.h:
-
-/Library/Developer/CommandLineTools/SDKs/MacOSX13.3.sdk/usr/include/c++/v1/__concepts/constructible.h:
 
 /Library/Developer/CommandLineTools/SDKs/MacOSX13.3.sdk/usr/include/c++/v1/__chrono/year_month_day.h:
 
@@ -2486,8 +2494,6 @@ inference/CMakeFiles/main.dir/main.cpp.o: /Users/ulrikisdahl/cplusplus/NeuralNet
 /Library/Developer/CommandLineTools/SDKs/MacOSX13.3.sdk/usr/include/c++/v1/__algorithm/sort_heap.h:
 
 /Library/Developer/CommandLineTools/SDKs/MacOSX13.3.sdk/usr/include/c++/v1/iomanip:
-
-/Library/Developer/CommandLineTools/SDKs/MacOSX13.3.sdk/usr/include/c++/v1/__algorithm/sift_down.h:
 
 /Library/Developer/CommandLineTools/SDKs/MacOSX13.3.sdk/usr/include/c++/v1/__concepts/totally_ordered.h:
 

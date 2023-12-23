@@ -925,7 +925,9 @@ inference/CMakeFiles/main.dir/main.cpp.o: \
   /opt/homebrew/include/eigen3/Eigen/src/Eigenvalues/GeneralizedEigenSolver.h \
   /opt/homebrew/include/eigen3/Eigen/src/Eigenvalues/./RealQZ.h \
   /opt/homebrew/include/eigen3/Eigen/src/Eigenvalues/MatrixBaseEigenvalues.h \
+  /Users/ulrikisdahl/cplusplus/NeuralNetwork/modules/src/modules/layer.hpp \
   /Users/ulrikisdahl/cplusplus/NeuralNetwork/modules/src/modules/model.hpp \
+  /Users/ulrikisdahl/cplusplus/NeuralNetwork/modules/src/modules/input.hpp \
   /opt/homebrew/Cellar/opencv/4.8.1_1/include/opencv4/opencv2/opencv.hpp \
   /opt/homebrew/Cellar/opencv/4.8.1_1/include/opencv4/opencv2/opencv_modules.hpp \
   /opt/homebrew/Cellar/opencv/4.8.1_1/include/opencv4/opencv2/core.hpp \

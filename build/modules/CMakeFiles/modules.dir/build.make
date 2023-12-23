@@ -111,11 +111,26 @@ modules/CMakeFiles/modules.dir/src/modules/activations.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/modules.dir/src/modules/activations.cpp.s"
 	cd /Users/ulrikisdahl/cplusplus/NeuralNetwork/build/modules && /Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/ulrikisdahl/cplusplus/NeuralNetwork/modules/src/modules/activations.cpp -o CMakeFiles/modules.dir/src/modules/activations.cpp.s
 
+modules/CMakeFiles/modules.dir/src/modules/input.cpp.o: modules/CMakeFiles/modules.dir/flags.make
+modules/CMakeFiles/modules.dir/src/modules/input.cpp.o: /Users/ulrikisdahl/cplusplus/NeuralNetwork/modules/src/modules/input.cpp
+modules/CMakeFiles/modules.dir/src/modules/input.cpp.o: modules/CMakeFiles/modules.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/ulrikisdahl/cplusplus/NeuralNetwork/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object modules/CMakeFiles/modules.dir/src/modules/input.cpp.o"
+	cd /Users/ulrikisdahl/cplusplus/NeuralNetwork/build/modules && /Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT modules/CMakeFiles/modules.dir/src/modules/input.cpp.o -MF CMakeFiles/modules.dir/src/modules/input.cpp.o.d -o CMakeFiles/modules.dir/src/modules/input.cpp.o -c /Users/ulrikisdahl/cplusplus/NeuralNetwork/modules/src/modules/input.cpp
+
+modules/CMakeFiles/modules.dir/src/modules/input.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/modules.dir/src/modules/input.cpp.i"
+	cd /Users/ulrikisdahl/cplusplus/NeuralNetwork/build/modules && /Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/ulrikisdahl/cplusplus/NeuralNetwork/modules/src/modules/input.cpp > CMakeFiles/modules.dir/src/modules/input.cpp.i
+
+modules/CMakeFiles/modules.dir/src/modules/input.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/modules.dir/src/modules/input.cpp.s"
+	cd /Users/ulrikisdahl/cplusplus/NeuralNetwork/build/modules && /Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/ulrikisdahl/cplusplus/NeuralNetwork/modules/src/modules/input.cpp -o CMakeFiles/modules.dir/src/modules/input.cpp.s
+
 # Object files for target modules
 modules_OBJECTS = \
 "CMakeFiles/modules.dir/src/modules/dense.cpp.o" \
 "CMakeFiles/modules.dir/src/modules/model.cpp.o" \
-"CMakeFiles/modules.dir/src/modules/activations.cpp.o"
+"CMakeFiles/modules.dir/src/modules/activations.cpp.o" \
+"CMakeFiles/modules.dir/src/modules/input.cpp.o"
 
 # External object files for target modules
 modules_EXTERNAL_OBJECTS =
@@ -123,9 +138,10 @@ modules_EXTERNAL_OBJECTS =
 modules/libmodules.a: modules/CMakeFiles/modules.dir/src/modules/dense.cpp.o
 modules/libmodules.a: modules/CMakeFiles/modules.dir/src/modules/model.cpp.o
 modules/libmodules.a: modules/CMakeFiles/modules.dir/src/modules/activations.cpp.o
+modules/libmodules.a: modules/CMakeFiles/modules.dir/src/modules/input.cpp.o
 modules/libmodules.a: modules/CMakeFiles/modules.dir/build.make
 modules/libmodules.a: modules/CMakeFiles/modules.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --bold --progress-dir=/Users/ulrikisdahl/cplusplus/NeuralNetwork/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Linking CXX static library libmodules.a"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --bold --progress-dir=/Users/ulrikisdahl/cplusplus/NeuralNetwork/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Linking CXX static library libmodules.a"
 	cd /Users/ulrikisdahl/cplusplus/NeuralNetwork/build/modules && $(CMAKE_COMMAND) -P CMakeFiles/modules.dir/cmake_clean_target.cmake
 	cd /Users/ulrikisdahl/cplusplus/NeuralNetwork/build/modules && $(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/modules.dir/link.txt --verbose=$(VERBOSE)
 

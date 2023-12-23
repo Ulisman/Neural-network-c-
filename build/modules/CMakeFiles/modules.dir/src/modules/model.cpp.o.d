@@ -925,5 +925,6 @@ modules/CMakeFiles/modules.dir/src/modules/model.cpp.o: \
   /opt/homebrew/include/eigen3/Eigen/src/Eigenvalues/GeneralizedEigenSolver.h \
   /opt/homebrew/include/eigen3/Eigen/src/Eigenvalues/./RealQZ.h \
   /opt/homebrew/include/eigen3/Eigen/src/Eigenvalues/MatrixBaseEigenvalues.h \
+  /Users/ulrikisdahl/cplusplus/NeuralNetwork/modules/src/modules/layer.hpp \
   /Users/ulrikisdahl/cplusplus/NeuralNetwork/modules/src/modules/activations.hpp \
   /Library/Developer/CommandLineTools/SDKs/MacOSX13.3.sdk/usr/include/c++/v1/iostream

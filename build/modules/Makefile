@@ -178,6 +178,30 @@ src/modules/dense.cpp.s:
 	cd /Users/ulrikisdahl/cplusplus/NeuralNetwork/build && $(MAKE) $(MAKESILENT) -f modules/CMakeFiles/modules.dir/build.make modules/CMakeFiles/modules.dir/src/modules/dense.cpp.s
 .PHONY : src/modules/dense.cpp.s
 
+src/modules/input.o: src/modules/input.cpp.o
+.PHONY : src/modules/input.o
+
+# target to build an object file
+src/modules/input.cpp.o:
+	cd /Users/ulrikisdahl/cplusplus/NeuralNetwork/build && $(MAKE) $(MAKESILENT) -f modules/CMakeFiles/modules.dir/build.make modules/CMakeFiles/modules.dir/src/modules/input.cpp.o
+.PHONY : src/modules/input.cpp.o
+
+src/modules/input.i: src/modules/input.cpp.i
+.PHONY : src/modules/input.i
+
+# target to preprocess a source file
+src/modules/input.cpp.i:
+	cd /Users/ulrikisdahl/cplusplus/NeuralNetwork/build && $(MAKE) $(MAKESILENT) -f modules/CMakeFiles/modules.dir/build.make modules/CMakeFiles/modules.dir/src/modules/input.cpp.i
+.PHONY : src/modules/input.cpp.i
+
+src/modules/input.s: src/modules/input.cpp.s
+.PHONY : src/modules/input.s
+
+# target to generate assembly for a file
+src/modules/input.cpp.s:
+	cd /Users/ulrikisdahl/cplusplus/NeuralNetwork/build && $(MAKE) $(MAKESILENT) -f modules/CMakeFiles/modules.dir/build.make modules/CMakeFiles/modules.dir/src/modules/input.cpp.s
+.PHONY : src/modules/input.cpp.s
+
 src/modules/model.o: src/modules/model.cpp.o
 .PHONY : src/modules/model.o
 
@@ -217,6 +241,9 @@ help:
 	@echo "... src/modules/dense.o"
 	@echo "... src/modules/dense.i"
 	@echo "... src/modules/dense.s"
+	@echo "... src/modules/input.o"
+	@echo "... src/modules/input.i"
+	@echo "... src/modules/input.s"
 	@echo "... src/modules/model.o"
 	@echo "... src/modules/model.i"
 	@echo "... src/modules/model.s"
