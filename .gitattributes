@@ -1,1 +1,6 @@
-Makefile linguist-documentation=true
+*.cpp linguist-detectable=true
+*.hpp linguist-detectable=true
+*.make linguist-detectable=false
+*.cmake linguist-detectable=false
+*.d linguist-detectable=false
+*.internal linguist-detectable=false
