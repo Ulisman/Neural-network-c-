@@ -18,7 +18,7 @@ class Model{
         Eigen::VectorXf labels;
 
         Eigen::MatrixXf forwardPass(Eigen::MatrixXf&);
-        void backprop();
+        void backprop(Eigen::MatrixXf&, Eigen::MatrixXf&, float&);
 
 };
 
