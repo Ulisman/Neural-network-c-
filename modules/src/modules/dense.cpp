@@ -1,8 +1,8 @@
-//#include <modules/dense.hpp>
 #include "dense.hpp"
 #include "activations.hpp"
 #include <iostream>
 #include <Eigen/Dense>
+#include <random>
 using namespace std;
 
 
@@ -22,9 +22,11 @@ Dense::Dense(int neurons, string activationFunction, string layerName){ //Dense:
  *             number of neurons in the Dense layer.
  */
 void Dense::initializeWeights(const int& rows, const int& cols){
-    std::srand((unsigned int) time(0));
-    this->weights = Eigen::MatrixXf::Random(rows, cols);
-    cout << this->weights << endl;
+    //He weight initialization
+    float k = std::sqrt(1/(cols));
+    std::default_random_engine generator(static_cast<unsigned int>(time(0)));
+    std::uniform_real_distribution<float> distribution(-k, k);
+    this->weights = Eigen::MatrixXf::Zero(rows, cols).unaryExpr([&](float x){return distribution(generator);});
 }
 
 Eigen::MatrixXf Dense::forward(const Eigen::MatrixXf& input){
@@ -47,10 +49,6 @@ Eigen::MatrixXf Dense::forward(const Eigen::MatrixXf& input){
 Eigen::MatrixXf Dense::getWeights() const{
     return this->weights;
 }
-
-// Eigen::MatrixXf Dense::getRawOutput() const{
-//     return this->rawOutputs;
-// }
 
 Eigen::MatrixXf Dense::getSigmoidDerivative() const{
     return this->rawOutputs.unaryExpr(std::function<float(float)>(activations::sigmoidDerivative));
