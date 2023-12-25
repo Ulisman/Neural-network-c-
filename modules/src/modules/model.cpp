@@ -18,21 +18,22 @@ void Model::addLayer(std::unique_ptr<Layer> layer_ptr){
     this->layers.push_back(std::move(layer_ptr));
 }
 
-void Model::fit(Eigen::MatrixXf& input, Eigen::VectorXf& labels, float lr){
-    //forward pass
-    Eigen::MatrixXf modelOutput = this->forwardPass(input);
+void Model::fit(Eigen::MatrixXf& input, Eigen::VectorXf& labels, int epochs, float lr){
+    for (int i = 0; i < epochs; i++){
+        //forward pass
+        Eigen::MatrixXf modelOutput = this->forwardPass(input);
 
-    //calculate loss
-    Eigen::MatrixXf predictionError = modelOutput.binaryExpr(labels, std::function<float(float, float)>(activations::binaryCrossentropy));
-    float loss = predictionError.mean();
-    cout << "Loss for current epoch: " << loss << endl;
+        //calculate loss
+        Eigen::MatrixXf predictionError = modelOutput.binaryExpr(labels, std::function<float(float, float)>(activations::binaryCrossentropy));
+        float loss = predictionError.mean();
+        cout << "Loss for epoch " << i + 1 << ": " << loss << endl;
 
-    //backpropagation
-    this->backprop(modelOutput, predictionError, lr);
+        //backpropagation
+        this->backprop(modelOutput, predictionError, lr);
+    }
 }
 
 Eigen::MatrixXf Model::forwardPass(Eigen::MatrixXf& inputs){
-
     Eigen::MatrixXf outputs = inputs;
     for (auto& layer : this->layers){ //auto& — automatically detect the type (Layer) as a reference
         outputs = layer->forward(outputs);

@@ -9,7 +9,7 @@ class Model{
     public:
         Model(string, int);
         void addLayer(std::unique_ptr<Layer>);
-        void fit(Eigen::MatrixXf&, Eigen::VectorXf&, float);
+        void fit(Eigen::MatrixXf&, Eigen::VectorXf&, int, float);
 
     private:
         int batchSize;
