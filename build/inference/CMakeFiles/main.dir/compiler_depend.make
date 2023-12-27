@@ -288,7 +288,22 @@ inference/CMakeFiles/main.dir/main.cpp.o: /Users/ulrikisdahl/cplusplus/NeuralNet
   /Library/Developer/CommandLineTools/SDKs/MacOSX13.3.sdk/usr/include/c++/v1/__debug \
   /Library/Developer/CommandLineTools/SDKs/MacOSX13.3.sdk/usr/include/c++/v1/__debug_utils/randomize_range.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX13.3.sdk/usr/include/c++/v1/__errc \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX13.3.sdk/usr/include/c++/v1/__filesystem/copy_options.h \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX13.3.sdk/usr/include/c++/v1/__filesystem/directory_entry.h \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX13.3.sdk/usr/include/c++/v1/__filesystem/directory_iterator.h \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX13.3.sdk/usr/include/c++/v1/__filesystem/directory_options.h \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX13.3.sdk/usr/include/c++/v1/__filesystem/file_status.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX13.3.sdk/usr/include/c++/v1/__filesystem/file_time_type.h \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX13.3.sdk/usr/include/c++/v1/__filesystem/file_type.h \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX13.3.sdk/usr/include/c++/v1/__filesystem/filesystem_error.h \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX13.3.sdk/usr/include/c++/v1/__filesystem/operations.h \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX13.3.sdk/usr/include/c++/v1/__filesystem/path.h \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX13.3.sdk/usr/include/c++/v1/__filesystem/path_iterator.h \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX13.3.sdk/usr/include/c++/v1/__filesystem/perm_options.h \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX13.3.sdk/usr/include/c++/v1/__filesystem/perms.h \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX13.3.sdk/usr/include/c++/v1/__filesystem/recursive_directory_iterator.h \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX13.3.sdk/usr/include/c++/v1/__filesystem/space_info.h \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX13.3.sdk/usr/include/c++/v1/__filesystem/u8path.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX13.3.sdk/usr/include/c++/v1/__format/enable_insertable.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX13.3.sdk/usr/include/c++/v1/__functional/binary_function.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX13.3.sdk/usr/include/c++/v1/__functional/binary_negate.h \
@@ -385,10 +400,56 @@ inference/CMakeFiles/main.dir/main.cpp.o: /Users/ulrikisdahl/cplusplus/NeuralNet
   /Library/Developer/CommandLineTools/SDKs/MacOSX13.3.sdk/usr/include/c++/v1/__memory/voidify.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX13.3.sdk/usr/include/c++/v1/__mutex_base \
   /Library/Developer/CommandLineTools/SDKs/MacOSX13.3.sdk/usr/include/c++/v1/__node_handle \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX13.3.sdk/usr/include/c++/v1/__numeric/accumulate.h \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX13.3.sdk/usr/include/c++/v1/__numeric/adjacent_difference.h \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX13.3.sdk/usr/include/c++/v1/__numeric/exclusive_scan.h \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX13.3.sdk/usr/include/c++/v1/__numeric/gcd_lcm.h \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX13.3.sdk/usr/include/c++/v1/__numeric/inclusive_scan.h \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX13.3.sdk/usr/include/c++/v1/__numeric/inner_product.h \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX13.3.sdk/usr/include/c++/v1/__numeric/iota.h \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX13.3.sdk/usr/include/c++/v1/__numeric/midpoint.h \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX13.3.sdk/usr/include/c++/v1/__numeric/partial_sum.h \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX13.3.sdk/usr/include/c++/v1/__numeric/reduce.h \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX13.3.sdk/usr/include/c++/v1/__numeric/transform_exclusive_scan.h \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX13.3.sdk/usr/include/c++/v1/__numeric/transform_inclusive_scan.h \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX13.3.sdk/usr/include/c++/v1/__numeric/transform_reduce.h \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX13.3.sdk/usr/include/c++/v1/__random/bernoulli_distribution.h \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX13.3.sdk/usr/include/c++/v1/__random/binomial_distribution.h \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX13.3.sdk/usr/include/c++/v1/__random/cauchy_distribution.h \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX13.3.sdk/usr/include/c++/v1/__random/chi_squared_distribution.h \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX13.3.sdk/usr/include/c++/v1/__random/clamp_to_integral.h \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX13.3.sdk/usr/include/c++/v1/__random/default_random_engine.h \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX13.3.sdk/usr/include/c++/v1/__random/discard_block_engine.h \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX13.3.sdk/usr/include/c++/v1/__random/discrete_distribution.h \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX13.3.sdk/usr/include/c++/v1/__random/exponential_distribution.h \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX13.3.sdk/usr/include/c++/v1/__random/extreme_value_distribution.h \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX13.3.sdk/usr/include/c++/v1/__random/fisher_f_distribution.h \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX13.3.sdk/usr/include/c++/v1/__random/gamma_distribution.h \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX13.3.sdk/usr/include/c++/v1/__random/generate_canonical.h \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX13.3.sdk/usr/include/c++/v1/__random/geometric_distribution.h \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX13.3.sdk/usr/include/c++/v1/__random/independent_bits_engine.h \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX13.3.sdk/usr/include/c++/v1/__random/is_seed_sequence.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX13.3.sdk/usr/include/c++/v1/__random/is_valid.h \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX13.3.sdk/usr/include/c++/v1/__random/knuth_b.h \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX13.3.sdk/usr/include/c++/v1/__random/linear_congruential_engine.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX13.3.sdk/usr/include/c++/v1/__random/log2.h \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX13.3.sdk/usr/include/c++/v1/__random/lognormal_distribution.h \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX13.3.sdk/usr/include/c++/v1/__random/mersenne_twister_engine.h \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX13.3.sdk/usr/include/c++/v1/__random/negative_binomial_distribution.h \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX13.3.sdk/usr/include/c++/v1/__random/normal_distribution.h \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX13.3.sdk/usr/include/c++/v1/__random/piecewise_constant_distribution.h \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX13.3.sdk/usr/include/c++/v1/__random/piecewise_linear_distribution.h \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX13.3.sdk/usr/include/c++/v1/__random/poisson_distribution.h \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX13.3.sdk/usr/include/c++/v1/__random/random_device.h \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX13.3.sdk/usr/include/c++/v1/__random/ranlux.h \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX13.3.sdk/usr/include/c++/v1/__random/seed_seq.h \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX13.3.sdk/usr/include/c++/v1/__random/shuffle_order_engine.h \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX13.3.sdk/usr/include/c++/v1/__random/student_t_distribution.h \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX13.3.sdk/usr/include/c++/v1/__random/subtract_with_carry_engine.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX13.3.sdk/usr/include/c++/v1/__random/uniform_int_distribution.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX13.3.sdk/usr/include/c++/v1/__random/uniform_random_bit_generator.h \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX13.3.sdk/usr/include/c++/v1/__random/uniform_real_distribution.h \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX13.3.sdk/usr/include/c++/v1/__random/weibull_distribution.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX13.3.sdk/usr/include/c++/v1/__ranges/access.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX13.3.sdk/usr/include/c++/v1/__ranges/concepts.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX13.3.sdk/usr/include/c++/v1/__ranges/dangling.h \
@@ -570,7 +631,9 @@ inference/CMakeFiles/main.dir/main.cpp.o: /Users/ulrikisdahl/cplusplus/NeuralNet
   /Library/Developer/CommandLineTools/SDKs/MacOSX13.3.sdk/usr/include/c++/v1/deque \
   /Library/Developer/CommandLineTools/SDKs/MacOSX13.3.sdk/usr/include/c++/v1/errno.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX13.3.sdk/usr/include/c++/v1/exception \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX13.3.sdk/usr/include/c++/v1/filesystem \
   /Library/Developer/CommandLineTools/SDKs/MacOSX13.3.sdk/usr/include/c++/v1/float.h \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX13.3.sdk/usr/include/c++/v1/fstream \
   /Library/Developer/CommandLineTools/SDKs/MacOSX13.3.sdk/usr/include/c++/v1/functional \
   /Library/Developer/CommandLineTools/SDKs/MacOSX13.3.sdk/usr/include/c++/v1/initializer_list \
   /Library/Developer/CommandLineTools/SDKs/MacOSX13.3.sdk/usr/include/c++/v1/iomanip \
@@ -589,9 +652,11 @@ inference/CMakeFiles/main.dir/main.cpp.o: /Users/ulrikisdahl/cplusplus/NeuralNet
   /Library/Developer/CommandLineTools/SDKs/MacOSX13.3.sdk/usr/include/c++/v1/memory \
   /Library/Developer/CommandLineTools/SDKs/MacOSX13.3.sdk/usr/include/c++/v1/mutex \
   /Library/Developer/CommandLineTools/SDKs/MacOSX13.3.sdk/usr/include/c++/v1/new \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX13.3.sdk/usr/include/c++/v1/numeric \
   /Library/Developer/CommandLineTools/SDKs/MacOSX13.3.sdk/usr/include/c++/v1/optional \
   /Library/Developer/CommandLineTools/SDKs/MacOSX13.3.sdk/usr/include/c++/v1/ostream \
   /Library/Developer/CommandLineTools/SDKs/MacOSX13.3.sdk/usr/include/c++/v1/queue \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX13.3.sdk/usr/include/c++/v1/random \
   /Library/Developer/CommandLineTools/SDKs/MacOSX13.3.sdk/usr/include/c++/v1/ratio \
   /Library/Developer/CommandLineTools/SDKs/MacOSX13.3.sdk/usr/include/c++/v1/set \
   /Library/Developer/CommandLineTools/SDKs/MacOSX13.3.sdk/usr/include/c++/v1/sstream \
@@ -605,6 +670,7 @@ inference/CMakeFiles/main.dir/main.cpp.o: /Users/ulrikisdahl/cplusplus/NeuralNet
   /Library/Developer/CommandLineTools/SDKs/MacOSX13.3.sdk/usr/include/c++/v1/string.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX13.3.sdk/usr/include/c++/v1/string_view \
   /Library/Developer/CommandLineTools/SDKs/MacOSX13.3.sdk/usr/include/c++/v1/system_error \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX13.3.sdk/usr/include/c++/v1/thread \
   /Library/Developer/CommandLineTools/SDKs/MacOSX13.3.sdk/usr/include/c++/v1/tuple \
   /Library/Developer/CommandLineTools/SDKs/MacOSX13.3.sdk/usr/include/c++/v1/type_traits \
   /Library/Developer/CommandLineTools/SDKs/MacOSX13.3.sdk/usr/include/c++/v1/typeinfo \
@@ -616,6 +682,7 @@ inference/CMakeFiles/main.dir/main.cpp.o: /Users/ulrikisdahl/cplusplus/NeuralNet
   /Library/Developer/CommandLineTools/SDKs/MacOSX13.3.sdk/usr/include/c++/v1/wchar.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX13.3.sdk/usr/include/c++/v1/wctype.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX13.3.sdk/usr/include/ctype.h \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX13.3.sdk/usr/include/dirent.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX13.3.sdk/usr/include/errno.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX13.3.sdk/usr/include/float.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX13.3.sdk/usr/include/libkern/_OSByteOrder.h \
@@ -720,6 +787,7 @@ inference/CMakeFiles/main.dir/main.cpp.o: /Users/ulrikisdahl/cplusplus/NeuralNet
   /Library/Developer/CommandLineTools/SDKs/MacOSX13.3.sdk/usr/include/sys/_types/_wint_t.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX13.3.sdk/usr/include/sys/appleapiopts.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX13.3.sdk/usr/include/sys/cdefs.h \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX13.3.sdk/usr/include/sys/dirent.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX13.3.sdk/usr/include/sys/errno.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX13.3.sdk/usr/include/sys/qos.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX13.3.sdk/usr/include/sys/resource.h \
@@ -748,6 +816,7 @@ inference/CMakeFiles/main.dir/main.cpp.o: /Users/ulrikisdahl/cplusplus/NeuralNet
   /Library/Developer/CommandLineTools/usr/lib/clang/14.0.3/include/stdarg.h \
   /Library/Developer/CommandLineTools/usr/lib/clang/14.0.3/include/stddef.h \
   /Library/Developer/CommandLineTools/usr/lib/clang/14.0.3/include/stdint.h \
+  /Users/ulrikisdahl/cplusplus/NeuralNetwork/modules/src/modules/activations.hpp \
   /Users/ulrikisdahl/cplusplus/NeuralNetwork/modules/src/modules/dense.hpp \
   /Users/ulrikisdahl/cplusplus/NeuralNetwork/modules/src/modules/input.hpp \
   /Users/ulrikisdahl/cplusplus/NeuralNetwork/modules/src/modules/layer.hpp \
@@ -768,6 +837,7 @@ inference/CMakeFiles/main.dir/main.cpp.o: /Users/ulrikisdahl/cplusplus/NeuralNet
   /opt/homebrew/Cellar/opencv/4.8.1_1/include/opencv4/opencv2/core/cvstd.hpp \
   /opt/homebrew/Cellar/opencv/4.8.1_1/include/opencv4/opencv2/core/cvstd.inl.hpp \
   /opt/homebrew/Cellar/opencv/4.8.1_1/include/opencv4/opencv2/core/cvstd_wrapper.hpp \
+  /opt/homebrew/Cellar/opencv/4.8.1_1/include/opencv4/opencv2/core/eigen.hpp \
   /opt/homebrew/Cellar/opencv/4.8.1_1/include/opencv4/opencv2/core/fast_math.hpp \
   /opt/homebrew/Cellar/opencv/4.8.1_1/include/opencv4/opencv2/core/hal/interface.h \
   /opt/homebrew/Cellar/opencv/4.8.1_1/include/opencv4/opencv2/core/mat.hpp \
@@ -1046,8 +1116,202 @@ inference/CMakeFiles/main.dir/main.cpp.o: /Users/ulrikisdahl/cplusplus/NeuralNet
   /opt/homebrew/include/eigen3/Eigen/src/SVD/UpperBidiagonalization.h \
   /opt/homebrew/include/eigen3/Eigen/src/misc/Image.h \
   /opt/homebrew/include/eigen3/Eigen/src/misc/Kernel.h \
-  /opt/homebrew/include/eigen3/Eigen/src/misc/RealSvd2x2.h
+  /opt/homebrew/include/eigen3/Eigen/src/misc/RealSvd2x2.h \
+  /opt/homebrew/include/eigen3/Eigen/Core \
+  /opt/homebrew/include/eigen3/Eigen/src/Core/util/DisableStupidWarnings.h \
+  /opt/homebrew/include/eigen3/Eigen/src/Core/util/ReenableStupidWarnings.h \
+  /opt/homebrew/include/eigen3/unsupported/Eigen/SpecialFunctions \
+  /opt/homebrew/include/eigen3/unsupported/Eigen/src/SpecialFunctions/BesselFunctionsArrayAPI.h \
+  /opt/homebrew/include/eigen3/unsupported/Eigen/src/SpecialFunctions/BesselFunctionsBFloat16.h \
+  /opt/homebrew/include/eigen3/unsupported/Eigen/src/SpecialFunctions/BesselFunctionsFunctors.h \
+  /opt/homebrew/include/eigen3/unsupported/Eigen/src/SpecialFunctions/BesselFunctionsHalf.h \
+  /opt/homebrew/include/eigen3/unsupported/Eigen/src/SpecialFunctions/BesselFunctionsImpl.h \
+  /opt/homebrew/include/eigen3/unsupported/Eigen/src/SpecialFunctions/BesselFunctionsPacketMath.h \
+  /opt/homebrew/include/eigen3/unsupported/Eigen/src/SpecialFunctions/SpecialFunctionsArrayAPI.h \
+  /opt/homebrew/include/eigen3/unsupported/Eigen/src/SpecialFunctions/SpecialFunctionsBFloat16.h \
+  /opt/homebrew/include/eigen3/unsupported/Eigen/src/SpecialFunctions/SpecialFunctionsFunctors.h \
+  /opt/homebrew/include/eigen3/unsupported/Eigen/src/SpecialFunctions/SpecialFunctionsHalf.h \
+  /opt/homebrew/include/eigen3/unsupported/Eigen/src/SpecialFunctions/SpecialFunctionsImpl.h \
+  /opt/homebrew/include/eigen3/unsupported/Eigen/src/SpecialFunctions/SpecialFunctionsPacketMath.h \
+  /opt/homebrew/include/eigen3/unsupported/Eigen/src/SpecialFunctions/arch/NEON/BesselFunctions.h \
+  /opt/homebrew/include/eigen3/unsupported/Eigen/src/SpecialFunctions/arch/NEON/SpecialFunctions.h \
+  /opt/homebrew/include/eigen3/unsupported/Eigen/CXX11/Tensor \
+  /opt/homebrew/include/eigen3/unsupported/Eigen/CXX11/src/Tensor/Tensor.h \
+  /opt/homebrew/include/eigen3/unsupported/Eigen/CXX11/src/Tensor/TensorArgMax.h \
+  /opt/homebrew/include/eigen3/unsupported/Eigen/CXX11/src/Tensor/TensorAssign.h \
+  /opt/homebrew/include/eigen3/unsupported/Eigen/CXX11/src/Tensor/TensorBase.h \
+  /opt/homebrew/include/eigen3/unsupported/Eigen/CXX11/src/Tensor/TensorBlock.h \
+  /opt/homebrew/include/eigen3/unsupported/Eigen/CXX11/src/Tensor/TensorBroadcasting.h \
+  /opt/homebrew/include/eigen3/unsupported/Eigen/CXX11/src/Tensor/TensorChipping.h \
+  /opt/homebrew/include/eigen3/unsupported/Eigen/CXX11/src/Tensor/TensorConcatenation.h \
+  /opt/homebrew/include/eigen3/unsupported/Eigen/CXX11/src/Tensor/TensorContraction.h \
+  /opt/homebrew/include/eigen3/unsupported/Eigen/CXX11/src/Tensor/TensorContractionBlocking.h \
+  /opt/homebrew/include/eigen3/unsupported/Eigen/CXX11/src/Tensor/TensorContractionGpu.h \
+  /opt/homebrew/include/eigen3/unsupported/Eigen/CXX11/src/Tensor/TensorContractionMapper.h \
+  /opt/homebrew/include/eigen3/unsupported/Eigen/CXX11/src/Tensor/TensorContractionThreadPool.h \
+  /opt/homebrew/include/eigen3/unsupported/Eigen/CXX11/src/Tensor/TensorConversion.h \
+  /opt/homebrew/include/eigen3/unsupported/Eigen/CXX11/src/Tensor/TensorConvolution.h \
+  /opt/homebrew/include/eigen3/unsupported/Eigen/CXX11/src/Tensor/TensorCostModel.h \
+  /opt/homebrew/include/eigen3/unsupported/Eigen/CXX11/src/Tensor/TensorCustomOp.h \
+  /opt/homebrew/include/eigen3/unsupported/Eigen/CXX11/src/Tensor/TensorDevice.h \
+  /opt/homebrew/include/eigen3/unsupported/Eigen/CXX11/src/Tensor/TensorDeviceDefault.h \
+  /opt/homebrew/include/eigen3/unsupported/Eigen/CXX11/src/Tensor/TensorDeviceGpu.h \
+  /opt/homebrew/include/eigen3/unsupported/Eigen/CXX11/src/Tensor/TensorDeviceSycl.h \
+  /opt/homebrew/include/eigen3/unsupported/Eigen/CXX11/src/Tensor/TensorDeviceThreadPool.h \
+  /opt/homebrew/include/eigen3/unsupported/Eigen/CXX11/src/Tensor/TensorDimensionList.h \
+  /opt/homebrew/include/eigen3/unsupported/Eigen/CXX11/src/Tensor/TensorDimensions.h \
+  /opt/homebrew/include/eigen3/unsupported/Eigen/CXX11/src/Tensor/TensorEvalTo.h \
+  /opt/homebrew/include/eigen3/unsupported/Eigen/CXX11/src/Tensor/TensorEvaluator.h \
+  /opt/homebrew/include/eigen3/unsupported/Eigen/CXX11/src/Tensor/TensorExecutor.h \
+  /opt/homebrew/include/eigen3/unsupported/Eigen/CXX11/src/Tensor/TensorExpr.h \
+  /opt/homebrew/include/eigen3/unsupported/Eigen/CXX11/src/Tensor/TensorFFT.h \
+  /opt/homebrew/include/eigen3/unsupported/Eigen/CXX11/src/Tensor/TensorFixedSize.h \
+  /opt/homebrew/include/eigen3/unsupported/Eigen/CXX11/src/Tensor/TensorForcedEval.h \
+  /opt/homebrew/include/eigen3/unsupported/Eigen/CXX11/src/Tensor/TensorForwardDeclarations.h \
+  /opt/homebrew/include/eigen3/unsupported/Eigen/CXX11/src/Tensor/TensorFunctors.h \
+  /opt/homebrew/include/eigen3/unsupported/Eigen/CXX11/src/Tensor/TensorGenerator.h \
+  /opt/homebrew/include/eigen3/unsupported/Eigen/CXX11/src/Tensor/TensorGlobalFunctions.h \
+  /opt/homebrew/include/eigen3/unsupported/Eigen/CXX11/src/Tensor/TensorIO.h \
+  /opt/homebrew/include/eigen3/unsupported/Eigen/CXX11/src/Tensor/TensorImagePatch.h \
+  /opt/homebrew/include/eigen3/unsupported/Eigen/CXX11/src/Tensor/TensorIndexList.h \
+  /opt/homebrew/include/eigen3/unsupported/Eigen/CXX11/src/Tensor/TensorInflation.h \
+  /opt/homebrew/include/eigen3/unsupported/Eigen/CXX11/src/Tensor/TensorInitializer.h \
+  /opt/homebrew/include/eigen3/unsupported/Eigen/CXX11/src/Tensor/TensorIntDiv.h \
+  /opt/homebrew/include/eigen3/unsupported/Eigen/CXX11/src/Tensor/TensorLayoutSwap.h \
+  /opt/homebrew/include/eigen3/unsupported/Eigen/CXX11/src/Tensor/TensorMacros.h \
+  /opt/homebrew/include/eigen3/unsupported/Eigen/CXX11/src/Tensor/TensorMap.h \
+  /opt/homebrew/include/eigen3/unsupported/Eigen/CXX11/src/Tensor/TensorMeta.h \
+  /opt/homebrew/include/eigen3/unsupported/Eigen/CXX11/src/Tensor/TensorMorphing.h \
+  /opt/homebrew/include/eigen3/unsupported/Eigen/CXX11/src/Tensor/TensorPadding.h \
+  /opt/homebrew/include/eigen3/unsupported/Eigen/CXX11/src/Tensor/TensorPatch.h \
+  /opt/homebrew/include/eigen3/unsupported/Eigen/CXX11/src/Tensor/TensorRandom.h \
+  /opt/homebrew/include/eigen3/unsupported/Eigen/CXX11/src/Tensor/TensorReduction.h \
+  /opt/homebrew/include/eigen3/unsupported/Eigen/CXX11/src/Tensor/TensorReductionGpu.h \
+  /opt/homebrew/include/eigen3/unsupported/Eigen/CXX11/src/Tensor/TensorRef.h \
+  /opt/homebrew/include/eigen3/unsupported/Eigen/CXX11/src/Tensor/TensorReverse.h \
+  /opt/homebrew/include/eigen3/unsupported/Eigen/CXX11/src/Tensor/TensorScan.h \
+  /opt/homebrew/include/eigen3/unsupported/Eigen/CXX11/src/Tensor/TensorShuffling.h \
+  /opt/homebrew/include/eigen3/unsupported/Eigen/CXX11/src/Tensor/TensorStorage.h \
+  /opt/homebrew/include/eigen3/unsupported/Eigen/CXX11/src/Tensor/TensorStriding.h \
+  /opt/homebrew/include/eigen3/unsupported/Eigen/CXX11/src/Tensor/TensorTrace.h \
+  /opt/homebrew/include/eigen3/unsupported/Eigen/CXX11/src/Tensor/TensorTraits.h \
+  /opt/homebrew/include/eigen3/unsupported/Eigen/CXX11/src/Tensor/TensorUInt128.h \
+  /opt/homebrew/include/eigen3/unsupported/Eigen/CXX11/src/Tensor/TensorVolumePatch.h \
+  /opt/homebrew/include/eigen3/unsupported/Eigen/CXX11/src/util/CXX11Meta.h \
+  /opt/homebrew/include/eigen3/unsupported/Eigen/CXX11/src/util/CXX11Workarounds.h \
+  /opt/homebrew/include/eigen3/unsupported/Eigen/CXX11/src/util/EmulateArray.h \
+  /opt/homebrew/include/eigen3/unsupported/Eigen/CXX11/src/util/MaxSizeVector.h
 
+
+/opt/homebrew/include/eigen3/unsupported/Eigen/CXX11/src/util/MaxSizeVector.h:
+
+/opt/homebrew/include/eigen3/unsupported/Eigen/CXX11/src/util/EmulateArray.h:
+
+/opt/homebrew/include/eigen3/unsupported/Eigen/CXX11/src/Tensor/TensorVolumePatch.h:
+
+/opt/homebrew/include/eigen3/unsupported/Eigen/CXX11/src/Tensor/TensorUInt128.h:
+
+/opt/homebrew/include/eigen3/unsupported/Eigen/CXX11/src/Tensor/TensorTraits.h:
+
+/opt/homebrew/include/eigen3/unsupported/Eigen/CXX11/src/Tensor/TensorTrace.h:
+
+/opt/homebrew/include/eigen3/unsupported/Eigen/CXX11/src/Tensor/TensorStriding.h:
+
+/opt/homebrew/include/eigen3/unsupported/Eigen/CXX11/src/Tensor/TensorScan.h:
+
+/opt/homebrew/include/eigen3/unsupported/Eigen/CXX11/src/Tensor/TensorRef.h:
+
+/opt/homebrew/include/eigen3/unsupported/Eigen/CXX11/src/Tensor/TensorRandom.h:
+
+/opt/homebrew/include/eigen3/unsupported/Eigen/CXX11/src/Tensor/TensorPadding.h:
+
+/opt/homebrew/include/eigen3/unsupported/Eigen/CXX11/src/Tensor/TensorMorphing.h:
+
+/opt/homebrew/include/eigen3/unsupported/Eigen/CXX11/src/Tensor/TensorMeta.h:
+
+/opt/homebrew/include/eigen3/unsupported/Eigen/CXX11/src/Tensor/TensorMap.h:
+
+/opt/homebrew/include/eigen3/unsupported/Eigen/CXX11/src/Tensor/TensorInitializer.h:
+
+/opt/homebrew/include/eigen3/unsupported/Eigen/CXX11/src/Tensor/TensorIndexList.h:
+
+/opt/homebrew/include/eigen3/unsupported/Eigen/CXX11/src/Tensor/TensorImagePatch.h:
+
+/opt/homebrew/include/eigen3/unsupported/Eigen/CXX11/src/Tensor/TensorIO.h:
+
+/opt/homebrew/include/eigen3/unsupported/Eigen/CXX11/src/Tensor/TensorGenerator.h:
+
+/opt/homebrew/include/eigen3/unsupported/Eigen/CXX11/src/Tensor/TensorFunctors.h:
+
+/opt/homebrew/include/eigen3/unsupported/Eigen/CXX11/src/Tensor/TensorForwardDeclarations.h:
+
+/opt/homebrew/include/eigen3/unsupported/Eigen/CXX11/src/Tensor/TensorForcedEval.h:
+
+/opt/homebrew/include/eigen3/unsupported/Eigen/CXX11/src/Tensor/TensorFixedSize.h:
+
+/opt/homebrew/include/eigen3/unsupported/Eigen/CXX11/src/util/CXX11Meta.h:
+
+/opt/homebrew/include/eigen3/unsupported/Eigen/CXX11/src/Tensor/TensorFFT.h:
+
+/opt/homebrew/include/eigen3/unsupported/Eigen/CXX11/src/Tensor/TensorExpr.h:
+
+/opt/homebrew/include/eigen3/unsupported/Eigen/CXX11/src/Tensor/TensorMacros.h:
+
+/opt/homebrew/include/eigen3/unsupported/Eigen/CXX11/src/Tensor/TensorEvaluator.h:
+
+/opt/homebrew/include/eigen3/unsupported/Eigen/CXX11/src/Tensor/TensorDeviceSycl.h:
+
+/opt/homebrew/include/eigen3/unsupported/Eigen/CXX11/src/Tensor/TensorDeviceGpu.h:
+
+/opt/homebrew/include/eigen3/unsupported/Eigen/CXX11/src/Tensor/TensorDeviceDefault.h:
+
+/opt/homebrew/include/eigen3/unsupported/Eigen/CXX11/src/Tensor/TensorDevice.h:
+
+/opt/homebrew/include/eigen3/unsupported/Eigen/CXX11/src/Tensor/TensorCustomOp.h:
+
+/opt/homebrew/include/eigen3/unsupported/Eigen/CXX11/src/Tensor/TensorConvolution.h:
+
+/opt/homebrew/include/eigen3/unsupported/Eigen/CXX11/src/Tensor/TensorConversion.h:
+
+/opt/homebrew/include/eigen3/unsupported/Eigen/CXX11/src/Tensor/TensorContractionMapper.h:
+
+/opt/homebrew/include/eigen3/unsupported/Eigen/CXX11/src/Tensor/TensorContractionGpu.h:
+
+/opt/homebrew/include/eigen3/unsupported/Eigen/CXX11/src/Tensor/TensorContractionBlocking.h:
+
+/opt/homebrew/include/eigen3/unsupported/Eigen/CXX11/src/Tensor/TensorContraction.h:
+
+/opt/homebrew/include/eigen3/unsupported/Eigen/CXX11/src/Tensor/TensorConcatenation.h:
+
+/opt/homebrew/include/eigen3/unsupported/Eigen/CXX11/src/Tensor/TensorBlock.h:
+
+/opt/homebrew/include/eigen3/unsupported/Eigen/CXX11/src/Tensor/TensorBase.h:
+
+/opt/homebrew/include/eigen3/unsupported/Eigen/CXX11/src/Tensor/TensorAssign.h:
+
+/opt/homebrew/include/eigen3/unsupported/Eigen/CXX11/src/Tensor/Tensor.h:
+
+/opt/homebrew/include/eigen3/unsupported/Eigen/CXX11/Tensor:
+
+/opt/homebrew/include/eigen3/unsupported/Eigen/src/SpecialFunctions/arch/NEON/SpecialFunctions.h:
+
+/opt/homebrew/include/eigen3/unsupported/Eigen/src/SpecialFunctions/arch/NEON/BesselFunctions.h:
+
+/opt/homebrew/include/eigen3/unsupported/Eigen/src/SpecialFunctions/SpecialFunctionsImpl.h:
+
+/opt/homebrew/include/eigen3/unsupported/Eigen/src/SpecialFunctions/SpecialFunctionsBFloat16.h:
+
+/opt/homebrew/include/eigen3/unsupported/Eigen/src/SpecialFunctions/BesselFunctionsImpl.h:
+
+/opt/homebrew/include/eigen3/unsupported/Eigen/src/SpecialFunctions/BesselFunctionsFunctors.h:
+
+/opt/homebrew/include/eigen3/unsupported/Eigen/CXX11/src/Tensor/TensorBroadcasting.h:
+
+/opt/homebrew/include/eigen3/unsupported/Eigen/src/SpecialFunctions/BesselFunctionsBFloat16.h:
+
+/opt/homebrew/include/eigen3/unsupported/Eigen/src/SpecialFunctions/BesselFunctionsArrayAPI.h:
+
+/opt/homebrew/include/eigen3/unsupported/Eigen/SpecialFunctions:
 
 /opt/homebrew/include/eigen3/Eigen/src/misc/RealSvd2x2.h:
 
@@ -1105,6 +1369,8 @@ inference/CMakeFiles/main.dir/main.cpp.o: /Users/ulrikisdahl/cplusplus/NeuralNet
 
 /opt/homebrew/include/eigen3/Eigen/src/Eigenvalues/GeneralizedEigenSolver.h:
 
+/opt/homebrew/include/eigen3/unsupported/Eigen/src/SpecialFunctions/SpecialFunctionsArrayAPI.h:
+
 /opt/homebrew/include/eigen3/Eigen/src/Eigenvalues/ComplexEigenSolver.h:
 
 /opt/homebrew/include/eigen3/Eigen/src/Eigenvalues/RealQZ.h:
@@ -1122,8 +1388,6 @@ inference/CMakeFiles/main.dir/main.cpp.o: /Users/ulrikisdahl/cplusplus/NeuralNet
 /opt/homebrew/include/eigen3/Eigen/src/Core/util/IndexedViewHelper.h:
 
 /opt/homebrew/include/eigen3/Eigen/src/Core/util/ForwardDeclarations.h:
-
-/opt/homebrew/include/eigen3/Eigen/src/Core/util/DisableStupidWarnings.h:
 
 /opt/homebrew/include/eigen3/Eigen/src/Core/util/Constants.h:
 
@@ -1163,6 +1427,8 @@ inference/CMakeFiles/main.dir/main.cpp.o: /Users/ulrikisdahl/cplusplus/NeuralNet
 
 /opt/homebrew/include/eigen3/Eigen/src/Core/arch/Default/Half.h:
 
+/opt/homebrew/include/eigen3/unsupported/Eigen/CXX11/src/Tensor/TensorReduction.h:
+
 /opt/homebrew/include/eigen3/Eigen/src/Core/arch/Default/ConjHelper.h:
 
 /opt/homebrew/include/eigen3/Eigen/src/Core/VectorBlock.h:
@@ -1174,8 +1440,6 @@ inference/CMakeFiles/main.dir/main.cpp.o: /Users/ulrikisdahl/cplusplus/NeuralNet
 /opt/homebrew/include/eigen3/Eigen/src/Core/SolverBase.h:
 
 /opt/homebrew/include/eigen3/Eigen/src/Core/SolveTriangular.h:
-
-/opt/homebrew/include/eigen3/Eigen/src/Core/Solve.h:
 
 /opt/homebrew/include/eigen3/Eigen/src/Core/SelfCwiseBinaryOp.h:
 
@@ -1299,6 +1563,8 @@ inference/CMakeFiles/main.dir/main.cpp.o: /Users/ulrikisdahl/cplusplus/NeuralNet
 
 /opt/homebrew/Cellar/opencv/4.8.1_1/include/opencv4/opencv2/objdetect/aruco_board.hpp:
 
+/opt/homebrew/include/eigen3/unsupported/Eigen/CXX11/src/Tensor/TensorEvalTo.h:
+
 /opt/homebrew/Cellar/opencv/4.8.1_1/include/opencv4/opencv2/objdetect.hpp:
 
 /opt/homebrew/Cellar/opencv/4.8.1_1/include/opencv4/opencv2/ml/ml.inl.hpp:
@@ -1341,21 +1607,53 @@ inference/CMakeFiles/main.dir/main.cpp.o: /Users/ulrikisdahl/cplusplus/NeuralNet
 
 /opt/homebrew/Cellar/opencv/4.8.1_1/include/opencv4/opencv2/flann/defines.h:
 
+/opt/homebrew/include/eigen3/unsupported/Eigen/CXX11/src/Tensor/TensorDimensions.h:
+
 /opt/homebrew/Cellar/opencv/4.8.1_1/include/opencv4/opencv2/flann/config.h:
+
+/opt/homebrew/include/eigen3/Eigen/src/Core/DenseBase.h:
+
+/opt/homebrew/Cellar/opencv/4.8.1_1/include/opencv4/opencv2/flann/composite_index.h:
 
 /opt/homebrew/include/eigen3/Eigen/src/Core/VectorwiseOp.h:
 
 /opt/homebrew/Cellar/opencv/4.8.1_1/include/opencv4/opencv2/flann/autotuned_index.h:
 
+/opt/homebrew/Cellar/opencv/4.8.1_1/include/opencv4/opencv2/flann/any.h:
+
+/opt/homebrew/Cellar/opencv/4.8.1_1/include/opencv4/opencv2/flann/all_indices.h:
+
 /opt/homebrew/Cellar/opencv/4.8.1_1/include/opencv4/opencv2/flann.hpp:
 
 /opt/homebrew/Cellar/opencv/4.8.1_1/include/opencv4/opencv2/dnn/utils/inference_engine.hpp:
 
+/opt/homebrew/include/eigen3/Eigen/src/QR/ColPivHouseholderQR.h:
+
+/opt/homebrew/include/eigen3/Eigen/src/Geometry/EulerAngles.h:
+
+/opt/homebrew/Cellar/opencv/4.8.1_1/include/opencv4/opencv2/dnn/dnn.inl.hpp:
+
+/opt/homebrew/Cellar/opencv/4.8.1_1/include/opencv4/opencv2/dnn/dnn.hpp:
+
 /opt/homebrew/Cellar/opencv/4.8.1_1/include/opencv4/opencv2/dnn/dict.hpp:
+
+/opt/homebrew/Cellar/opencv/4.8.1_1/include/opencv4/opencv2/dnn/version.hpp:
+
+/opt/homebrew/include/eigen3/Eigen/src/Core/PartialReduxEvaluator.h:
+
+/opt/homebrew/Cellar/opencv/4.8.1_1/include/opencv4/opencv2/dnn.hpp:
+
+/opt/homebrew/Cellar/opencv/4.8.1_1/include/opencv4/opencv2/core/vsx_utils.hpp:
+
+/opt/homebrew/Cellar/opencv/4.8.1_1/include/opencv4/opencv2/core/version.hpp:
 
 /opt/homebrew/Cellar/opencv/4.8.1_1/include/opencv4/opencv2/core/types.hpp:
 
 /opt/homebrew/Cellar/opencv/4.8.1_1/include/opencv4/opencv2/core/traits.hpp:
+
+/opt/homebrew/Cellar/opencv/4.8.1_1/include/opencv4/opencv2/videoio.hpp:
+
+/opt/homebrew/Cellar/opencv/4.8.1_1/include/opencv4/opencv2/core/saturate.hpp:
 
 /opt/homebrew/Cellar/opencv/4.8.1_1/include/opencv4/opencv2/core/persistence.hpp:
 
@@ -1365,27 +1663,43 @@ inference/CMakeFiles/main.dir/main.cpp.o: /Users/ulrikisdahl/cplusplus/NeuralNet
 
 /opt/homebrew/Cellar/opencv/4.8.1_1/include/opencv4/opencv2/core/optim.hpp:
 
+/opt/homebrew/Cellar/opencv/4.8.1_1/include/opencv4/opencv2/core/operations.hpp:
+
 /opt/homebrew/Cellar/opencv/4.8.1_1/include/opencv4/opencv2/core/neon_utils.hpp:
+
+/opt/homebrew/Cellar/opencv/4.8.1_1/include/opencv4/opencv2/core/mat.inl.hpp:
+
+/opt/homebrew/Cellar/opencv/4.8.1_1/include/opencv4/opencv2/core/hal/interface.h:
 
 /opt/homebrew/Cellar/opencv/4.8.1_1/include/opencv4/opencv2/core/cvstd_wrapper.hpp:
 
+/opt/homebrew/Cellar/opencv/4.8.1_1/include/opencv4/opencv2/core/cvstd.inl.hpp:
+
 /opt/homebrew/Cellar/opencv/4.8.1_1/include/opencv4/opencv2/core/cvstd.hpp:
+
+/opt/homebrew/Cellar/opencv/4.8.1_1/include/opencv4/opencv2/core/cuda_types.hpp:
 
 /opt/homebrew/include/eigen3/Eigen/src/Core/BooleanRedux.h:
 
 /opt/homebrew/Cellar/opencv/4.8.1_1/include/opencv4/opencv2/core/cuda.inl.hpp:
 
+/opt/homebrew/Cellar/opencv/4.8.1_1/include/opencv4/opencv2/core/bufferpool.hpp:
+
 /opt/homebrew/Cellar/opencv/4.8.1_1/include/opencv4/opencv2/core/async.hpp:
+
+/opt/homebrew/Cellar/opencv/4.8.1_1/include/opencv4/opencv2/core/affine.hpp:
 
 /opt/homebrew/Cellar/opencv/4.8.1_1/include/opencv4/opencv2/imgproc/segmentation.hpp:
 
-/Library/Developer/CommandLineTools/SDKs/MacOSX13.3.sdk/usr/include/c++/v1/__algorithm/sift_down.h:
+/Users/ulrikisdahl/cplusplus/NeuralNetwork/modules/src/modules/model.hpp:
 
-/Users/ulrikisdahl/cplusplus/NeuralNetwork/modules/src/modules/input.hpp:
+/Users/ulrikisdahl/cplusplus/NeuralNetwork/modules/src/modules/activations.hpp:
 
 /opt/homebrew/Cellar/opencv/4.8.1_1/include/opencv4/opencv2/features2d.hpp:
 
 /Library/Developer/CommandLineTools/usr/lib/clang/14.0.3/include/stddef.h:
+
+/opt/homebrew/include/eigen3/unsupported/Eigen/CXX11/src/Tensor/TensorStorage.h:
 
 /opt/homebrew/include/eigen3/Eigen/src/Core/NumTraits.h:
 
@@ -1393,23 +1707,21 @@ inference/CMakeFiles/main.dir/main.cpp.o: /Users/ulrikisdahl/cplusplus/NeuralNet
 
 /Library/Developer/CommandLineTools/usr/lib/clang/14.0.3/include/limits.h:
 
-/Library/Developer/CommandLineTools/SDKs/MacOSX13.3.sdk/usr/include/c++/v1/__algorithm/min_max_result.h:
+/Library/Developer/CommandLineTools/usr/lib/clang/14.0.3/include/float.h:
 
-/Library/Developer/CommandLineTools/SDKs/MacOSX13.3.sdk/usr/include/xlocale/_string.h:
+/Library/Developer/CommandLineTools/usr/lib/clang/14.0.3/include/__stddef_max_align_t.h:
+
+/Library/Developer/CommandLineTools/SDKs/MacOSX13.3.sdk/usr/include/xlocale/_wctype.h:
+
+/Library/Developer/CommandLineTools/SDKs/MacOSX13.3.sdk/usr/include/xlocale/_wchar.h:
+
+/Library/Developer/CommandLineTools/SDKs/MacOSX13.3.sdk/usr/include/xlocale/_time.h:
 
 /Library/Developer/CommandLineTools/SDKs/MacOSX13.3.sdk/usr/include/xlocale/_stdlib.h:
 
-/Library/Developer/CommandLineTools/SDKs/MacOSX13.3.sdk/usr/include/c++/v1/__algorithm/replace.h:
-
-/Library/Developer/CommandLineTools/SDKs/MacOSX13.3.sdk/usr/include/xlocale/_ctype.h:
+/Library/Developer/CommandLineTools/SDKs/MacOSX13.3.sdk/usr/include/xlocale/_stdio.h:
 
 /Library/Developer/CommandLineTools/SDKs/MacOSX13.3.sdk/usr/include/xlocale/__wctype.h:
-
-/opt/homebrew/include/eigen3/Eigen/Householder:
-
-/Library/Developer/CommandLineTools/SDKs/MacOSX13.3.sdk/usr/include/c++/v1/__algorithm/ranges_partial_sort.h:
-
-/Library/Developer/CommandLineTools/SDKs/MacOSX13.3.sdk/usr/include/wctype.h:
 
 /Library/Developer/CommandLineTools/SDKs/MacOSX13.3.sdk/usr/include/wchar.h:
 
@@ -1422,8 +1734,6 @@ inference/CMakeFiles/main.dir/main.cpp.o: /Users/ulrikisdahl/cplusplus/NeuralNet
 /opt/homebrew/Cellar/opencv/4.8.1_1/include/opencv4/opencv2/core/fast_math.hpp:
 
 /Library/Developer/CommandLineTools/SDKs/MacOSX13.3.sdk/usr/include/sys/stdio.h:
-
-/Library/Developer/CommandLineTools/SDKs/MacOSX13.3.sdk/usr/include/sys/_types/_wchar_t.h:
 
 /opt/homebrew/Cellar/opencv/4.8.1_1/include/opencv4/opencv2/flann/kdtree_index.h:
 
@@ -1461,8 +1771,6 @@ inference/CMakeFiles/main.dir/main.cpp.o: /Users/ulrikisdahl/cplusplus/NeuralNet
 
 /Library/Developer/CommandLineTools/SDKs/MacOSX13.3.sdk/usr/include/sys/_types/_key_t.h:
 
-/Library/Developer/CommandLineTools/SDKs/MacOSX13.3.sdk/usr/include/sys/_types/_int8_t.h:
-
 /Library/Developer/CommandLineTools/SDKs/MacOSX13.3.sdk/usr/include/sys/_types/_ino_t.h:
 
 /Library/Developer/CommandLineTools/SDKs/MacOSX13.3.sdk/usr/include/sys/_types/_in_addr_t.h:
@@ -1474,10 +1782,6 @@ inference/CMakeFiles/main.dir/main.cpp.o: /Users/ulrikisdahl/cplusplus/NeuralNet
 /Library/Developer/CommandLineTools/SDKs/MacOSX13.3.sdk/usr/include/sys/_types/_fsfilcnt_t.h:
 
 /Library/Developer/CommandLineTools/SDKs/MacOSX13.3.sdk/usr/include/sys/_types/_fsblkcnt_t.h:
-
-/Library/Developer/CommandLineTools/SDKs/MacOSX13.3.sdk/usr/include/c++/v1/__functional/binary_function.h:
-
-/opt/homebrew/Cellar/opencv/4.8.1_1/include/opencv4/opencv2/core/base.hpp:
 
 /opt/homebrew/include/eigen3/Eigen/src/Geometry/Hyperplane.h:
 
@@ -1494,12 +1798,6 @@ inference/CMakeFiles/main.dir/main.cpp.o: /Users/ulrikisdahl/cplusplus/NeuralNet
 /Library/Developer/CommandLineTools/SDKs/MacOSX13.3.sdk/usr/include/c++/v1/__algorithm/in_found_result.h:
 
 /Library/Developer/CommandLineTools/SDKs/MacOSX13.3.sdk/usr/include/sys/_types/_fd_copy.h:
-
-/Library/Developer/CommandLineTools/SDKs/MacOSX13.3.sdk/usr/include/sys/_pthread/_pthread_cond_t.h:
-
-/Library/Developer/CommandLineTools/SDKs/MacOSX13.3.sdk/usr/include/sys/_types/_sigaltstack.h:
-
-/Library/Developer/CommandLineTools/SDKs/MacOSX13.3.sdk/usr/include/sys/_types/_fd_clr.h:
 
 /Library/Developer/CommandLineTools/SDKs/MacOSX13.3.sdk/usr/include/sys/_types/_errno_t.h:
 
@@ -1521,8 +1819,6 @@ inference/CMakeFiles/main.dir/main.cpp.o: /Users/ulrikisdahl/cplusplus/NeuralNet
 
 /Library/Developer/CommandLineTools/SDKs/MacOSX13.3.sdk/usr/include/sys/_endian.h:
 
-/opt/homebrew/Cellar/opencv/4.8.1_1/include/opencv4/opencv2/core/cvstd.inl.hpp:
-
 /Library/Developer/CommandLineTools/SDKs/MacOSX13.3.sdk/usr/include/strings.h:
 
 /Library/Developer/CommandLineTools/SDKs/MacOSX13.3.sdk/usr/include/c++/v1/iterator:
@@ -1530,8 +1826,6 @@ inference/CMakeFiles/main.dir/main.cpp.o: /Users/ulrikisdahl/cplusplus/NeuralNet
 /Library/Developer/CommandLineTools/SDKs/MacOSX13.3.sdk/usr/include/sys/_types/_u_int.h:
 
 /Library/Developer/CommandLineTools/SDKs/MacOSX13.3.sdk/usr/include/stdlib.h:
-
-/Library/Developer/CommandLineTools/SDKs/MacOSX13.3.sdk/usr/include/stdio.h:
 
 /Library/Developer/CommandLineTools/SDKs/MacOSX13.3.sdk/usr/include/c++/v1/__concepts/equality_comparable.h:
 
@@ -1544,6 +1838,8 @@ inference/CMakeFiles/main.dir/main.cpp.o: /Users/ulrikisdahl/cplusplus/NeuralNet
 /Library/Developer/CommandLineTools/SDKs/MacOSX13.3.sdk/usr/include/c++/v1/bitset:
 
 /Library/Developer/CommandLineTools/SDKs/MacOSX13.3.sdk/usr/include/pthread.h:
+
+/opt/homebrew/include/eigen3/unsupported/Eigen/CXX11/src/Tensor/TensorReductionGpu.h:
 
 /opt/homebrew/include/eigen3/Eigen/src/Eigenvalues/SelfAdjointEigenSolver.h:
 
@@ -1559,17 +1855,19 @@ inference/CMakeFiles/main.dir/main.cpp.o: /Users/ulrikisdahl/cplusplus/NeuralNet
 
 /Library/Developer/CommandLineTools/SDKs/MacOSX13.3.sdk/usr/include/libkern/_OSByteOrder.h:
 
-/Library/Developer/CommandLineTools/SDKs/MacOSX13.3.sdk/usr/include/c++/v1/wctype.h:
+/Library/Developer/CommandLineTools/SDKs/MacOSX13.3.sdk/usr/include/c++/v1/__type_traits/is_copy_assignable.h:
 
-/Library/Developer/CommandLineTools/usr/lib/clang/14.0.3/include/__stddef_max_align_t.h:
+/Library/Developer/CommandLineTools/SDKs/MacOSX13.3.sdk/usr/include/c++/v1/queue:
+
+/Library/Developer/CommandLineTools/SDKs/MacOSX13.3.sdk/usr/include/dirent.h:
+
+/Library/Developer/CommandLineTools/SDKs/MacOSX13.3.sdk/usr/include/c++/v1/wctype.h:
 
 /Library/Developer/CommandLineTools/SDKs/MacOSX13.3.sdk/usr/include/c++/v1/version:
 
 /Library/Developer/CommandLineTools/SDKs/MacOSX13.3.sdk/usr/include/c++/v1/vector:
 
-/Library/Developer/CommandLineTools/SDKs/MacOSX13.3.sdk/usr/include/sys/_types/_ino64_t.h:
-
-/Library/Developer/CommandLineTools/SDKs/MacOSX13.3.sdk/usr/include/c++/v1/utility:
+/Library/Developer/CommandLineTools/SDKs/MacOSX13.3.sdk/usr/include/c++/v1/thread:
 
 /Library/Developer/CommandLineTools/SDKs/MacOSX13.3.sdk/usr/include/c++/v1/system_error:
 
@@ -1595,21 +1893,21 @@ inference/CMakeFiles/main.dir/main.cpp.o: /Users/ulrikisdahl/cplusplus/NeuralNet
 
 /Library/Developer/CommandLineTools/SDKs/MacOSX13.3.sdk/usr/include/c++/v1/stdint.h:
 
-/Library/Developer/CommandLineTools/SDKs/MacOSX13.3.sdk/usr/include/c++/v1/__type_traits/is_copy_assignable.h:
+/Library/Developer/CommandLineTools/SDKs/MacOSX13.3.sdk/usr/include/c++/v1/__algorithm/ranges_replace_copy_if.h:
 
-/Library/Developer/CommandLineTools/SDKs/MacOSX13.3.sdk/usr/include/c++/v1/queue:
+/Library/Developer/CommandLineTools/SDKs/MacOSX13.3.sdk/usr/include/c++/v1/__algorithm/ranges_search_n.h:
+
+/Library/Developer/CommandLineTools/SDKs/MacOSX13.3.sdk/usr/include/c++/v1/random:
 
 /Library/Developer/CommandLineTools/SDKs/MacOSX13.3.sdk/usr/include/sys/_pthread/_pthread_mutexattr_t.h:
 
 /Library/Developer/CommandLineTools/SDKs/MacOSX13.3.sdk/usr/include/c++/v1/optional:
 
+/Library/Developer/CommandLineTools/SDKs/MacOSX13.3.sdk/usr/include/c++/v1/numeric:
+
 /opt/homebrew/include/eigen3/Eigen/Core:
 
 /Library/Developer/CommandLineTools/SDKs/MacOSX13.3.sdk/usr/include/c++/v1/new:
-
-/Library/Developer/CommandLineTools/SDKs/MacOSX13.3.sdk/usr/include/mach/machine/_structs.h:
-
-/opt/homebrew/Cellar/opencv/4.8.1_1/include/opencv4/opencv2/core/check.hpp:
 
 /Library/Developer/CommandLineTools/SDKs/MacOSX13.3.sdk/usr/include/c++/v1/__type_traits/negation.h:
 
@@ -1631,11 +1929,15 @@ inference/CMakeFiles/main.dir/main.cpp.o: /Users/ulrikisdahl/cplusplus/NeuralNet
 
 /Library/Developer/CommandLineTools/SDKs/MacOSX13.3.sdk/usr/include/c++/v1/__functional/binder1st.h:
 
+/Library/Developer/CommandLineTools/SDKs/MacOSX13.3.sdk/usr/include/c++/v1/__random/gamma_distribution.h:
+
 /Library/Developer/CommandLineTools/SDKs/MacOSX13.3.sdk/usr/include/machine/endian.h:
 
 /Library/Developer/CommandLineTools/SDKs/MacOSX13.3.sdk/usr/include/c++/v1/ios:
 
 /Library/Developer/CommandLineTools/SDKs/MacOSX13.3.sdk/usr/include/c++/v1/float.h:
+
+/Library/Developer/CommandLineTools/SDKs/MacOSX13.3.sdk/usr/include/c++/v1/filesystem:
 
 /Library/Developer/CommandLineTools/SDKs/MacOSX13.3.sdk/usr/include/c++/v1/cwctype:
 
@@ -1663,6 +1965,8 @@ inference/CMakeFiles/main.dir/main.cpp.o: /Users/ulrikisdahl/cplusplus/NeuralNet
 
 /Library/Developer/CommandLineTools/SDKs/MacOSX13.3.sdk/usr/include/c++/v1/__algorithm/ranges_reverse.h:
 
+/Library/Developer/CommandLineTools/SDKs/MacOSX13.3.sdk/usr/include/c++/v1/__filesystem/operations.h:
+
 /Library/Developer/CommandLineTools/SDKs/MacOSX13.3.sdk/usr/include/c++/v1/complex:
 
 /Library/Developer/CommandLineTools/SDKs/MacOSX13.3.sdk/usr/include/c++/v1/cmath:
@@ -1677,9 +1981,9 @@ inference/CMakeFiles/main.dir/main.cpp.o: /Users/ulrikisdahl/cplusplus/NeuralNet
 
 /Library/Developer/CommandLineTools/SDKs/MacOSX13.3.sdk/usr/include/c++/v1/cctype:
 
-/Library/Developer/CommandLineTools/SDKs/MacOSX13.3.sdk/usr/include/c++/v1/__functional/binary_negate.h:
-
 /opt/homebrew/Cellar/opencv/4.8.1_1/include/opencv4/opencv2/core/matx.hpp:
+
+/Library/Developer/CommandLineTools/SDKs/MacOSX13.3.sdk/usr/include/c++/v1/__functional/binary_negate.h:
 
 /Library/Developer/CommandLineTools/SDKs/MacOSX13.3.sdk/usr/include/math.h:
 
@@ -1689,21 +1993,9 @@ inference/CMakeFiles/main.dir/main.cpp.o: /Users/ulrikisdahl/cplusplus/NeuralNet
 
 /Library/Developer/CommandLineTools/SDKs/MacOSX13.3.sdk/usr/include/c++/v1/cassert:
 
-/opt/homebrew/include/eigen3/Eigen/src/Core/arch/Default/BFloat16.h:
-
-/Library/Developer/CommandLineTools/SDKs/MacOSX13.3.sdk/usr/include/sys/errno.h:
-
-/opt/homebrew/Cellar/opencv/4.8.1_1/include/opencv4/opencv2/dnn/layer.hpp:
-
-/Library/Developer/CommandLineTools/SDKs/MacOSX13.3.sdk/usr/include/c++/v1/bit:
-
 /Library/Developer/CommandLineTools/SDKs/MacOSX13.3.sdk/usr/include/c++/v1/__variant/monostate.h:
 
 /Library/Developer/CommandLineTools/SDKs/MacOSX13.3.sdk/usr/include/c++/v1/__utility/to_underlying.h:
-
-/Library/Developer/CommandLineTools/SDKs/MacOSX13.3.sdk/usr/include/c++/v1/__algorithm/ranges_find_if_not.h:
-
-/Library/Developer/CommandLineTools/SDKs/MacOSX13.3.sdk/usr/include/c++/v1/__utility/swap.h:
 
 /Library/Developer/CommandLineTools/SDKs/MacOSX13.3.sdk/usr/include/c++/v1/__algorithm/ranges_set_difference.h:
 
@@ -1737,27 +2029,23 @@ inference/CMakeFiles/main.dir/main.cpp.o: /Users/ulrikisdahl/cplusplus/NeuralNet
 
 /Library/Developer/CommandLineTools/SDKs/MacOSX13.3.sdk/usr/include/c++/v1/__type_traits/underlying_type.h:
 
-/Library/Developer/CommandLineTools/SDKs/MacOSX13.3.sdk/usr/include/c++/v1/__type_traits/is_empty.h:
-
-/Library/Developer/CommandLineTools/usr/lib/clang/14.0.3/include/arm_neon.h:
-
 /Library/Developer/CommandLineTools/SDKs/MacOSX13.3.sdk/usr/include/c++/v1/__type_traits/remove_volatile.h:
-
-/opt/homebrew/Cellar/opencv/4.8.1_1/include/opencv4/opencv2/core/cuda_types.hpp:
 
 /Library/Developer/CommandLineTools/SDKs/MacOSX13.3.sdk/usr/include/c++/v1/__memory/raw_storage_iterator.h:
 
 /Library/Developer/CommandLineTools/SDKs/MacOSX13.3.sdk/usr/include/c++/v1/__type_traits/remove_reference.h:
 
-/Library/Developer/CommandLineTools/SDKs/MacOSX13.3.sdk/usr/include/c++/v1/__algorithm/set_difference.h:
-
-/Library/Developer/CommandLineTools/SDKs/MacOSX13.3.sdk/usr/include/c++/v1/__compare/ordering.h:
-
-/Library/Developer/CommandLineTools/usr/lib/clang/14.0.3/include/arm_fp16.h:
+/Library/Developer/CommandLineTools/SDKs/MacOSX13.3.sdk/usr/include/c++/v1/__filesystem/file_status.h:
 
 /Library/Developer/CommandLineTools/SDKs/MacOSX13.3.sdk/usr/include/c++/v1/__type_traits/remove_pointer.h:
 
 /Library/Developer/CommandLineTools/SDKs/MacOSX13.3.sdk/usr/include/c++/v1/__type_traits/remove_extent.h:
+
+/Library/Developer/CommandLineTools/SDKs/MacOSX13.3.sdk/usr/include/sys/_types/_sigaltstack.h:
+
+/Library/Developer/CommandLineTools/SDKs/MacOSX13.3.sdk/usr/include/sys/_pthread/_pthread_cond_t.h:
+
+/opt/homebrew/include/eigen3/unsupported/Eigen/CXX11/src/Tensor/TensorShuffling.h:
 
 /Library/Developer/CommandLineTools/SDKs/MacOSX13.3.sdk/usr/include/c++/v1/__type_traits/remove_all_extents.h:
 
@@ -1770,6 +2058,8 @@ inference/CMakeFiles/main.dir/main.cpp.o: /Users/ulrikisdahl/cplusplus/NeuralNet
 /Library/Developer/CommandLineTools/SDKs/MacOSX13.3.sdk/usr/include/c++/v1/__type_traits/type_identity.h:
 
 /Library/Developer/CommandLineTools/SDKs/MacOSX13.3.sdk/usr/include/c++/v1/__type_traits/is_volatile.h:
+
+/Library/Developer/CommandLineTools/SDKs/MacOSX13.3.sdk/usr/include/c++/v1/__filesystem/u8path.h:
 
 /Library/Developer/CommandLineTools/SDKs/MacOSX13.3.sdk/usr/include/c++/v1/cstdint:
 
@@ -1809,31 +2099,17 @@ inference/CMakeFiles/main.dir/main.cpp.o: /Users/ulrikisdahl/cplusplus/NeuralNet
 
 /Library/Developer/CommandLineTools/SDKs/MacOSX13.3.sdk/usr/include/c++/v1/__type_traits/is_trivially_assignable.h:
 
-/opt/homebrew/include/eigen3/Eigen/src/Core/CommaInitializer.h:
-
-/Library/Developer/CommandLineTools/SDKs/MacOSX13.3.sdk/usr/include/sys/_types/_fd_isset.h:
-
-/Library/Developer/CommandLineTools/SDKs/MacOSX13.3.sdk/usr/include/c++/v1/__type_traits/is_standard_layout.h:
-
 /Library/Developer/CommandLineTools/SDKs/MacOSX13.3.sdk/usr/include/c++/v1/__type_traits/is_signed_integer.h:
 
 /Library/Developer/CommandLineTools/SDKs/MacOSX13.3.sdk/usr/include/c++/v1/__type_traits/is_signed.h:
 
-/Library/Developer/CommandLineTools/SDKs/MacOSX13.3.sdk/usr/include/sys/_pthread/_pthread_rwlock_t.h:
-
-/Library/Developer/CommandLineTools/SDKs/MacOSX13.3.sdk/usr/include/c++/v1/__type_traits/common_reference.h:
-
-/Library/Developer/CommandLineTools/SDKs/MacOSX13.3.sdk/usr/include/c++/v1/variant:
-
-/Library/Developer/CommandLineTools/SDKs/MacOSX13.3.sdk/usr/include/c++/v1/__type_traits/is_same.h:
-
 /Library/Developer/CommandLineTools/SDKs/MacOSX13.3.sdk/usr/include/c++/v1/__algorithm/adjacent_find.h:
+
+/Library/Developer/CommandLineTools/SDKs/MacOSX13.3.sdk/usr/include/c++/v1/__numeric/gcd_lcm.h:
 
 /Library/Developer/CommandLineTools/SDKs/MacOSX13.3.sdk/usr/include/c++/v1/__type_traits/is_reference_wrapper.h:
 
-/opt/homebrew/Cellar/opencv/4.8.1_1/include/opencv4/opencv2/flann/nn_index.h:
-
-/Library/Developer/CommandLineTools/SDKs/MacOSX13.3.sdk/usr/include/xlocale.h:
+/opt/homebrew/include/eigen3/unsupported/Eigen/CXX11/src/Tensor/TensorIntDiv.h:
 
 /opt/homebrew/include/eigen3/Eigen/src/Cholesky/LDLT.h:
 
@@ -1855,12 +2131,6 @@ inference/CMakeFiles/main.dir/main.cpp.o: /Users/ulrikisdahl/cplusplus/NeuralNet
 
 /Library/Developer/CommandLineTools/SDKs/MacOSX13.3.sdk/usr/include/c++/v1/__type_traits/is_move_constructible.h:
 
-/Library/Developer/CommandLineTools/SDKs/MacOSX13.3.sdk/usr/include/c++/v1/__algorithm/ranges_minmax.h:
-
-/Library/Developer/CommandLineTools/SDKs/MacOSX13.3.sdk/usr/include/c++/v1/__iterator/indirectly_comparable.h:
-
-/Library/Developer/CommandLineTools/SDKs/MacOSX13.3.sdk/usr/include/c++/v1/__type_traits/is_move_assignable.h:
-
 /Library/Developer/CommandLineTools/SDKs/MacOSX13.3.sdk/usr/include/c++/v1/__algorithm/partition_copy.h:
 
 /Library/Developer/CommandLineTools/SDKs/MacOSX13.3.sdk/usr/include/ctype.h:
@@ -1870,6 +2140,8 @@ inference/CMakeFiles/main.dir/main.cpp.o: /Users/ulrikisdahl/cplusplus/NeuralNet
 /Library/Developer/CommandLineTools/SDKs/MacOSX13.3.sdk/usr/include/c++/v1/__type_traits/is_member_pointer.h:
 
 /Library/Developer/CommandLineTools/SDKs/MacOSX13.3.sdk/usr/include/c++/v1/__concepts/class_or_enum.h:
+
+/Library/Developer/CommandLineTools/SDKs/MacOSX13.3.sdk/usr/include/c++/v1/__random/linear_congruential_engine.h:
 
 /Library/Developer/CommandLineTools/SDKs/MacOSX13.3.sdk/usr/include/sys/_types/_ssize_t.h:
 
@@ -1894,6 +2166,8 @@ inference/CMakeFiles/main.dir/main.cpp.o: /Users/ulrikisdahl/cplusplus/NeuralNet
 /Library/Developer/CommandLineTools/SDKs/MacOSX13.3.sdk/usr/include/sys/_types/_size_t.h:
 
 /Library/Developer/CommandLineTools/SDKs/MacOSX13.3.sdk/usr/include/c++/v1/__type_traits/is_core_convertible.h:
+
+/Library/Developer/CommandLineTools/SDKs/MacOSX13.3.sdk/usr/include/c++/v1/__random/extreme_value_distribution.h:
 
 /Library/Developer/CommandLineTools/SDKs/MacOSX13.3.sdk/usr/include/c++/v1/__type_traits/is_convertible.h:
 
@@ -1945,14 +2219,6 @@ inference/CMakeFiles/main.dir/main.cpp.o: /Users/ulrikisdahl/cplusplus/NeuralNet
 
 /Library/Developer/CommandLineTools/SDKs/MacOSX13.3.sdk/usr/include/c++/v1/__type_traits/extent.h:
 
-/Library/Developer/CommandLineTools/SDKs/MacOSX13.3.sdk/usr/include/c++/v1/__type_traits/common_type.h:
-
-/Library/Developer/CommandLineTools/SDKs/MacOSX13.3.sdk/usr/include/limits.h:
-
-/Library/Developer/CommandLineTools/SDKs/MacOSX13.3.sdk/usr/include/c++/v1/__type_traits/decay.h:
-
-/opt/homebrew/Cellar/opencv/4.8.1_1/include/opencv4/opencv2/core/mat.inl.hpp:
-
 /Library/Developer/CommandLineTools/SDKs/MacOSX13.3.sdk/usr/include/c++/v1/__bit_reference:
 
 /Library/Developer/CommandLineTools/SDKs/MacOSX13.3.sdk/usr/include/c++/v1/__type_traits/is_nothrow_assignable.h:
@@ -1960,6 +2226,12 @@ inference/CMakeFiles/main.dir/main.cpp.o: /Users/ulrikisdahl/cplusplus/NeuralNet
 /Library/Developer/CommandLineTools/SDKs/MacOSX13.3.sdk/usr/include/c++/v1/__algorithm/transform.h:
 
 /Library/Developer/CommandLineTools/SDKs/MacOSX13.3.sdk/usr/include/c++/v1/__type_traits/copy_cv.h:
+
+/Library/Developer/CommandLineTools/SDKs/MacOSX13.3.sdk/usr/include/sys/_pthread/_pthread_rwlock_t.h:
+
+/Library/Developer/CommandLineTools/SDKs/MacOSX13.3.sdk/usr/include/c++/v1/variant:
+
+/Library/Developer/CommandLineTools/SDKs/MacOSX13.3.sdk/usr/include/c++/v1/__type_traits/common_reference.h:
 
 /opt/homebrew/Cellar/opencv/4.8.1_1/include/opencv4/opencv2/objdetect/barcode.hpp:
 
@@ -1975,9 +2247,9 @@ inference/CMakeFiles/main.dir/main.cpp.o: /Users/ulrikisdahl/cplusplus/NeuralNet
 
 /Library/Developer/CommandLineTools/SDKs/MacOSX13.3.sdk/usr/include/c++/v1/__type_traits/aligned_storage.h:
 
-/Library/Developer/CommandLineTools/usr/lib/clang/14.0.3/include/float.h:
-
 /Library/Developer/CommandLineTools/SDKs/MacOSX13.3.sdk/usr/include/c++/v1/__algorithm/is_partitioned.h:
+
+/Library/Developer/CommandLineTools/SDKs/MacOSX13.3.sdk/usr/include/c++/v1/__filesystem/directory_entry.h:
 
 /Library/Developer/CommandLineTools/SDKs/MacOSX13.3.sdk/usr/include/c++/v1/chrono:
 
@@ -1987,7 +2259,11 @@ inference/CMakeFiles/main.dir/main.cpp.o: /Users/ulrikisdahl/cplusplus/NeuralNet
 
 /Library/Developer/CommandLineTools/SDKs/MacOSX13.3.sdk/usr/include/c++/v1/__type_traits/add_volatile.h:
 
+/opt/homebrew/include/eigen3/unsupported/Eigen/src/SpecialFunctions/BesselFunctionsPacketMath.h:
+
 /Library/Developer/CommandLineTools/SDKs/MacOSX13.3.sdk/usr/include/c++/v1/__type_traits/add_lvalue_reference.h:
+
+/opt/homebrew/include/eigen3/unsupported/Eigen/CXX11/src/Tensor/TensorPatch.h:
 
 /Library/Developer/CommandLineTools/SDKs/MacOSX13.3.sdk/usr/include/c++/v1/__algorithm/ranges_move_backward.h:
 
@@ -1999,41 +2275,109 @@ inference/CMakeFiles/main.dir/main.cpp.o: /Users/ulrikisdahl/cplusplus/NeuralNet
 
 /Library/Developer/CommandLineTools/SDKs/MacOSX13.3.sdk/usr/include/c++/v1/__type_traits/add_const.h:
 
-/Library/Developer/CommandLineTools/SDKs/MacOSX13.3.sdk/usr/include/c++/v1/__tuple:
-
 /Library/Developer/CommandLineTools/SDKs/MacOSX13.3.sdk/usr/include/c++/v1/__thread/timed_backoff_policy.h:
+
+/Library/Developer/CommandLineTools/SDKs/MacOSX13.3.sdk/usr/include/c++/v1/__random/exponential_distribution.h:
 
 /Library/Developer/CommandLineTools/SDKs/MacOSX13.3.sdk/usr/include/c++/v1/__thread/poll_with_backoff.h:
 
 /Library/Developer/CommandLineTools/SDKs/MacOSX13.3.sdk/usr/include/c++/v1/__utility/exchange.h:
 
+/Library/Developer/CommandLineTools/usr/lib/clang/14.0.3/include/arm_neon.h:
+
+/Library/Developer/CommandLineTools/SDKs/MacOSX13.3.sdk/usr/include/c++/v1/__type_traits/is_empty.h:
+
 /Library/Developer/CommandLineTools/SDKs/MacOSX13.3.sdk/usr/include/c++/v1/__ranges/view_interface.h:
+
+/Library/Developer/CommandLineTools/SDKs/MacOSX13.3.sdk/usr/include/c++/v1/__ranges/subrange.h:
+
+/Library/Developer/CommandLineTools/SDKs/MacOSX13.3.sdk/usr/include/c++/v1/__ranges/size.h:
 
 /Library/Developer/CommandLineTools/SDKs/MacOSX13.3.sdk/usr/include/c++/v1/map:
 
 /Library/Developer/CommandLineTools/SDKs/MacOSX13.3.sdk/usr/include/c++/v1/__ranges/enable_view.h:
 
-/Library/Developer/CommandLineTools/SDKs/MacOSX13.3.sdk/usr/include/c++/v1/__ranges/subrange.h:
-
-/opt/homebrew/Cellar/opencv/4.8.1_1/include/opencv4/opencv2/core/bufferpool.hpp:
-
-/Library/Developer/CommandLineTools/SDKs/MacOSX13.3.sdk/usr/include/c++/v1/__algorithm/ranges_sample.h:
-
-/opt/homebrew/include/eigen3/Eigen/src/Core/StlIterators.h:
-
-/Library/Developer/CommandLineTools/SDKs/MacOSX13.3.sdk/usr/include/c++/v1/__ranges/concepts.h:
+/Library/Developer/CommandLineTools/SDKs/MacOSX13.3.sdk/usr/include/c++/v1/__ranges/data.h:
 
 /Library/Developer/CommandLineTools/SDKs/MacOSX13.3.sdk/usr/include/c++/v1/__ranges/access.h:
 
+/opt/homebrew/include/eigen3/Eigen/src/Core/arch/Default/BFloat16.h:
+
+/Library/Developer/CommandLineTools/SDKs/MacOSX13.3.sdk/usr/include/sys/errno.h:
+
+/opt/homebrew/Cellar/opencv/4.8.1_1/include/opencv4/opencv2/dnn/layer.hpp:
+
+/Library/Developer/CommandLineTools/SDKs/MacOSX13.3.sdk/usr/include/c++/v1/bit:
+
+/Library/Developer/CommandLineTools/SDKs/MacOSX13.3.sdk/usr/include/arm/arch.h:
+
+/Library/Developer/CommandLineTools/SDKs/MacOSX13.3.sdk/usr/include/c++/v1/__random/weibull_distribution.h:
+
 /Library/Developer/CommandLineTools/SDKs/MacOSX13.3.sdk/usr/include/c++/v1/__random/uniform_random_bit_generator.h:
 
-/Library/Developer/CommandLineTools/SDKs/MacOSX13.3.sdk/usr/include/c++/v1/__algorithm/ranges_for_each_n.h:
+/Library/Developer/CommandLineTools/SDKs/MacOSX13.3.sdk/usr/include/c++/v1/__random/fisher_f_distribution.h:
 
-/opt/homebrew/include/eigen3/Eigen/src/Core/NoAlias.h:
+/Library/Developer/CommandLineTools/SDKs/MacOSX13.3.sdk/usr/include/c++/v1/__random/uniform_int_distribution.h:
 
-/Library/Developer/CommandLineTools/SDKs/MacOSX13.3.sdk/usr/include/sys/_types/_timespec.h:
+/opt/homebrew/include/eigen3/Eigen/src/Core/CommaInitializer.h:
 
-/Library/Developer/CommandLineTools/SDKs/MacOSX13.3.sdk/usr/include/c++/v1/__node_handle:
+/Library/Developer/CommandLineTools/SDKs/MacOSX13.3.sdk/usr/include/sys/_types/_fd_isset.h:
+
+/Library/Developer/CommandLineTools/SDKs/MacOSX13.3.sdk/usr/include/c++/v1/__type_traits/is_standard_layout.h:
+
+/Library/Developer/CommandLineTools/SDKs/MacOSX13.3.sdk/usr/include/c++/v1/__random/student_t_distribution.h:
+
+/Library/Developer/CommandLineTools/SDKs/MacOSX13.3.sdk/usr/include/stdio.h:
+
+/Library/Developer/CommandLineTools/SDKs/MacOSX13.3.sdk/usr/include/c++/v1/__random/seed_seq.h:
+
+/opt/homebrew/include/eigen3/Eigen/src/Core/util/DisableStupidWarnings.h:
+
+/Library/Developer/CommandLineTools/SDKs/MacOSX13.3.sdk/usr/include/c++/v1/__random/random_device.h:
+
+/Library/Developer/CommandLineTools/SDKs/MacOSX13.3.sdk/usr/include/c++/v1/__random/poisson_distribution.h:
+
+/opt/homebrew/include/eigen3/unsupported/Eigen/CXX11/src/Tensor/TensorExecutor.h:
+
+/opt/homebrew/Cellar/opencv/4.8.1_1/include/opencv4/opencv2/calib3d.hpp:
+
+/Library/Developer/CommandLineTools/SDKs/MacOSX13.3.sdk/usr/include/c++/v1/__random/piecewise_constant_distribution.h:
+
+/opt/homebrew/Cellar/opencv/4.8.1_1/include/opencv4/opencv2/flann/allocator.h:
+
+/Library/Developer/CommandLineTools/SDKs/MacOSX13.3.sdk/usr/include/c++/v1/__random/mersenne_twister_engine.h:
+
+/Library/Developer/CommandLineTools/SDKs/MacOSX13.3.sdk/usr/include/c++/v1/__random/is_seed_sequence.h:
+
+/Library/Developer/CommandLineTools/SDKs/MacOSX13.3.sdk/usr/include/c++/v1/__random/generate_canonical.h:
+
+/Library/Developer/CommandLineTools/SDKs/MacOSX13.3.sdk/usr/include/c++/v1/__algorithm/ranges_find_if_not.h:
+
+/Library/Developer/CommandLineTools/SDKs/MacOSX13.3.sdk/usr/include/c++/v1/__utility/swap.h:
+
+/Library/Developer/CommandLineTools/SDKs/MacOSX13.3.sdk/usr/include/c++/v1/__random/discrete_distribution.h:
+
+/Library/Developer/CommandLineTools/SDKs/MacOSX13.3.sdk/usr/include/c++/v1/__random/discard_block_engine.h:
+
+/Library/Developer/CommandLineTools/SDKs/MacOSX13.3.sdk/usr/include/c++/v1/__random/binomial_distribution.h:
+
+/Library/Developer/CommandLineTools/SDKs/MacOSX13.3.sdk/usr/include/sys/_types/_fd_clr.h:
+
+/Library/Developer/CommandLineTools/SDKs/MacOSX13.3.sdk/usr/include/c++/v1/__functional/mem_fun_ref.h:
+
+/Library/Developer/CommandLineTools/SDKs/MacOSX13.3.sdk/usr/include/c++/v1/__numeric/midpoint.h:
+
+/Library/Developer/CommandLineTools/SDKs/MacOSX13.3.sdk/usr/include/sys/_types/_wchar_t.h:
+
+/opt/homebrew/include/eigen3/unsupported/Eigen/CXX11/src/Tensor/TensorCostModel.h:
+
+/Library/Developer/CommandLineTools/SDKs/MacOSX13.3.sdk/usr/include/c++/v1/__numeric/exclusive_scan.h:
+
+/Library/Developer/CommandLineTools/SDKs/MacOSX13.3.sdk/usr/include/sys/_types/_int8_t.h:
+
+/Library/Developer/CommandLineTools/SDKs/MacOSX13.3.sdk/usr/include/c++/v1/__numeric/adjacent_difference.h:
+
+/Library/Developer/CommandLineTools/SDKs/MacOSX13.3.sdk/usr/include/c++/v1/__mutex_base:
 
 /Library/Developer/CommandLineTools/SDKs/MacOSX13.3.sdk/usr/include/c++/v1/string:
 
@@ -2055,6 +2399,10 @@ inference/CMakeFiles/main.dir/main.cpp.o: /Users/ulrikisdahl/cplusplus/NeuralNet
 
 /Library/Developer/CommandLineTools/SDKs/MacOSX13.3.sdk/usr/include/c++/v1/__algorithm/min_element.h:
 
+/opt/homebrew/Cellar/opencv/4.8.1_1/include/opencv4/opencv2/core/base.hpp:
+
+/Library/Developer/CommandLineTools/SDKs/MacOSX13.3.sdk/usr/include/c++/v1/__functional/binary_function.h:
+
 /Library/Developer/CommandLineTools/SDKs/MacOSX13.3.sdk/usr/include/c++/v1/__type_traits/is_nothrow_destructible.h:
 
 /Library/Developer/CommandLineTools/SDKs/MacOSX13.3.sdk/usr/include/c++/v1/__iterator/istream_iterator.h:
@@ -2064,6 +2412,8 @@ inference/CMakeFiles/main.dir/main.cpp.o: /Users/ulrikisdahl/cplusplus/NeuralNet
 /Library/Developer/CommandLineTools/SDKs/MacOSX13.3.sdk/usr/include/c++/v1/__memory/unique_ptr.h:
 
 /Library/Developer/CommandLineTools/SDKs/MacOSX13.3.sdk/usr/include/c++/v1/__type_traits/is_nothrow_copy_constructible.h:
+
+/Library/Developer/CommandLineTools/SDKs/MacOSX13.3.sdk/usr/include/c++/v1/__random/geometric_distribution.h:
 
 /Library/Developer/CommandLineTools/SDKs/MacOSX13.3.sdk/usr/include/c++/v1/__memory/shared_ptr.h:
 
@@ -2085,8 +2435,6 @@ inference/CMakeFiles/main.dir/main.cpp.o: /Users/ulrikisdahl/cplusplus/NeuralNet
 
 /Library/Developer/CommandLineTools/SDKs/MacOSX13.3.sdk/usr/include/c++/v1/__memory/allocator_traits.h:
 
-/Users/ulrikisdahl/cplusplus/NeuralNetwork/modules/src/modules/model.hpp:
-
 /Library/Developer/CommandLineTools/SDKs/MacOSX13.3.sdk/usr/include/c++/v1/__algorithm/ranges_equal_range.h:
 
 /Library/Developer/CommandLineTools/SDKs/MacOSX13.3.sdk/usr/include/c++/v1/__type_traits/void_t.h:
@@ -2104,8 +2452,6 @@ inference/CMakeFiles/main.dir/main.cpp.o: /Users/ulrikisdahl/cplusplus/NeuralNet
 /Library/Developer/CommandLineTools/SDKs/MacOSX13.3.sdk/usr/include/c++/v1/__concepts/same_as.h:
 
 /Library/Developer/CommandLineTools/SDKs/MacOSX13.3.sdk/usr/include/c++/v1/__memory/addressof.h:
-
-/Library/Developer/CommandLineTools/SDKs/MacOSX13.3.sdk/usr/include/c++/v1/__functional/mem_fun_ref.h:
 
 /Library/Developer/CommandLineTools/SDKs/MacOSX13.3.sdk/usr/include/c++/v1/__iterator/wrap_iter.h:
 
@@ -2128,6 +2474,8 @@ inference/CMakeFiles/main.dir/main.cpp.o: /Users/ulrikisdahl/cplusplus/NeuralNet
 /Library/Developer/CommandLineTools/SDKs/MacOSX13.3.sdk/usr/include/c++/v1/__algorithm/count.h:
 
 /Library/Developer/CommandLineTools/SDKs/MacOSX13.3.sdk/usr/include/c++/v1/__iterator/prev.h:
+
+/opt/homebrew/include/eigen3/unsupported/Eigen/CXX11/src/util/CXX11Workarounds.h:
 
 /Library/Developer/CommandLineTools/SDKs/MacOSX13.3.sdk/usr/include/c++/v1/__iterator/bounded_iter.h:
 
@@ -2185,6 +2533,8 @@ inference/CMakeFiles/main.dir/main.cpp.o: /Users/ulrikisdahl/cplusplus/NeuralNet
 
 /Library/Developer/CommandLineTools/SDKs/MacOSX13.3.sdk/usr/include/c++/v1/__algorithm/ranges_is_permutation.h:
 
+/opt/homebrew/include/eigen3/unsupported/Eigen/CXX11/src/Tensor/TensorDeviceThreadPool.h:
+
 /opt/homebrew/include/eigen3/Eigen/src/Householder/BlockHouseholder.h:
 
 /Library/Developer/CommandLineTools/SDKs/MacOSX13.3.sdk/usr/include/c++/v1/__functional/ranges_operations.h:
@@ -2194,6 +2544,8 @@ inference/CMakeFiles/main.dir/main.cpp.o: /Users/ulrikisdahl/cplusplus/NeuralNet
 /Library/Developer/CommandLineTools/SDKs/MacOSX13.3.sdk/usr/include/c++/v1/__functional/pointer_to_binary_function.h:
 
 /opt/homebrew/include/eigen3/Eigen/src/Core/TriangularMatrix.h:
+
+/Library/Developer/CommandLineTools/SDKs/MacOSX13.3.sdk/usr/include/c++/v1/__numeric/inner_product.h:
 
 /Library/Developer/CommandLineTools/SDKs/MacOSX13.3.sdk/usr/include/c++/v1/exception:
 
@@ -2213,17 +2565,23 @@ inference/CMakeFiles/main.dir/main.cpp.o: /Users/ulrikisdahl/cplusplus/NeuralNet
 
 /Library/Developer/CommandLineTools/SDKs/MacOSX13.3.sdk/usr/include/c++/v1/tuple:
 
+/Library/Developer/CommandLineTools/SDKs/MacOSX13.3.sdk/usr/include/c++/v1/__filesystem/perm_options.h:
+
 /Library/Developer/CommandLineTools/SDKs/MacOSX13.3.sdk/usr/include/c++/v1/__type_traits/is_referenceable.h:
 
 /Library/Developer/CommandLineTools/SDKs/MacOSX13.3.sdk/usr/include/c++/v1/__functional/mem_fn.h:
 
-/Library/Developer/CommandLineTools/SDKs/MacOSX13.3.sdk/usr/include/c++/v1/__functional/boyer_moore_searcher.h:
+/Library/Developer/CommandLineTools/SDKs/MacOSX13.3.sdk/usr/include/arm/types.h:
 
-/opt/homebrew/Cellar/opencv/4.8.1_1/include/opencv4/opencv2/flann/all_indices.h:
+/Library/Developer/CommandLineTools/SDKs/MacOSX13.3.sdk/usr/include/c++/v1/__random/knuth_b.h:
+
+/Library/Developer/CommandLineTools/SDKs/MacOSX13.3.sdk/usr/include/c++/v1/__functional/boyer_moore_searcher.h:
 
 /Library/Developer/CommandLineTools/SDKs/MacOSX13.3.sdk/usr/include/c++/v1/__type_traits/make_signed.h:
 
 /Library/Developer/CommandLineTools/SDKs/MacOSX13.3.sdk/usr/include/c++/v1/__functional/bind_back.h:
+
+/Library/Developer/CommandLineTools/SDKs/MacOSX13.3.sdk/usr/include/c++/v1/__numeric/transform_reduce.h:
 
 /Library/Developer/CommandLineTools/SDKs/MacOSX13.3.sdk/usr/include/c++/v1/__iterator/size.h:
 
@@ -2233,15 +2591,47 @@ inference/CMakeFiles/main.dir/main.cpp.o: /Users/ulrikisdahl/cplusplus/NeuralNet
 
 /Library/Developer/CommandLineTools/SDKs/MacOSX13.3.sdk/usr/include/c++/v1/__functional/bind.h:
 
-/Library/Developer/CommandLineTools/SDKs/MacOSX13.3.sdk/usr/include/c++/v1/__utility/unreachable.h:
+/Library/Developer/CommandLineTools/SDKs/MacOSX13.3.sdk/usr/include/c++/v1/__algorithm/ranges_unique.h:
 
-/opt/homebrew/Cellar/opencv/4.8.1_1/include/opencv4/opencv2/core/mat.hpp:
+/Library/Developer/CommandLineTools/SDKs/MacOSX13.3.sdk/usr/include/c++/v1/__memory/allocation_guard.h:
+
+/Library/Developer/CommandLineTools/SDKs/MacOSX13.3.sdk/usr/include/c++/v1/__errc:
+
+/Library/Developer/CommandLineTools/SDKs/MacOSX13.3.sdk/usr/include/c++/v1/__filesystem/space_info.h:
+
+/Library/Developer/CommandLineTools/SDKs/MacOSX13.3.sdk/usr/include/c++/v1/__filesystem/perms.h:
+
+/Library/Developer/CommandLineTools/SDKs/MacOSX13.3.sdk/usr/include/sys/_types/_ino64_t.h:
+
+/Library/Developer/CommandLineTools/SDKs/MacOSX13.3.sdk/usr/include/c++/v1/utility:
+
+/Library/Developer/CommandLineTools/SDKs/MacOSX13.3.sdk/usr/include/c++/v1/__algorithm/ranges_remove.h:
+
+/Library/Developer/CommandLineTools/SDKs/MacOSX13.3.sdk/usr/include/c++/v1/__filesystem/path_iterator.h:
+
+/Library/Developer/CommandLineTools/SDKs/MacOSX13.3.sdk/usr/include/c++/v1/__algorithm/ranges_generate.h:
+
+/Library/Developer/CommandLineTools/SDKs/MacOSX13.3.sdk/usr/include/c++/v1/__filesystem/filesystem_error.h:
 
 /Library/Developer/CommandLineTools/SDKs/MacOSX13.3.sdk/usr/include/c++/v1/__concepts/invocable.h:
 
 /Library/Developer/CommandLineTools/SDKs/MacOSX13.3.sdk/usr/include/c++/v1/__compare/compare_three_way.h:
 
 /Library/Developer/CommandLineTools/SDKs/MacOSX13.3.sdk/usr/include/c++/v1/__filesystem/file_time_type.h:
+
+/Library/Developer/CommandLineTools/SDKs/MacOSX13.3.sdk/usr/include/c++/v1/__algorithm/ranges_minmax.h:
+
+/Library/Developer/CommandLineTools/SDKs/MacOSX13.3.sdk/usr/include/c++/v1/__iterator/indirectly_comparable.h:
+
+/Library/Developer/CommandLineTools/SDKs/MacOSX13.3.sdk/usr/include/c++/v1/__type_traits/is_move_assignable.h:
+
+/Library/Developer/CommandLineTools/SDKs/MacOSX13.3.sdk/usr/include/c++/v1/__tuple:
+
+/Library/Developer/CommandLineTools/SDKs/MacOSX13.3.sdk/usr/include/c++/v1/__algorithm/next_permutation.h:
+
+/Library/Developer/CommandLineTools/SDKs/MacOSX13.3.sdk/usr/include/c++/v1/__random/bernoulli_distribution.h:
+
+/Library/Developer/CommandLineTools/SDKs/MacOSX13.3.sdk/usr/include/c++/v1/__filesystem/copy_options.h:
 
 /Library/Developer/CommandLineTools/SDKs/MacOSX13.3.sdk/usr/include/c++/v1/__concepts/swappable.h:
 
@@ -2250,8 +2640,6 @@ inference/CMakeFiles/main.dir/main.cpp.o: /Users/ulrikisdahl/cplusplus/NeuralNet
 /opt/homebrew/include/eigen3/Eigen/src/Core/util/MKL_support.h:
 
 /Library/Developer/CommandLineTools/SDKs/MacOSX13.3.sdk/usr/include/c++/v1/__iterator/istreambuf_iterator.h:
-
-/opt/homebrew/Cellar/opencv/4.8.1_1/include/opencv4/opencv2/flann/any.h:
 
 /Library/Developer/CommandLineTools/SDKs/MacOSX13.3.sdk/usr/include/c++/v1/__mbstate_t.h:
 
@@ -2263,11 +2651,15 @@ inference/CMakeFiles/main.dir/main.cpp.o: /Users/ulrikisdahl/cplusplus/NeuralNet
 
 /Library/Developer/CommandLineTools/SDKs/MacOSX13.3.sdk/usr/include/c++/v1/memory:
 
+/opt/homebrew/include/eigen3/unsupported/Eigen/src/SpecialFunctions/SpecialFunctionsPacketMath.h:
+
 /Library/Developer/CommandLineTools/SDKs/MacOSX13.3.sdk/usr/include/sys/wait.h:
 
 /Library/Developer/CommandLineTools/SDKs/MacOSX13.3.sdk/usr/include/c++/v1/__type_traits/remove_const.h:
 
 /Library/Developer/CommandLineTools/SDKs/MacOSX13.3.sdk/usr/include/c++/v1/__concepts/regular.h:
+
+/Library/Developer/CommandLineTools/SDKs/MacOSX13.3.sdk/usr/include/c++/v1/__random/normal_distribution.h:
 
 /Library/Developer/CommandLineTools/SDKs/MacOSX13.3.sdk/usr/include/c++/v1/__algorithm/nth_element.h:
 
@@ -2277,6 +2669,10 @@ inference/CMakeFiles/main.dir/main.cpp.o: /Users/ulrikisdahl/cplusplus/NeuralNet
 
 /Library/Developer/CommandLineTools/SDKs/MacOSX13.3.sdk/usr/include/c++/v1/__string/char_traits.h:
 
+/Library/Developer/CommandLineTools/SDKs/MacOSX13.3.sdk/usr/include/c++/v1/__random/piecewise_linear_distribution.h:
+
+/Library/Developer/CommandLineTools/SDKs/MacOSX13.3.sdk/usr/include/c++/v1/__random/lognormal_distribution.h:
+
 /Library/Developer/CommandLineTools/SDKs/MacOSX13.3.sdk/usr/include/c++/v1/__algorithm/ranges_min.h:
 
 /Library/Developer/CommandLineTools/SDKs/MacOSX13.3.sdk/usr/include/c++/v1/__iterator/reverse_access.h:
@@ -2285,7 +2681,15 @@ inference/CMakeFiles/main.dir/main.cpp.o: /Users/ulrikisdahl/cplusplus/NeuralNet
 
 /Library/Developer/CommandLineTools/SDKs/MacOSX13.3.sdk/usr/include/c++/v1/__config_site:
 
-/opt/homebrew/Cellar/opencv/4.8.1_1/include/opencv4/opencv2/dnn/version.hpp:
+/Library/Developer/CommandLineTools/SDKs/MacOSX13.3.sdk/usr/include/c++/v1/__type_traits/common_type.h:
+
+/Library/Developer/CommandLineTools/SDKs/MacOSX13.3.sdk/usr/include/limits.h:
+
+/Library/Developer/CommandLineTools/SDKs/MacOSX13.3.sdk/usr/include/c++/v1/__type_traits/decay.h:
+
+/Library/Developer/CommandLineTools/SDKs/MacOSX13.3.sdk/usr/include/c++/v1/__numeric/iota.h:
+
+/Library/Developer/CommandLineTools/SDKs/MacOSX13.3.sdk/usr/include/c++/v1/__filesystem/directory_iterator.h:
 
 /Library/Developer/CommandLineTools/SDKs/MacOSX13.3.sdk/usr/include/_types/_uint64_t.h:
 
@@ -2307,9 +2711,7 @@ inference/CMakeFiles/main.dir/main.cpp.o: /Users/ulrikisdahl/cplusplus/NeuralNet
 
 /Library/Developer/CommandLineTools/SDKs/MacOSX13.3.sdk/usr/include/c++/v1/__compare/three_way_comparable.h:
 
-/Library/Developer/CommandLineTools/SDKs/MacOSX13.3.sdk/usr/include/c++/v1/__concepts/constructible.h:
-
-/Users/ulrikisdahl/cplusplus/NeuralNetwork/modules/src/modules/layer.hpp:
+/opt/homebrew/include/eigen3/unsupported/Eigen/CXX11/src/Tensor/TensorInflation.h:
 
 /opt/homebrew/include/eigen3/Eigen/src/Core/util/Memory.h:
 
@@ -2326,8 +2728,6 @@ inference/CMakeFiles/main.dir/main.cpp.o: /Users/ulrikisdahl/cplusplus/NeuralNet
 /Library/Developer/CommandLineTools/SDKs/MacOSX13.3.sdk/usr/include/c++/v1/__compare/partial_order.h:
 
 /Library/Developer/CommandLineTools/SDKs/MacOSX13.3.sdk/usr/include/pthread/qos.h:
-
-/Library/Developer/CommandLineTools/SDKs/MacOSX13.3.sdk/usr/include/xlocale/_wctype.h:
 
 /Library/Developer/CommandLineTools/SDKs/MacOSX13.3.sdk/usr/include/c++/v1/__compare/is_eq.h:
 
@@ -2355,12 +2755,6 @@ inference/CMakeFiles/main.dir/main.cpp.o: /Users/ulrikisdahl/cplusplus/NeuralNet
 
 /Library/Developer/CommandLineTools/SDKs/MacOSX13.3.sdk/usr/include/c++/v1/__algorithm/ranges_for_each.h:
 
-/Library/Developer/CommandLineTools/SDKs/MacOSX13.3.sdk/usr/include/c++/v1/__errc:
-
-/Library/Developer/CommandLineTools/SDKs/MacOSX13.3.sdk/usr/include/c++/v1/__memory/allocation_guard.h:
-
-/Library/Developer/CommandLineTools/SDKs/MacOSX13.3.sdk/usr/include/c++/v1/__algorithm/ranges_unique.h:
-
 /Library/Developer/CommandLineTools/SDKs/MacOSX13.3.sdk/usr/include/c++/v1/__locale:
 
 /Library/Developer/CommandLineTools/SDKs/MacOSX13.3.sdk/usr/include/c++/v1/cfloat:
@@ -2373,8 +2767,6 @@ inference/CMakeFiles/main.dir/main.cpp.o: /Users/ulrikisdahl/cplusplus/NeuralNet
 
 /Library/Developer/CommandLineTools/SDKs/MacOSX13.3.sdk/usr/include/c++/v1/__chrono/year_month_weekday.h:
 
-/opt/homebrew/Cellar/opencv/4.8.1_1/include/opencv4/opencv2/core/affine.hpp:
-
 /Library/Developer/CommandLineTools/SDKs/MacOSX13.3.sdk/usr/include/float.h:
 
 /opt/homebrew/include/eigen3/Eigen/src/Geometry/Translation.h:
@@ -2382,6 +2774,10 @@ inference/CMakeFiles/main.dir/main.cpp.o: /Users/ulrikisdahl/cplusplus/NeuralNet
 /Library/Developer/CommandLineTools/SDKs/MacOSX13.3.sdk/usr/include/c++/v1/__memory/uses_allocator.h:
 
 /Library/Developer/CommandLineTools/SDKs/MacOSX13.3.sdk/usr/include/c++/v1/__type_traits/is_scoped_enum.h:
+
+/Users/ulrikisdahl/cplusplus/NeuralNetwork/modules/src/modules/layer.hpp:
+
+/Library/Developer/CommandLineTools/SDKs/MacOSX13.3.sdk/usr/include/c++/v1/__concepts/constructible.h:
 
 /Library/Developer/CommandLineTools/SDKs/MacOSX13.3.sdk/usr/include/c++/v1/__chrono/year_month_day.h:
 
@@ -2403,11 +2799,17 @@ inference/CMakeFiles/main.dir/main.cpp.o: /Users/ulrikisdahl/cplusplus/NeuralNet
 
 /Library/Developer/CommandLineTools/SDKs/MacOSX13.3.sdk/usr/include/c++/v1/__chrono/year.h:
 
+/Library/Developer/CommandLineTools/SDKs/MacOSX13.3.sdk/usr/include/c++/v1/__algorithm/none_of.h:
+
+/Library/Developer/CommandLineTools/SDKs/MacOSX13.3.sdk/usr/include/c++/v1/fstream:
+
 /Library/Developer/CommandLineTools/SDKs/MacOSX13.3.sdk/usr/include/c++/v1/__algorithm/ranges_search.h:
 
 /Library/Developer/CommandLineTools/SDKs/MacOSX13.3.sdk/usr/include/c++/v1/__algorithm/set_intersection.h:
 
 /Library/Developer/CommandLineTools/SDKs/MacOSX13.3.sdk/usr/include/c++/v1/__chrono/system_clock.h:
+
+/Library/Developer/CommandLineTools/SDKs/MacOSX13.3.sdk/usr/include/sys/dirent.h:
 
 /opt/homebrew/include/eigen3/Eigen/src/Core/util/ReshapedHelper.h:
 
@@ -2421,19 +2823,13 @@ inference/CMakeFiles/main.dir/main.cpp.o: /Users/ulrikisdahl/cplusplus/NeuralNet
 
 /Library/Developer/CommandLineTools/SDKs/MacOSX13.3.sdk/usr/include/c++/v1/__chrono/month_weekday.h:
 
-/Library/Developer/CommandLineTools/SDKs/MacOSX13.3.sdk/usr/include/c++/v1/__algorithm/uniform_random_bit_generator_adaptor.h:
-
-/Library/Developer/CommandLineTools/SDKs/MacOSX13.3.sdk/usr/include/sys/_types/_sigset_t.h:
-
-/opt/homebrew/Cellar/opencv/4.8.1_1/include/opencv4/opencv2/core/cvdef.h:
-
-/Library/Developer/CommandLineTools/SDKs/MacOSX13.3.sdk/usr/include/c++/v1/__random/is_valid.h:
-
 /Library/Developer/CommandLineTools/SDKs/MacOSX13.3.sdk/usr/include/c++/v1/__config:
 
 /Library/Developer/CommandLineTools/SDKs/MacOSX13.3.sdk/usr/include/c++/v1/__algorithm/copy.h:
 
 /Library/Developer/CommandLineTools/SDKs/MacOSX13.3.sdk/usr/include/c++/v1/__compare/synth_three_way.h:
+
+/Library/Developer/CommandLineTools/SDKs/MacOSX13.3.sdk/usr/include/c++/v1/__numeric/transform_inclusive_scan.h:
 
 /opt/homebrew/include/eigen3/Eigen/src/SVD/JacobiSVD.h:
 
@@ -2447,17 +2843,9 @@ inference/CMakeFiles/main.dir/main.cpp.o: /Users/ulrikisdahl/cplusplus/NeuralNet
 
 /Library/Developer/CommandLineTools/SDKs/MacOSX13.3.sdk/usr/include/c++/v1/__chrono/calendar.h:
 
-/opt/homebrew/include/eigen3/Eigen/Eigenvalues:
-
-/Library/Developer/CommandLineTools/SDKs/MacOSX13.3.sdk/usr/include/assert.h:
-
-/Library/Developer/CommandLineTools/SDKs/MacOSX13.3.sdk/usr/include/c++/v1/__ranges/enable_borrowed_range.h:
-
 /Library/Developer/CommandLineTools/SDKs/MacOSX13.3.sdk/usr/include/sys/_types/_time_t.h:
 
 /Library/Developer/CommandLineTools/SDKs/MacOSX13.3.sdk/usr/include/c++/v1/__bsd_locale_defaults.h:
-
-/Library/Developer/CommandLineTools/SDKs/MacOSX13.3.sdk/usr/include/c++/v1/__ranges/size.h:
 
 /Library/Developer/CommandLineTools/SDKs/MacOSX13.3.sdk/usr/include/c++/v1/__memory/allocator.h:
 
@@ -2473,11 +2861,15 @@ inference/CMakeFiles/main.dir/main.cpp.o: /Users/ulrikisdahl/cplusplus/NeuralNet
 
 /Library/Developer/CommandLineTools/SDKs/MacOSX13.3.sdk/usr/include/c++/v1/ratio:
 
+/Library/Developer/CommandLineTools/usr/lib/clang/14.0.3/include/arm_fp16.h:
+
+/Library/Developer/CommandLineTools/SDKs/MacOSX13.3.sdk/usr/include/c++/v1/__algorithm/set_difference.h:
+
+/Library/Developer/CommandLineTools/SDKs/MacOSX13.3.sdk/usr/include/c++/v1/__compare/ordering.h:
+
 /Library/Developer/CommandLineTools/SDKs/MacOSX13.3.sdk/usr/include/c++/v1/__algorithm/unwrap_iter.h:
 
 /Library/Developer/CommandLineTools/SDKs/MacOSX13.3.sdk/usr/include/c++/v1/__memory/ranges_uninitialized_algorithms.h:
-
-/Library/Developer/CommandLineTools/SDKs/MacOSX13.3.sdk/usr/include/xlocale/_wchar.h:
 
 /Library/Developer/CommandLineTools/SDKs/MacOSX13.3.sdk/usr/include/c++/v1/iosfwd:
 
@@ -2494,6 +2886,14 @@ inference/CMakeFiles/main.dir/main.cpp.o: /Users/ulrikisdahl/cplusplus/NeuralNet
 /Library/Developer/CommandLineTools/SDKs/MacOSX13.3.sdk/usr/include/c++/v1/__algorithm/sort_heap.h:
 
 /Library/Developer/CommandLineTools/SDKs/MacOSX13.3.sdk/usr/include/c++/v1/iomanip:
+
+/Library/Developer/CommandLineTools/SDKs/MacOSX13.3.sdk/usr/include/c++/v1/__random/negative_binomial_distribution.h:
+
+/opt/homebrew/include/eigen3/unsupported/Eigen/CXX11/src/Tensor/TensorLayoutSwap.h:
+
+/Users/ulrikisdahl/cplusplus/NeuralNetwork/modules/src/modules/input.hpp:
+
+/Library/Developer/CommandLineTools/SDKs/MacOSX13.3.sdk/usr/include/c++/v1/__algorithm/sift_down.h:
 
 /Library/Developer/CommandLineTools/SDKs/MacOSX13.3.sdk/usr/include/c++/v1/__concepts/totally_ordered.h:
 
@@ -2521,6 +2921,8 @@ inference/CMakeFiles/main.dir/main.cpp.o: /Users/ulrikisdahl/cplusplus/NeuralNet
 
 /Library/Developer/CommandLineTools/SDKs/MacOSX13.3.sdk/usr/include/c++/v1/__algorithm/search.h:
 
+/Library/Developer/CommandLineTools/SDKs/MacOSX13.3.sdk/usr/include/c++/v1/__numeric/reduce.h:
+
 /Library/Developer/CommandLineTools/SDKs/MacOSX13.3.sdk/usr/include/c++/v1/__algorithm/ranges_stable_partition.h:
 
 /Library/Developer/CommandLineTools/SDKs/MacOSX13.3.sdk/usr/include/c++/v1/__algorithm/sample.h:
@@ -2533,6 +2935,8 @@ inference/CMakeFiles/main.dir/main.cpp.o: /Users/ulrikisdahl/cplusplus/NeuralNet
 
 /Library/Developer/CommandLineTools/SDKs/MacOSX13.3.sdk/usr/include/sys/_types/_in_port_t.h:
 
+/Library/Developer/CommandLineTools/SDKs/MacOSX13.3.sdk/usr/include/c++/v1/__random/chi_squared_distribution.h:
+
 /Library/Developer/CommandLineTools/SDKs/MacOSX13.3.sdk/usr/include/c++/v1/__algorithm/reverse.h:
 
 /Library/Developer/CommandLineTools/SDKs/MacOSX13.3.sdk/usr/include/c++/v1/__algorithm/replace_copy_if.h:
@@ -2541,7 +2945,17 @@ inference/CMakeFiles/main.dir/main.cpp.o: /Users/ulrikisdahl/cplusplus/NeuralNet
 
 /Library/Developer/CommandLineTools/SDKs/MacOSX13.3.sdk/usr/include/c++/v1/__algorithm/ranges_find_end.h:
 
+/opt/homebrew/include/eigen3/unsupported/Eigen/CXX11/src/Tensor/TensorDimensionList.h:
+
+/Library/Developer/CommandLineTools/SDKs/MacOSX13.3.sdk/usr/include/xlocale/_ctype.h:
+
+/Library/Developer/CommandLineTools/SDKs/MacOSX13.3.sdk/usr/include/c++/v1/__algorithm/replace.h:
+
+/Library/Developer/CommandLineTools/SDKs/MacOSX13.3.sdk/usr/include/c++/v1/__numeric/accumulate.h:
+
 /Library/Developer/CommandLineTools/SDKs/MacOSX13.3.sdk/usr/include/c++/v1/__type_traits/is_const.h:
+
+/Library/Developer/CommandLineTools/SDKs/MacOSX13.3.sdk/usr/include/c++/v1/__random/cauchy_distribution.h:
 
 /Library/Developer/CommandLineTools/SDKs/MacOSX13.3.sdk/usr/include/c++/v1/__algorithm/remove_if.h:
 
@@ -2577,13 +2991,15 @@ inference/CMakeFiles/main.dir/main.cpp.o: /Users/ulrikisdahl/cplusplus/NeuralNet
 
 /Library/Developer/CommandLineTools/SDKs/MacOSX13.3.sdk/usr/include/c++/v1/__algorithm/ranges_is_heap_until.h:
 
-/Library/Developer/CommandLineTools/SDKs/MacOSX13.3.sdk/usr/include/c++/v1/__algorithm/ranges_replace_copy_if.h:
-
-/Library/Developer/CommandLineTools/SDKs/MacOSX13.3.sdk/usr/include/c++/v1/__algorithm/ranges_search_n.h:
-
 /Library/Developer/CommandLineTools/SDKs/MacOSX13.3.sdk/usr/include/c++/v1/__iterator/iter_swap.h:
 
 /Library/Developer/CommandLineTools/SDKs/MacOSX13.3.sdk/usr/include/c++/v1/__algorithm/find_end.h:
+
+/opt/homebrew/include/eigen3/Eigen/src/Core/StlIterators.h:
+
+/Library/Developer/CommandLineTools/SDKs/MacOSX13.3.sdk/usr/include/c++/v1/__ranges/concepts.h:
+
+/Library/Developer/CommandLineTools/SDKs/MacOSX13.3.sdk/usr/include/c++/v1/__algorithm/ranges_sample.h:
 
 /Library/Developer/CommandLineTools/SDKs/MacOSX13.3.sdk/usr/include/c++/v1/__algorithm/half_positive.h:
 
@@ -2591,13 +3007,13 @@ inference/CMakeFiles/main.dir/main.cpp.o: /Users/ulrikisdahl/cplusplus/NeuralNet
 
 /Library/Developer/CommandLineTools/SDKs/MacOSX13.3.sdk/usr/include/c++/v1/__functional/default_searcher.h:
 
+/Library/Developer/CommandLineTools/SDKs/MacOSX13.3.sdk/usr/include/c++/v1/__filesystem/file_type.h:
+
 /Library/Developer/CommandLineTools/SDKs/MacOSX13.3.sdk/usr/include/c++/v1/__type_traits/is_unbounded_array.h:
 
 /Library/Developer/CommandLineTools/SDKs/MacOSX13.3.sdk/usr/include/_types/_intmax_t.h:
 
-/opt/homebrew/include/eigen3/Eigen/src/Core/PartialReduxEvaluator.h:
-
-/opt/homebrew/Cellar/opencv/4.8.1_1/include/opencv4/opencv2/dnn.hpp:
+/opt/homebrew/include/eigen3/unsupported/Eigen/src/SpecialFunctions/BesselFunctionsHalf.h:
 
 /Library/Developer/CommandLineTools/SDKs/MacOSX13.3.sdk/usr/include/c++/v1/ctype.h:
 
@@ -2627,9 +3043,9 @@ inference/CMakeFiles/main.dir/main.cpp.o: /Users/ulrikisdahl/cplusplus/NeuralNet
 
 /Library/Developer/CommandLineTools/SDKs/MacOSX13.3.sdk/usr/include/c++/v1/__algorithm/ranges_remove_copy_if.h:
 
-/Library/Developer/CommandLineTools/SDKs/MacOSX13.3.sdk/usr/include/c++/v1/__algorithm/next_permutation.h:
+/opt/homebrew/include/eigen3/Eigen/src/Core/Solve.h:
 
-/Library/Developer/CommandLineTools/SDKs/MacOSX13.3.sdk/usr/include/c++/v1/__algorithm/ranges_remove.h:
+/Library/Developer/CommandLineTools/SDKs/MacOSX13.3.sdk/usr/include/c++/v1/__random/shuffle_order_engine.h:
 
 /Library/Developer/CommandLineTools/SDKs/MacOSX13.3.sdk/usr/include/c++/v1/__algorithm/rotate_copy.h:
 
@@ -2659,7 +3075,15 @@ inference/CMakeFiles/main.dir/main.cpp.o: /Users/ulrikisdahl/cplusplus/NeuralNet
 
 /Library/Developer/CommandLineTools/SDKs/MacOSX13.3.sdk/usr/include/c++/v1/__memory/construct_at.h:
 
-/opt/homebrew/Cellar/opencv/4.8.1_1/include/opencv4/opencv2/core/vsx_utils.hpp:
+/Library/Developer/CommandLineTools/SDKs/MacOSX13.3.sdk/usr/include/c++/v1/__type_traits/is_same.h:
+
+/Library/Developer/CommandLineTools/SDKs/MacOSX13.3.sdk/usr/include/c++/v1/__random/subtract_with_carry_engine.h:
+
+/opt/homebrew/include/eigen3/Eigen/Eigenvalues:
+
+/Library/Developer/CommandLineTools/SDKs/MacOSX13.3.sdk/usr/include/c++/v1/__ranges/enable_borrowed_range.h:
+
+/Library/Developer/CommandLineTools/SDKs/MacOSX13.3.sdk/usr/include/assert.h:
 
 /Library/Developer/CommandLineTools/SDKs/MacOSX13.3.sdk/usr/include/c++/v1/__algorithm/binary_search.h:
 
@@ -2677,13 +3101,13 @@ inference/CMakeFiles/main.dir/main.cpp.o: /Users/ulrikisdahl/cplusplus/NeuralNet
 
 /Library/Developer/CommandLineTools/SDKs/MacOSX13.3.sdk/usr/include/c++/v1/__iterator/data.h:
 
+/Library/Developer/CommandLineTools/SDKs/MacOSX13.3.sdk/usr/include/c++/v1/__random/independent_bits_engine.h:
+
 /opt/homebrew/include/eigen3/Eigen/src/LU/FullPivLU.h:
 
 /Library/Developer/CommandLineTools/SDKs/MacOSX13.3.sdk/usr/include/c++/v1/__algorithm/ranges_merge.h:
 
-/Library/Developer/CommandLineTools/SDKs/MacOSX13.3.sdk/usr/include/c++/v1/__functional/unary_negate.h:
-
-/Library/Developer/CommandLineTools/SDKs/MacOSX13.3.sdk/usr/include/c++/v1/__random/log2.h:
+/opt/homebrew/include/eigen3/unsupported/Eigen/CXX11/src/Tensor/TensorReverse.h:
 
 /Library/Developer/CommandLineTools/SDKs/MacOSX13.3.sdk/usr/include/c++/v1/wchar.h:
 
@@ -2713,7 +3137,11 @@ inference/CMakeFiles/main.dir/main.cpp.o: /Users/ulrikisdahl/cplusplus/NeuralNet
 
 /Library/Developer/CommandLineTools/SDKs/MacOSX13.3.sdk/usr/include/c++/v1/__chrono/duration.h:
 
+/Library/Developer/CommandLineTools/SDKs/MacOSX13.3.sdk/usr/include/c++/v1/__numeric/transform_exclusive_scan.h:
+
 /Library/Developer/CommandLineTools/SDKs/MacOSX13.3.sdk/usr/include/c++/v1/__algorithm/ranges_is_sorted_until.h:
+
+/opt/homebrew/include/eigen3/unsupported/Eigen/src/SpecialFunctions/SpecialFunctionsHalf.h:
 
 /Library/Developer/CommandLineTools/SDKs/MacOSX13.3.sdk/usr/include/c++/v1/__algorithm/replace_copy.h:
 
@@ -2723,15 +3151,17 @@ inference/CMakeFiles/main.dir/main.cpp.o: /Users/ulrikisdahl/cplusplus/NeuralNet
 
 /Library/Developer/CommandLineTools/SDKs/MacOSX13.3.sdk/usr/include/c++/v1/__ranges/empty.h:
 
+/Library/Developer/CommandLineTools/SDKs/MacOSX13.3.sdk/usr/include/c++/v1/__random/is_valid.h:
+
 /Library/Developer/CommandLineTools/SDKs/MacOSX13.3.sdk/usr/include/c++/v1/__algorithm/ranges_generate_n.h:
 
 /opt/homebrew/include/eigen3/Eigen/src/plugins/MatrixCwiseBinaryOps.h:
 
 /Library/Developer/CommandLineTools/SDKs/MacOSX13.3.sdk/usr/include/sys/_types.h:
 
-/Library/Developer/CommandLineTools/SDKs/MacOSX13.3.sdk/usr/include/c++/v1/__algorithm/ranges_partition_point.h:
+/opt/homebrew/include/eigen3/unsupported/Eigen/CXX11/src/Tensor/TensorContractionThreadPool.h:
 
-/Library/Developer/CommandLineTools/SDKs/MacOSX13.3.sdk/usr/include/c++/v1/__algorithm/ranges_generate.h:
+/Library/Developer/CommandLineTools/SDKs/MacOSX13.3.sdk/usr/include/c++/v1/__algorithm/ranges_partition_point.h:
 
 /Library/Developer/CommandLineTools/SDKs/MacOSX13.3.sdk/usr/include/c++/v1/__algorithm/ranges_stable_sort.h:
 
@@ -2743,11 +3173,9 @@ inference/CMakeFiles/main.dir/main.cpp.o: /Users/ulrikisdahl/cplusplus/NeuralNet
 
 /Library/Developer/CommandLineTools/SDKs/MacOSX13.3.sdk/usr/include/c++/v1/__algorithm/ranges_set_symmetric_difference.h:
 
+/opt/homebrew/include/eigen3/unsupported/Eigen/src/SpecialFunctions/SpecialFunctionsFunctors.h:
+
 /Library/Developer/CommandLineTools/SDKs/MacOSX13.3.sdk/usr/include/c++/v1/__iterator/move_sentinel.h:
-
-/opt/homebrew/Cellar/opencv/4.8.1_1/include/opencv4/opencv2/videoio.hpp:
-
-/opt/homebrew/Cellar/opencv/4.8.1_1/include/opencv4/opencv2/core/saturate.hpp:
 
 /Library/Developer/CommandLineTools/SDKs/MacOSX13.3.sdk/usr/include/c++/v1/__algorithm/ranges_upper_bound.h:
 
@@ -2771,6 +3199,8 @@ inference/CMakeFiles/main.dir/main.cpp.o: /Users/ulrikisdahl/cplusplus/NeuralNet
 
 /Library/Developer/CommandLineTools/SDKs/MacOSX13.3.sdk/usr/include/c++/v1/__concepts/copyable.h:
 
+/Library/Developer/CommandLineTools/SDKs/MacOSX13.3.sdk/usr/include/c++/v1/__random/default_random_engine.h:
+
 /Library/Developer/CommandLineTools/SDKs/MacOSX13.3.sdk/usr/include/c++/v1/__algorithm/ranges_sort.h:
 
 /Library/Developer/CommandLineTools/SDKs/MacOSX13.3.sdk/usr/include/c++/v1/__type_traits/integral_constant.h:
@@ -2781,7 +3211,7 @@ inference/CMakeFiles/main.dir/main.cpp.o: /Users/ulrikisdahl/cplusplus/NeuralNet
 
 /Library/Developer/CommandLineTools/SDKs/MacOSX13.3.sdk/usr/include/c++/v1/__concepts/predicate.h:
 
-/opt/homebrew/Cellar/opencv/4.8.1_1/include/opencv4/opencv2/core/hal/interface.h:
+/opt/homebrew/include/eigen3/unsupported/Eigen/CXX11/src/Tensor/TensorArgMax.h:
 
 /Library/Developer/CommandLineTools/SDKs/MacOSX13.3.sdk/usr/include/c++/v1/__type_traits/is_unsigned.h:
 
@@ -2797,13 +3227,15 @@ inference/CMakeFiles/main.dir/main.cpp.o: /Users/ulrikisdahl/cplusplus/NeuralNet
 
 /Library/Developer/CommandLineTools/SDKs/MacOSX13.3.sdk/usr/include/c++/v1/__functional/function.h:
 
-/opt/homebrew/Cellar/opencv/4.8.1_1/include/opencv4/opencv2/flann/allocator.h:
-
 /Library/Developer/CommandLineTools/SDKs/MacOSX13.3.sdk/usr/include/c++/v1/__algorithm/partition_point.h:
+
+/Library/Developer/CommandLineTools/SDKs/MacOSX13.3.sdk/usr/include/c++/v1/__filesystem/directory_options.h:
 
 /opt/homebrew/include/eigen3/Eigen/src/plugins/MatrixCwiseUnaryOps.h:
 
 /Library/Developer/CommandLineTools/SDKs/MacOSX13.3.sdk/usr/include/errno.h:
+
+/Library/Developer/CommandLineTools/SDKs/MacOSX13.3.sdk/usr/include/c++/v1/__numeric/partial_sum.h:
 
 /Library/Developer/CommandLineTools/SDKs/MacOSX13.3.sdk/usr/include/c++/v1/__algorithm/ranges_iterator_concept.h:
 
@@ -2815,6 +3247,8 @@ inference/CMakeFiles/main.dir/main.cpp.o: /Users/ulrikisdahl/cplusplus/NeuralNet
 
 /opt/homebrew/include/eigen3/Eigen/src/Core/Dot.h:
 
+/opt/homebrew/Cellar/opencv/4.8.1_1/include/opencv4/opencv2/core/eigen.hpp:
+
 /Library/Developer/CommandLineTools/SDKs/MacOSX13.3.sdk/usr/include/c++/v1/__algorithm/partition.h:
 
 /Library/Developer/CommandLineTools/SDKs/MacOSX13.3.sdk/usr/include/sys/_pthread/_pthread_t.h:
@@ -2825,19 +3259,11 @@ inference/CMakeFiles/main.dir/main.cpp.o: /Users/ulrikisdahl/cplusplus/NeuralNet
 
 /Library/Developer/CommandLineTools/SDKs/MacOSX13.3.sdk/usr/include/c++/v1/__debug:
 
-/opt/homebrew/Cellar/opencv/4.8.1_1/include/opencv4/opencv2/calib3d.hpp:
-
 /Library/Developer/CommandLineTools/SDKs/MacOSX13.3.sdk/usr/include/sys/qos.h:
-
-/opt/homebrew/include/eigen3/Eigen/src/Core/DenseBase.h:
-
-/opt/homebrew/Cellar/opencv/4.8.1_1/include/opencv4/opencv2/flann/composite_index.h:
 
 /opt/homebrew/Cellar/opencv/4.8.1_1/include/opencv4/opencv2/core.hpp:
 
 /Library/Developer/CommandLineTools/SDKs/MacOSX13.3.sdk/usr/include/c++/v1/__algorithm/partial_sort_copy.h:
-
-/Library/Developer/CommandLineTools/SDKs/MacOSX13.3.sdk/usr/include/c++/v1/__ranges/data.h:
 
 /opt/homebrew/include/eigen3/Eigen/src/Geometry/arch/Geometry_SIMD.h:
 
@@ -2851,9 +3277,13 @@ inference/CMakeFiles/main.dir/main.cpp.o: /Users/ulrikisdahl/cplusplus/NeuralNet
 
 /Library/Developer/CommandLineTools/SDKs/MacOSX13.3.sdk/usr/include/c++/v1/__algorithm/ranges_push_heap.h:
 
-/Library/Developer/CommandLineTools/SDKs/MacOSX13.3.sdk/usr/include/c++/v1/__algorithm/partial_sort.h:
+/opt/homebrew/Cellar/opencv/4.8.1_1/include/opencv4/opencv2/flann/nn_index.h:
 
-/Library/Developer/CommandLineTools/SDKs/MacOSX13.3.sdk/usr/include/xlocale/_stdio.h:
+/Library/Developer/CommandLineTools/SDKs/MacOSX13.3.sdk/usr/include/xlocale.h:
+
+/Library/Developer/CommandLineTools/SDKs/MacOSX13.3.sdk/usr/include/c++/v1/__random/ranlux.h:
+
+/Library/Developer/CommandLineTools/SDKs/MacOSX13.3.sdk/usr/include/c++/v1/__algorithm/partial_sort.h:
 
 /opt/homebrew/include/eigen3/Eigen/src/Core/util/BlasUtil.h:
 
@@ -2864,6 +3294,10 @@ inference/CMakeFiles/main.dir/main.cpp.o: /Users/ulrikisdahl/cplusplus/NeuralNet
 /Library/Developer/CommandLineTools/SDKs/MacOSX13.3.sdk/usr/include/c++/v1/__concepts/arithmetic.h:
 
 /Library/Developer/CommandLineTools/SDKs/MacOSX13.3.sdk/usr/include/c++/v1/__type_traits/is_nothrow_copy_assignable.h:
+
+/Library/Developer/CommandLineTools/SDKs/MacOSX13.3.sdk/usr/include/xlocale/_string.h:
+
+/Library/Developer/CommandLineTools/SDKs/MacOSX13.3.sdk/usr/include/c++/v1/__algorithm/min_max_result.h:
 
 /Library/Developer/CommandLineTools/SDKs/MacOSX13.3.sdk/usr/include/nl_types.h:
 
@@ -2876,6 +3310,10 @@ inference/CMakeFiles/main.dir/main.cpp.o: /Users/ulrikisdahl/cplusplus/NeuralNet
 /opt/homebrew/Cellar/opencv/4.8.1_1/include/opencv4/opencv2/ml.hpp:
 
 /Library/Developer/CommandLineTools/SDKs/MacOSX13.3.sdk/usr/include/sys/_types/_blkcnt_t.h:
+
+/Library/Developer/CommandLineTools/SDKs/MacOSX13.3.sdk/usr/include/c++/v1/__random/uniform_real_distribution.h:
+
+/opt/homebrew/include/eigen3/unsupported/Eigen/CXX11/src/Tensor/TensorGlobalFunctions.h:
 
 /Library/Developer/CommandLineTools/SDKs/MacOSX13.3.sdk/usr/include/c++/v1/__algorithm/min.h:
 
@@ -2891,13 +3329,25 @@ inference/CMakeFiles/main.dir/main.cpp.o: /Users/ulrikisdahl/cplusplus/NeuralNet
 
 /Library/Developer/CommandLineTools/SDKs/MacOSX13.3.sdk/usr/include/_types/_uint32_t.h:
 
-/Library/Developer/CommandLineTools/SDKs/MacOSX13.3.sdk/usr/include/c++/v1/__mutex_base:
-
 /Library/Developer/CommandLineTools/SDKs/MacOSX13.3.sdk/usr/include/c++/v1/__utility/transaction.h:
+
+/opt/homebrew/include/eigen3/Eigen/Householder:
+
+/Library/Developer/CommandLineTools/SDKs/MacOSX13.3.sdk/usr/include/wctype.h:
+
+/Library/Developer/CommandLineTools/SDKs/MacOSX13.3.sdk/usr/include/c++/v1/__algorithm/ranges_partial_sort.h:
 
 /opt/homebrew/Cellar/opencv/4.8.1_1/include/opencv4/opencv2/flann/logger.h:
 
 /Library/Developer/CommandLineTools/SDKs/MacOSX13.3.sdk/usr/include/c++/v1/__algorithm/max.h:
+
+/opt/homebrew/Cellar/opencv/4.8.1_1/include/opencv4/opencv2/core/check.hpp:
+
+/Library/Developer/CommandLineTools/SDKs/MacOSX13.3.sdk/usr/include/mach/machine/_structs.h:
+
+/opt/homebrew/Cellar/opencv/4.8.1_1/include/opencv4/opencv2/core/mat.hpp:
+
+/Library/Developer/CommandLineTools/SDKs/MacOSX13.3.sdk/usr/include/c++/v1/__utility/unreachable.h:
 
 /Library/Developer/CommandLineTools/SDKs/MacOSX13.3.sdk/usr/include/c++/v1/__functional/identity.h:
 
@@ -2906,8 +3356,6 @@ inference/CMakeFiles/main.dir/main.cpp.o: /Users/ulrikisdahl/cplusplus/NeuralNet
 /Library/Developer/CommandLineTools/SDKs/MacOSX13.3.sdk/usr/include/c++/v1/__type_traits/is_primary_template.h:
 
 /Library/Developer/CommandLineTools/SDKs/MacOSX13.3.sdk/usr/include/_types.h:
-
-/opt/homebrew/Cellar/opencv/4.8.1_1/include/opencv4/opencv2/core/operations.hpp:
 
 /Library/Developer/CommandLineTools/SDKs/MacOSX13.3.sdk/usr/include/c++/v1/__type_traits/is_floating_point.h:
 
@@ -2939,6 +3387,8 @@ inference/CMakeFiles/main.dir/main.cpp.o: /Users/ulrikisdahl/cplusplus/NeuralNet
 
 /Library/Developer/CommandLineTools/SDKs/MacOSX13.3.sdk/usr/include/c++/v1/__concepts/common_with.h:
 
+/opt/homebrew/include/eigen3/unsupported/Eigen/CXX11/src/Tensor/TensorChipping.h:
+
 /Library/Developer/CommandLineTools/SDKs/MacOSX13.3.sdk/usr/include/AvailabilityVersions.h:
 
 /Library/Developer/CommandLineTools/SDKs/MacOSX13.3.sdk/usr/include/c++/v1/__algorithm/move_backward.h:
@@ -2963,15 +3413,13 @@ inference/CMakeFiles/main.dir/main.cpp.o: /Users/ulrikisdahl/cplusplus/NeuralNet
 
 /Library/Developer/CommandLineTools/SDKs/MacOSX13.3.sdk/usr/include/c++/v1/__algorithm/fill_n.h:
 
-/Library/Developer/CommandLineTools/SDKs/MacOSX13.3.sdk/usr/include/c++/v1/__algorithm/none_of.h:
-
-/opt/homebrew/Cellar/opencv/4.8.1_1/include/opencv4/opencv2/core/version.hpp:
-
 /Library/Developer/CommandLineTools/SDKs/MacOSX13.3.sdk/usr/include/_types/_uint16_t.h:
 
-/Library/Developer/CommandLineTools/SDKs/MacOSX13.3.sdk/usr/include/c++/v1/__algorithm/rotate.h:
+/opt/homebrew/Cellar/opencv/4.8.1_1/include/opencv4/opencv2/core/cvdef.h:
 
-/opt/homebrew/Cellar/opencv/4.8.1_1/include/opencv4/opencv2/core/cv_cpu_dispatch.h:
+/Library/Developer/CommandLineTools/SDKs/MacOSX13.3.sdk/usr/include/c++/v1/__algorithm/uniform_random_bit_generator_adaptor.h:
+
+/Library/Developer/CommandLineTools/SDKs/MacOSX13.3.sdk/usr/include/sys/_types/_sigset_t.h:
 
 /Library/Developer/CommandLineTools/SDKs/MacOSX13.3.sdk/usr/include/sys/_types/_caddr_t.h:
 
@@ -2980,8 +3428,6 @@ inference/CMakeFiles/main.dir/main.cpp.o: /Users/ulrikisdahl/cplusplus/NeuralNet
 /Library/Developer/CommandLineTools/SDKs/MacOSX13.3.sdk/usr/include/c++/v1/__algorithm/in_out_result.h:
 
 /Library/Developer/CommandLineTools/SDKs/MacOSX13.3.sdk/usr/include/c++/v1/__type_traits/is_function.h:
-
-/Library/Developer/CommandLineTools/SDKs/MacOSX13.3.sdk/usr/include/arm/types.h:
 
 /Library/Developer/CommandLineTools/SDKs/MacOSX13.3.sdk/usr/include/c++/v1/__type_traits/type_list.h:
 
@@ -3019,9 +3465,19 @@ inference/CMakeFiles/main.dir/main.cpp.o: /Users/ulrikisdahl/cplusplus/NeuralNet
 
 /Library/Developer/CommandLineTools/SDKs/MacOSX13.3.sdk/usr/include/c++/v1/__algorithm/copy_if.h:
 
+/Library/Developer/CommandLineTools/SDKs/MacOSX13.3.sdk/usr/include/c++/v1/__filesystem/recursive_directory_iterator.h:
+
 /Library/Developer/CommandLineTools/SDKs/MacOSX13.3.sdk/usr/include/c++/v1/__algorithm/make_heap.h:
 
+/opt/homebrew/include/eigen3/Eigen/src/Core/NoAlias.h:
+
+/Library/Developer/CommandLineTools/SDKs/MacOSX13.3.sdk/usr/include/c++/v1/__node_handle:
+
+/Library/Developer/CommandLineTools/SDKs/MacOSX13.3.sdk/usr/include/sys/_types/_timespec.h:
+
 /Library/Developer/CommandLineTools/SDKs/MacOSX13.3.sdk/usr/include/c++/v1/__functional/pointer_to_unary_function.h:
+
+/Library/Developer/CommandLineTools/SDKs/MacOSX13.3.sdk/usr/include/c++/v1/__filesystem/path.h:
 
 /Users/ulrikisdahl/cplusplus/NeuralNetwork/inference/main.cpp:
 
@@ -3037,8 +3493,6 @@ inference/CMakeFiles/main.dir/main.cpp.o: /Users/ulrikisdahl/cplusplus/NeuralNet
 
 /Library/Developer/CommandLineTools/SDKs/MacOSX13.3.sdk/usr/include/c++/v1/__algorithm/ranges_replace.h:
 
-/Library/Developer/CommandLineTools/SDKs/MacOSX13.3.sdk/usr/include/arm/arch.h:
-
 /opt/homebrew/include/eigen3/Eigen/src/Core/arch/Default/GenericPacketMathFunctionsFwd.h:
 
 /Library/Developer/CommandLineTools/SDKs/MacOSX13.3.sdk/usr/include/c++/v1/cwchar:
@@ -3051,13 +3505,9 @@ inference/CMakeFiles/main.dir/main.cpp.o: /Users/ulrikisdahl/cplusplus/NeuralNet
 
 /Library/Developer/CommandLineTools/SDKs/MacOSX13.3.sdk/usr/include/c++/v1/__algorithm/comp_ref_type.h:
 
-/Library/Developer/CommandLineTools/SDKs/MacOSX13.3.sdk/usr/include/c++/v1/__random/uniform_int_distribution.h:
-
 /Library/Developer/CommandLineTools/SDKs/MacOSX13.3.sdk/usr/include/sys/_types/_suseconds_t.h:
 
 /Library/Developer/CommandLineTools/SDKs/MacOSX13.3.sdk/usr/include/c++/v1/__algorithm/any_of.h:
-
-/Library/Developer/CommandLineTools/SDKs/MacOSX13.3.sdk/usr/include/xlocale/_time.h:
 
 /Library/Developer/CommandLineTools/SDKs/MacOSX13.3.sdk/usr/include/c++/v1/__algorithm/ranges_binary_search.h:
 
@@ -3075,6 +3525,12 @@ inference/CMakeFiles/main.dir/main.cpp.o: /Users/ulrikisdahl/cplusplus/NeuralNet
 
 /Library/Developer/CommandLineTools/SDKs/MacOSX13.3.sdk/usr/include/c++/v1/__type_traits/add_rvalue_reference.h:
 
+/Library/Developer/CommandLineTools/SDKs/MacOSX13.3.sdk/usr/include/c++/v1/__numeric/inclusive_scan.h:
+
+/opt/homebrew/Cellar/opencv/4.8.1_1/include/opencv4/opencv2/core/cv_cpu_dispatch.h:
+
+/Library/Developer/CommandLineTools/SDKs/MacOSX13.3.sdk/usr/include/c++/v1/__algorithm/rotate.h:
+
 /Library/Developer/CommandLineTools/SDKs/MacOSX13.3.sdk/usr/include/c++/v1/__algorithm/unwrap_range.h:
 
 /Library/Developer/CommandLineTools/SDKs/MacOSX13.3.sdk/usr/include/c++/v1/__algorithm/ranges_count_if.h:
@@ -3085,13 +3541,13 @@ inference/CMakeFiles/main.dir/main.cpp.o: /Users/ulrikisdahl/cplusplus/NeuralNet
 
 /Library/Developer/CommandLineTools/SDKs/MacOSX13.3.sdk/usr/include/c++/v1/__algorithm/remove_copy_if.h:
 
+/Library/Developer/CommandLineTools/SDKs/MacOSX13.3.sdk/usr/include/c++/v1/__algorithm/ranges_for_each_n.h:
+
 /Library/Developer/CommandLineTools/SDKs/MacOSX13.3.sdk/usr/include/c++/v1/__iterator/common_iterator.h:
 
 /opt/homebrew/include/eigen3/Eigen/src/Core/functors/NullaryFunctors.h:
 
 /Library/Developer/CommandLineTools/SDKs/MacOSX13.3.sdk/usr/include/_locale.h:
-
-/opt/homebrew/Cellar/opencv/4.8.1_1/include/opencv4/opencv2/dnn/dnn.hpp:
 
 /Library/Developer/CommandLineTools/SDKs/MacOSX13.3.sdk/usr/include/c++/v1/__memory/ranges_construct_at.h:
 
@@ -3109,6 +3565,12 @@ inference/CMakeFiles/main.dir/main.cpp.o: /Users/ulrikisdahl/cplusplus/NeuralNet
 
 /Library/Developer/CommandLineTools/SDKs/MacOSX13.3.sdk/usr/include/c++/v1/__iterator/advance.h:
 
+/Library/Developer/CommandLineTools/SDKs/MacOSX13.3.sdk/usr/include/c++/v1/__random/log2.h:
+
+/Library/Developer/CommandLineTools/SDKs/MacOSX13.3.sdk/usr/include/c++/v1/__random/clamp_to_integral.h:
+
+/Library/Developer/CommandLineTools/SDKs/MacOSX13.3.sdk/usr/include/c++/v1/__functional/unary_negate.h:
+
 /opt/homebrew/include/eigen3/Eigen/src/Core/GenericPacketMath.h:
 
 /Library/Developer/CommandLineTools/SDKs/MacOSX13.3.sdk/usr/include/sys/_types/_u_int8_t.h:
@@ -3120,11 +3582,5 @@ inference/CMakeFiles/main.dir/main.cpp.o: /Users/ulrikisdahl/cplusplus/NeuralNet
 /opt/homebrew/include/eigen3/Eigen/src/Core/products/Parallelizer.h:
 
 /Library/Developer/CommandLineTools/SDKs/MacOSX13.3.sdk/usr/include/c++/v1/__compare/compare_three_way_result.h:
-
-/opt/homebrew/include/eigen3/Eigen/src/QR/ColPivHouseholderQR.h:
-
-/opt/homebrew/include/eigen3/Eigen/src/Geometry/EulerAngles.h:
-
-/opt/homebrew/Cellar/opencv/4.8.1_1/include/opencv4/opencv2/dnn/dnn.inl.hpp:
 
 /Library/Developer/CommandLineTools/SDKs/MacOSX13.3.sdk/usr/include/c++/v1/__algorithm/ranges_partition.h:

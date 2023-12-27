@@ -553,6 +553,7 @@ modules/CMakeFiles/modules.dir/src/modules/activations.cpp.o: /Users/ulrikisdahl
   /Library/Developer/CommandLineTools/SDKs/MacOSX13.3.sdk/usr/include/c++/v1/climits \
   /Library/Developer/CommandLineTools/SDKs/MacOSX13.3.sdk/usr/include/c++/v1/cmath \
   /Library/Developer/CommandLineTools/SDKs/MacOSX13.3.sdk/usr/include/c++/v1/compare \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX13.3.sdk/usr/include/c++/v1/complex \
   /Library/Developer/CommandLineTools/SDKs/MacOSX13.3.sdk/usr/include/c++/v1/concepts \
   /Library/Developer/CommandLineTools/SDKs/MacOSX13.3.sdk/usr/include/c++/v1/cstdarg \
   /Library/Developer/CommandLineTools/SDKs/MacOSX13.3.sdk/usr/include/c++/v1/cstddef \
@@ -584,6 +585,7 @@ modules/CMakeFiles/modules.dir/src/modules/activations.cpp.o: /Users/ulrikisdahl
   /Library/Developer/CommandLineTools/SDKs/MacOSX13.3.sdk/usr/include/c++/v1/optional \
   /Library/Developer/CommandLineTools/SDKs/MacOSX13.3.sdk/usr/include/c++/v1/ostream \
   /Library/Developer/CommandLineTools/SDKs/MacOSX13.3.sdk/usr/include/c++/v1/ratio \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX13.3.sdk/usr/include/c++/v1/sstream \
   /Library/Developer/CommandLineTools/SDKs/MacOSX13.3.sdk/usr/include/c++/v1/stddef.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX13.3.sdk/usr/include/c++/v1/stdexcept \
   /Library/Developer/CommandLineTools/SDKs/MacOSX13.3.sdk/usr/include/c++/v1/stdint.h \
@@ -729,11 +731,202 @@ modules/CMakeFiles/modules.dir/src/modules/activations.cpp.o: /Users/ulrikisdahl
   /Library/Developer/CommandLineTools/SDKs/MacOSX13.3.sdk/usr/include/xlocale/_wchar.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX13.3.sdk/usr/include/xlocale/_wctype.h \
   /Library/Developer/CommandLineTools/usr/lib/clang/14.0.3/include/__stddef_max_align_t.h \
+  /Library/Developer/CommandLineTools/usr/lib/clang/14.0.3/include/arm_fp16.h \
+  /Library/Developer/CommandLineTools/usr/lib/clang/14.0.3/include/arm_neon.h \
   /Library/Developer/CommandLineTools/usr/lib/clang/14.0.3/include/limits.h \
   /Library/Developer/CommandLineTools/usr/lib/clang/14.0.3/include/stdarg.h \
   /Library/Developer/CommandLineTools/usr/lib/clang/14.0.3/include/stddef.h \
   /Library/Developer/CommandLineTools/usr/lib/clang/14.0.3/include/stdint.h \
-  /Users/ulrikisdahl/cplusplus/NeuralNetwork/modules/src/modules/activations.hpp
+  /Users/ulrikisdahl/cplusplus/NeuralNetwork/modules/src/modules/activations.hpp \
+  /opt/homebrew/include/eigen3/Eigen/Cholesky \
+  /opt/homebrew/include/eigen3/Eigen/Core \
+  /opt/homebrew/include/eigen3/Eigen/Dense \
+  /opt/homebrew/include/eigen3/Eigen/Eigenvalues \
+  /opt/homebrew/include/eigen3/Eigen/Geometry \
+  /opt/homebrew/include/eigen3/Eigen/Householder \
+  /opt/homebrew/include/eigen3/Eigen/Jacobi \
+  /opt/homebrew/include/eigen3/Eigen/LU \
+  /opt/homebrew/include/eigen3/Eigen/QR \
+  /opt/homebrew/include/eigen3/Eigen/SVD \
+  /opt/homebrew/include/eigen3/Eigen/src/Cholesky/LDLT.h \
+  /opt/homebrew/include/eigen3/Eigen/src/Cholesky/LLT.h \
+  /opt/homebrew/include/eigen3/Eigen/src/plugins/ArrayCwiseBinaryOps.h \
+  /opt/homebrew/include/eigen3/Eigen/src/plugins/ArrayCwiseUnaryOps.h \
+  /opt/homebrew/include/eigen3/Eigen/src/plugins/BlockMethods.h \
+  /opt/homebrew/include/eigen3/Eigen/src/plugins/CommonCwiseBinaryOps.h \
+  /opt/homebrew/include/eigen3/Eigen/src/plugins/CommonCwiseUnaryOps.h \
+  /opt/homebrew/include/eigen3/Eigen/src/plugins/IndexedViewMethods.h \
+  /opt/homebrew/include/eigen3/Eigen/src/plugins/MatrixCwiseBinaryOps.h \
+  /opt/homebrew/include/eigen3/Eigen/src/plugins/MatrixCwiseUnaryOps.h \
+  /opt/homebrew/include/eigen3/Eigen/src/plugins/ReshapedMethods.h \
+  /opt/homebrew/include/eigen3/Eigen/src/Core/ArithmeticSequence.h \
+  /opt/homebrew/include/eigen3/Eigen/src/Core/Array.h \
+  /opt/homebrew/include/eigen3/Eigen/src/Core/ArrayBase.h \
+  /opt/homebrew/include/eigen3/Eigen/src/Core/ArrayWrapper.h \
+  /opt/homebrew/include/eigen3/Eigen/src/Core/Assign.h \
+  /opt/homebrew/include/eigen3/Eigen/src/Core/AssignEvaluator.h \
+  /opt/homebrew/include/eigen3/Eigen/src/Core/BandMatrix.h \
+  /opt/homebrew/include/eigen3/Eigen/src/Core/Block.h \
+  /opt/homebrew/include/eigen3/Eigen/src/Core/BooleanRedux.h \
+  /opt/homebrew/include/eigen3/Eigen/src/Core/CommaInitializer.h \
+  /opt/homebrew/include/eigen3/Eigen/src/Core/ConditionEstimator.h \
+  /opt/homebrew/include/eigen3/Eigen/src/Core/CoreEvaluators.h \
+  /opt/homebrew/include/eigen3/Eigen/src/Core/CoreIterators.h \
+  /opt/homebrew/include/eigen3/Eigen/src/Core/CwiseBinaryOp.h \
+  /opt/homebrew/include/eigen3/Eigen/src/Core/CwiseNullaryOp.h \
+  /opt/homebrew/include/eigen3/Eigen/src/Core/CwiseTernaryOp.h \
+  /opt/homebrew/include/eigen3/Eigen/src/Core/CwiseUnaryOp.h \
+  /opt/homebrew/include/eigen3/Eigen/src/Core/CwiseUnaryView.h \
+  /opt/homebrew/include/eigen3/Eigen/src/Core/DenseBase.h \
+  /opt/homebrew/include/eigen3/Eigen/src/Core/DenseCoeffsBase.h \
+  /opt/homebrew/include/eigen3/Eigen/src/Core/DenseStorage.h \
+  /opt/homebrew/include/eigen3/Eigen/src/Core/Diagonal.h \
+  /opt/homebrew/include/eigen3/Eigen/src/Core/DiagonalMatrix.h \
+  /opt/homebrew/include/eigen3/Eigen/src/Core/DiagonalProduct.h \
+  /opt/homebrew/include/eigen3/Eigen/src/Core/Dot.h \
+  /opt/homebrew/include/eigen3/Eigen/src/Core/EigenBase.h \
+  /opt/homebrew/include/eigen3/Eigen/src/Core/Fuzzy.h \
+  /opt/homebrew/include/eigen3/Eigen/src/Core/GeneralProduct.h \
+  /opt/homebrew/include/eigen3/Eigen/src/Core/GenericPacketMath.h \
+  /opt/homebrew/include/eigen3/Eigen/src/Core/GlobalFunctions.h \
+  /opt/homebrew/include/eigen3/Eigen/src/Core/IO.h \
+  /opt/homebrew/include/eigen3/Eigen/src/Core/IndexedView.h \
+  /opt/homebrew/include/eigen3/Eigen/src/Core/Inverse.h \
+  /opt/homebrew/include/eigen3/Eigen/src/Core/Map.h \
+  /opt/homebrew/include/eigen3/Eigen/src/Core/MapBase.h \
+  /opt/homebrew/include/eigen3/Eigen/src/Core/MathFunctions.h \
+  /opt/homebrew/include/eigen3/Eigen/src/Core/MathFunctionsImpl.h \
+  /opt/homebrew/include/eigen3/Eigen/src/Core/Matrix.h \
+  /opt/homebrew/include/eigen3/Eigen/src/Core/MatrixBase.h \
+  /opt/homebrew/include/eigen3/Eigen/src/Core/NestByValue.h \
+  /opt/homebrew/include/eigen3/Eigen/src/Core/NoAlias.h \
+  /opt/homebrew/include/eigen3/Eigen/src/Core/NumTraits.h \
+  /opt/homebrew/include/eigen3/Eigen/src/Core/PartialReduxEvaluator.h \
+  /opt/homebrew/include/eigen3/Eigen/src/Core/PermutationMatrix.h \
+  /opt/homebrew/include/eigen3/Eigen/src/Core/PlainObjectBase.h \
+  /opt/homebrew/include/eigen3/Eigen/src/Core/Product.h \
+  /opt/homebrew/include/eigen3/Eigen/src/Core/ProductEvaluators.h \
+  /opt/homebrew/include/eigen3/Eigen/src/Core/Random.h \
+  /opt/homebrew/include/eigen3/Eigen/src/Core/Redux.h \
+  /opt/homebrew/include/eigen3/Eigen/src/Core/Ref.h \
+  /opt/homebrew/include/eigen3/Eigen/src/Core/Replicate.h \
+  /opt/homebrew/include/eigen3/Eigen/src/Core/Reshaped.h \
+  /opt/homebrew/include/eigen3/Eigen/src/Core/ReturnByValue.h \
+  /opt/homebrew/include/eigen3/Eigen/src/Core/Reverse.h \
+  /opt/homebrew/include/eigen3/Eigen/src/Core/Select.h \
+  /opt/homebrew/include/eigen3/Eigen/src/Core/SelfAdjointView.h \
+  /opt/homebrew/include/eigen3/Eigen/src/Core/SelfCwiseBinaryOp.h \
+  /opt/homebrew/include/eigen3/Eigen/src/Core/Solve.h \
+  /opt/homebrew/include/eigen3/Eigen/src/Core/SolveTriangular.h \
+  /opt/homebrew/include/eigen3/Eigen/src/Core/SolverBase.h \
+  /opt/homebrew/include/eigen3/Eigen/src/Core/StableNorm.h \
+  /opt/homebrew/include/eigen3/Eigen/src/Core/StlIterators.h \
+  /opt/homebrew/include/eigen3/Eigen/src/Core/Stride.h \
+  /opt/homebrew/include/eigen3/Eigen/src/Core/Swap.h \
+  /opt/homebrew/include/eigen3/Eigen/src/Core/Transpose.h \
+  /opt/homebrew/include/eigen3/Eigen/src/Core/Transpositions.h \
+  /opt/homebrew/include/eigen3/Eigen/src/Core/TriangularMatrix.h \
+  /opt/homebrew/include/eigen3/Eigen/src/Core/VectorBlock.h \
+  /opt/homebrew/include/eigen3/Eigen/src/Core/VectorwiseOp.h \
+  /opt/homebrew/include/eigen3/Eigen/src/Core/Visitor.h \
+  /opt/homebrew/include/eigen3/Eigen/src/Core/arch/Default/BFloat16.h \
+  /opt/homebrew/include/eigen3/Eigen/src/Core/arch/Default/ConjHelper.h \
+  /opt/homebrew/include/eigen3/Eigen/src/Core/arch/Default/GenericPacketMathFunctions.h \
+  /opt/homebrew/include/eigen3/Eigen/src/Core/arch/Default/GenericPacketMathFunctionsFwd.h \
+  /opt/homebrew/include/eigen3/Eigen/src/Core/arch/Default/Half.h \
+  /opt/homebrew/include/eigen3/Eigen/src/Core/arch/Default/Settings.h \
+  /opt/homebrew/include/eigen3/Eigen/src/Core/arch/Default/TypeCasting.h \
+  /opt/homebrew/include/eigen3/Eigen/src/Core/arch/NEON/Complex.h \
+  /opt/homebrew/include/eigen3/Eigen/src/Core/arch/NEON/GeneralBlockPanelKernel.h \
+  /opt/homebrew/include/eigen3/Eigen/src/Core/arch/NEON/MathFunctions.h \
+  /opt/homebrew/include/eigen3/Eigen/src/Core/arch/NEON/PacketMath.h \
+  /opt/homebrew/include/eigen3/Eigen/src/Core/arch/NEON/TypeCasting.h \
+  /opt/homebrew/include/eigen3/Eigen/src/Core/functors/AssignmentFunctors.h \
+  /opt/homebrew/include/eigen3/Eigen/src/Core/functors/BinaryFunctors.h \
+  /opt/homebrew/include/eigen3/Eigen/src/Core/functors/NullaryFunctors.h \
+  /opt/homebrew/include/eigen3/Eigen/src/Core/functors/StlFunctors.h \
+  /opt/homebrew/include/eigen3/Eigen/src/Core/functors/TernaryFunctors.h \
+  /opt/homebrew/include/eigen3/Eigen/src/Core/functors/UnaryFunctors.h \
+  /opt/homebrew/include/eigen3/Eigen/src/Core/products/GeneralBlockPanelKernel.h \
+  /opt/homebrew/include/eigen3/Eigen/src/Core/products/GeneralMatrixMatrix.h \
+  /opt/homebrew/include/eigen3/Eigen/src/Core/products/GeneralMatrixMatrixTriangular.h \
+  /opt/homebrew/include/eigen3/Eigen/src/Core/products/GeneralMatrixVector.h \
+  /opt/homebrew/include/eigen3/Eigen/src/Core/products/Parallelizer.h \
+  /opt/homebrew/include/eigen3/Eigen/src/Core/products/SelfadjointMatrixMatrix.h \
+  /opt/homebrew/include/eigen3/Eigen/src/Core/products/SelfadjointMatrixVector.h \
+  /opt/homebrew/include/eigen3/Eigen/src/Core/products/SelfadjointProduct.h \
+  /opt/homebrew/include/eigen3/Eigen/src/Core/products/SelfadjointRank2Update.h \
+  /opt/homebrew/include/eigen3/Eigen/src/Core/products/TriangularMatrixMatrix.h \
+  /opt/homebrew/include/eigen3/Eigen/src/Core/products/TriangularMatrixVector.h \
+  /opt/homebrew/include/eigen3/Eigen/src/Core/products/TriangularSolverMatrix.h \
+  /opt/homebrew/include/eigen3/Eigen/src/Core/products/TriangularSolverVector.h \
+  /opt/homebrew/include/eigen3/Eigen/src/Core/util/BlasUtil.h \
+  /opt/homebrew/include/eigen3/Eigen/src/Core/util/ConfigureVectorization.h \
+  /opt/homebrew/include/eigen3/Eigen/src/Core/util/Constants.h \
+  /opt/homebrew/include/eigen3/Eigen/src/Core/util/DisableStupidWarnings.h \
+  /opt/homebrew/include/eigen3/Eigen/src/Core/util/ForwardDeclarations.h \
+  /opt/homebrew/include/eigen3/Eigen/src/Core/util/IndexedViewHelper.h \
+  /opt/homebrew/include/eigen3/Eigen/src/Core/util/IntegralConstant.h \
+  /opt/homebrew/include/eigen3/Eigen/src/Core/util/MKL_support.h \
+  /opt/homebrew/include/eigen3/Eigen/src/Core/util/Macros.h \
+  /opt/homebrew/include/eigen3/Eigen/src/Core/util/Memory.h \
+  /opt/homebrew/include/eigen3/Eigen/src/Core/util/Meta.h \
+  /opt/homebrew/include/eigen3/Eigen/src/Core/util/ReenableStupidWarnings.h \
+  /opt/homebrew/include/eigen3/Eigen/src/Core/util/ReshapedHelper.h \
+  /opt/homebrew/include/eigen3/Eigen/src/Core/util/StaticAssert.h \
+  /opt/homebrew/include/eigen3/Eigen/src/Core/util/SymbolicIndex.h \
+  /opt/homebrew/include/eigen3/Eigen/src/Core/util/XprHelper.h \
+  /opt/homebrew/include/eigen3/Eigen/src/Eigenvalues/ComplexSchur.h \
+  /opt/homebrew/include/eigen3/Eigen/src/Eigenvalues/HessenbergDecomposition.h \
+  /opt/homebrew/include/eigen3/Eigen/src/Eigenvalues/RealQZ.h \
+  /opt/homebrew/include/eigen3/Eigen/src/Eigenvalues/RealSchur.h \
+  /opt/homebrew/include/eigen3/Eigen/src/Eigenvalues/Tridiagonalization.h \
+  /opt/homebrew/include/eigen3/Eigen/src/Eigenvalues/ComplexEigenSolver.h \
+  /opt/homebrew/include/eigen3/Eigen/src/Eigenvalues/ComplexSchur.h \
+  /opt/homebrew/include/eigen3/Eigen/src/Eigenvalues/EigenSolver.h \
+  /opt/homebrew/include/eigen3/Eigen/src/Eigenvalues/GeneralizedEigenSolver.h \
+  /opt/homebrew/include/eigen3/Eigen/src/Eigenvalues/GeneralizedSelfAdjointEigenSolver.h \
+  /opt/homebrew/include/eigen3/Eigen/src/Eigenvalues/HessenbergDecomposition.h \
+  /opt/homebrew/include/eigen3/Eigen/src/Eigenvalues/MatrixBaseEigenvalues.h \
+  /opt/homebrew/include/eigen3/Eigen/src/Eigenvalues/RealQZ.h \
+  /opt/homebrew/include/eigen3/Eigen/src/Eigenvalues/RealSchur.h \
+  /opt/homebrew/include/eigen3/Eigen/src/Eigenvalues/SelfAdjointEigenSolver.h \
+  /opt/homebrew/include/eigen3/Eigen/src/Eigenvalues/Tridiagonalization.h \
+  /opt/homebrew/include/eigen3/Eigen/src/Geometry/AlignedBox.h \
+  /opt/homebrew/include/eigen3/Eigen/src/Geometry/AngleAxis.h \
+  /opt/homebrew/include/eigen3/Eigen/src/Geometry/EulerAngles.h \
+  /opt/homebrew/include/eigen3/Eigen/src/Geometry/Homogeneous.h \
+  /opt/homebrew/include/eigen3/Eigen/src/Geometry/Hyperplane.h \
+  /opt/homebrew/include/eigen3/Eigen/src/Geometry/OrthoMethods.h \
+  /opt/homebrew/include/eigen3/Eigen/src/Geometry/ParametrizedLine.h \
+  /opt/homebrew/include/eigen3/Eigen/src/Geometry/Quaternion.h \
+  /opt/homebrew/include/eigen3/Eigen/src/Geometry/Rotation2D.h \
+  /opt/homebrew/include/eigen3/Eigen/src/Geometry/RotationBase.h \
+  /opt/homebrew/include/eigen3/Eigen/src/Geometry/Scaling.h \
+  /opt/homebrew/include/eigen3/Eigen/src/Geometry/Transform.h \
+  /opt/homebrew/include/eigen3/Eigen/src/Geometry/Translation.h \
+  /opt/homebrew/include/eigen3/Eigen/src/Geometry/Umeyama.h \
+  /opt/homebrew/include/eigen3/Eigen/src/Geometry/arch/Geometry_SIMD.h \
+  /opt/homebrew/include/eigen3/Eigen/src/Householder/BlockHouseholder.h \
+  /opt/homebrew/include/eigen3/Eigen/src/Householder/Householder.h \
+  /opt/homebrew/include/eigen3/Eigen/src/Householder/HouseholderSequence.h \
+  /opt/homebrew/include/eigen3/Eigen/src/Jacobi/Jacobi.h \
+  /opt/homebrew/include/eigen3/Eigen/src/LU/Determinant.h \
+  /opt/homebrew/include/eigen3/Eigen/src/LU/FullPivLU.h \
+  /opt/homebrew/include/eigen3/Eigen/src/LU/InverseImpl.h \
+  /opt/homebrew/include/eigen3/Eigen/src/LU/PartialPivLU.h \
+  /opt/homebrew/include/eigen3/Eigen/src/LU/arch/InverseSize4.h \
+  /opt/homebrew/include/eigen3/Eigen/src/QR/ColPivHouseholderQR.h \
+  /opt/homebrew/include/eigen3/Eigen/src/QR/CompleteOrthogonalDecomposition.h \
+  /opt/homebrew/include/eigen3/Eigen/src/QR/FullPivHouseholderQR.h \
+  /opt/homebrew/include/eigen3/Eigen/src/QR/HouseholderQR.h \
+  /opt/homebrew/include/eigen3/Eigen/src/SVD/BDCSVD.h \
+  /opt/homebrew/include/eigen3/Eigen/src/SVD/JacobiSVD.h \
+  /opt/homebrew/include/eigen3/Eigen/src/SVD/SVDBase.h \
+  /opt/homebrew/include/eigen3/Eigen/src/SVD/UpperBidiagonalization.h \
+  /opt/homebrew/include/eigen3/Eigen/src/misc/Image.h \
+  /opt/homebrew/include/eigen3/Eigen/src/misc/Kernel.h \
+  /opt/homebrew/include/eigen3/Eigen/src/misc/RealSvd2x2.h
 
 modules/CMakeFiles/modules.dir/src/modules/dense.cpp.o: /Users/ulrikisdahl/cplusplus/NeuralNetwork/modules/src/modules/dense.cpp \
   /Library/Developer/CommandLineTools/SDKs/MacOSX13.3.sdk/usr/include/Availability.h \
@@ -1119,10 +1312,56 @@ modules/CMakeFiles/modules.dir/src/modules/dense.cpp.o: /Users/ulrikisdahl/cplus
   /Library/Developer/CommandLineTools/SDKs/MacOSX13.3.sdk/usr/include/c++/v1/__memory/voidify.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX13.3.sdk/usr/include/c++/v1/__mutex_base \
   /Library/Developer/CommandLineTools/SDKs/MacOSX13.3.sdk/usr/include/c++/v1/__node_handle \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX13.3.sdk/usr/include/c++/v1/__numeric/accumulate.h \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX13.3.sdk/usr/include/c++/v1/__numeric/adjacent_difference.h \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX13.3.sdk/usr/include/c++/v1/__numeric/exclusive_scan.h \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX13.3.sdk/usr/include/c++/v1/__numeric/gcd_lcm.h \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX13.3.sdk/usr/include/c++/v1/__numeric/inclusive_scan.h \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX13.3.sdk/usr/include/c++/v1/__numeric/inner_product.h \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX13.3.sdk/usr/include/c++/v1/__numeric/iota.h \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX13.3.sdk/usr/include/c++/v1/__numeric/midpoint.h \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX13.3.sdk/usr/include/c++/v1/__numeric/partial_sum.h \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX13.3.sdk/usr/include/c++/v1/__numeric/reduce.h \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX13.3.sdk/usr/include/c++/v1/__numeric/transform_exclusive_scan.h \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX13.3.sdk/usr/include/c++/v1/__numeric/transform_inclusive_scan.h \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX13.3.sdk/usr/include/c++/v1/__numeric/transform_reduce.h \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX13.3.sdk/usr/include/c++/v1/__random/bernoulli_distribution.h \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX13.3.sdk/usr/include/c++/v1/__random/binomial_distribution.h \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX13.3.sdk/usr/include/c++/v1/__random/cauchy_distribution.h \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX13.3.sdk/usr/include/c++/v1/__random/chi_squared_distribution.h \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX13.3.sdk/usr/include/c++/v1/__random/clamp_to_integral.h \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX13.3.sdk/usr/include/c++/v1/__random/default_random_engine.h \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX13.3.sdk/usr/include/c++/v1/__random/discard_block_engine.h \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX13.3.sdk/usr/include/c++/v1/__random/discrete_distribution.h \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX13.3.sdk/usr/include/c++/v1/__random/exponential_distribution.h \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX13.3.sdk/usr/include/c++/v1/__random/extreme_value_distribution.h \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX13.3.sdk/usr/include/c++/v1/__random/fisher_f_distribution.h \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX13.3.sdk/usr/include/c++/v1/__random/gamma_distribution.h \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX13.3.sdk/usr/include/c++/v1/__random/generate_canonical.h \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX13.3.sdk/usr/include/c++/v1/__random/geometric_distribution.h \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX13.3.sdk/usr/include/c++/v1/__random/independent_bits_engine.h \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX13.3.sdk/usr/include/c++/v1/__random/is_seed_sequence.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX13.3.sdk/usr/include/c++/v1/__random/is_valid.h \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX13.3.sdk/usr/include/c++/v1/__random/knuth_b.h \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX13.3.sdk/usr/include/c++/v1/__random/linear_congruential_engine.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX13.3.sdk/usr/include/c++/v1/__random/log2.h \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX13.3.sdk/usr/include/c++/v1/__random/lognormal_distribution.h \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX13.3.sdk/usr/include/c++/v1/__random/mersenne_twister_engine.h \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX13.3.sdk/usr/include/c++/v1/__random/negative_binomial_distribution.h \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX13.3.sdk/usr/include/c++/v1/__random/normal_distribution.h \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX13.3.sdk/usr/include/c++/v1/__random/piecewise_constant_distribution.h \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX13.3.sdk/usr/include/c++/v1/__random/piecewise_linear_distribution.h \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX13.3.sdk/usr/include/c++/v1/__random/poisson_distribution.h \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX13.3.sdk/usr/include/c++/v1/__random/random_device.h \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX13.3.sdk/usr/include/c++/v1/__random/ranlux.h \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX13.3.sdk/usr/include/c++/v1/__random/seed_seq.h \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX13.3.sdk/usr/include/c++/v1/__random/shuffle_order_engine.h \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX13.3.sdk/usr/include/c++/v1/__random/student_t_distribution.h \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX13.3.sdk/usr/include/c++/v1/__random/subtract_with_carry_engine.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX13.3.sdk/usr/include/c++/v1/__random/uniform_int_distribution.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX13.3.sdk/usr/include/c++/v1/__random/uniform_random_bit_generator.h \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX13.3.sdk/usr/include/c++/v1/__random/uniform_real_distribution.h \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX13.3.sdk/usr/include/c++/v1/__random/weibull_distribution.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX13.3.sdk/usr/include/c++/v1/__ranges/access.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX13.3.sdk/usr/include/c++/v1/__ranges/concepts.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX13.3.sdk/usr/include/c++/v1/__ranges/dangling.h \
@@ -1316,8 +1555,10 @@ modules/CMakeFiles/modules.dir/src/modules/dense.cpp.o: /Users/ulrikisdahl/cplus
   /Library/Developer/CommandLineTools/SDKs/MacOSX13.3.sdk/usr/include/c++/v1/memory \
   /Library/Developer/CommandLineTools/SDKs/MacOSX13.3.sdk/usr/include/c++/v1/mutex \
   /Library/Developer/CommandLineTools/SDKs/MacOSX13.3.sdk/usr/include/c++/v1/new \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX13.3.sdk/usr/include/c++/v1/numeric \
   /Library/Developer/CommandLineTools/SDKs/MacOSX13.3.sdk/usr/include/c++/v1/optional \
   /Library/Developer/CommandLineTools/SDKs/MacOSX13.3.sdk/usr/include/c++/v1/ostream \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX13.3.sdk/usr/include/c++/v1/random \
   /Library/Developer/CommandLineTools/SDKs/MacOSX13.3.sdk/usr/include/c++/v1/ratio \
   /Library/Developer/CommandLineTools/SDKs/MacOSX13.3.sdk/usr/include/c++/v1/sstream \
   /Library/Developer/CommandLineTools/SDKs/MacOSX13.3.sdk/usr/include/c++/v1/stddef.h \
@@ -3529,6 +3770,64 @@ modules/CMakeFiles/modules.dir/src/modules/model.cpp.o: /Users/ulrikisdahl/cplus
 
 /Users/ulrikisdahl/cplusplus/NeuralNetwork/modules/src/modules/input.cpp:
 
+/Library/Developer/CommandLineTools/SDKs/MacOSX13.3.sdk/usr/include/c++/v1/numeric:
+
+/Library/Developer/CommandLineTools/SDKs/MacOSX13.3.sdk/usr/include/c++/v1/__random/uniform_real_distribution.h:
+
+/Library/Developer/CommandLineTools/SDKs/MacOSX13.3.sdk/usr/include/c++/v1/__random/subtract_with_carry_engine.h:
+
+/Library/Developer/CommandLineTools/SDKs/MacOSX13.3.sdk/usr/include/c++/v1/__random/student_t_distribution.h:
+
+/Library/Developer/CommandLineTools/SDKs/MacOSX13.3.sdk/usr/include/c++/v1/__random/seed_seq.h:
+
+/Library/Developer/CommandLineTools/SDKs/MacOSX13.3.sdk/usr/include/c++/v1/__random/poisson_distribution.h:
+
+/Library/Developer/CommandLineTools/SDKs/MacOSX13.3.sdk/usr/include/c++/v1/__random/piecewise_linear_distribution.h:
+
+/Library/Developer/CommandLineTools/SDKs/MacOSX13.3.sdk/usr/include/c++/v1/__random/piecewise_constant_distribution.h:
+
+/Library/Developer/CommandLineTools/SDKs/MacOSX13.3.sdk/usr/include/c++/v1/__random/normal_distribution.h:
+
+/Library/Developer/CommandLineTools/SDKs/MacOSX13.3.sdk/usr/include/c++/v1/__random/negative_binomial_distribution.h:
+
+/Library/Developer/CommandLineTools/SDKs/MacOSX13.3.sdk/usr/include/c++/v1/__random/mersenne_twister_engine.h:
+
+/Library/Developer/CommandLineTools/SDKs/MacOSX13.3.sdk/usr/include/c++/v1/__random/lognormal_distribution.h:
+
+/Library/Developer/CommandLineTools/SDKs/MacOSX13.3.sdk/usr/include/c++/v1/__random/is_seed_sequence.h:
+
+/Library/Developer/CommandLineTools/SDKs/MacOSX13.3.sdk/usr/include/c++/v1/__random/independent_bits_engine.h:
+
+/Library/Developer/CommandLineTools/SDKs/MacOSX13.3.sdk/usr/include/c++/v1/__random/geometric_distribution.h:
+
+/Library/Developer/CommandLineTools/SDKs/MacOSX13.3.sdk/usr/include/c++/v1/__random/generate_canonical.h:
+
+/Library/Developer/CommandLineTools/SDKs/MacOSX13.3.sdk/usr/include/c++/v1/__random/discrete_distribution.h:
+
+/Library/Developer/CommandLineTools/SDKs/MacOSX13.3.sdk/usr/include/c++/v1/__random/discard_block_engine.h:
+
+/Library/Developer/CommandLineTools/SDKs/MacOSX13.3.sdk/usr/include/c++/v1/__random/clamp_to_integral.h:
+
+/Library/Developer/CommandLineTools/SDKs/MacOSX13.3.sdk/usr/include/c++/v1/__random/cauchy_distribution.h:
+
+/Library/Developer/CommandLineTools/SDKs/MacOSX13.3.sdk/usr/include/c++/v1/__random/binomial_distribution.h:
+
+/Library/Developer/CommandLineTools/SDKs/MacOSX13.3.sdk/usr/include/c++/v1/__numeric/transform_reduce.h:
+
+/Library/Developer/CommandLineTools/SDKs/MacOSX13.3.sdk/usr/include/c++/v1/__numeric/transform_inclusive_scan.h:
+
+/Library/Developer/CommandLineTools/SDKs/MacOSX13.3.sdk/usr/include/c++/v1/__numeric/transform_exclusive_scan.h:
+
+/Library/Developer/CommandLineTools/SDKs/MacOSX13.3.sdk/usr/include/c++/v1/__numeric/iota.h:
+
+/Library/Developer/CommandLineTools/SDKs/MacOSX13.3.sdk/usr/include/c++/v1/__numeric/inclusive_scan.h:
+
+/Library/Developer/CommandLineTools/SDKs/MacOSX13.3.sdk/usr/include/c++/v1/__numeric/exclusive_scan.h:
+
+/Library/Developer/CommandLineTools/SDKs/MacOSX13.3.sdk/usr/include/c++/v1/__numeric/adjacent_difference.h:
+
+/Users/ulrikisdahl/cplusplus/NeuralNetwork/modules/src/modules/dense.cpp:
+
 /opt/homebrew/include/eigen3/Eigen/src/misc/RealSvd2x2.h:
 
 /opt/homebrew/include/eigen3/Eigen/src/misc/Kernel.h:
@@ -3607,6 +3906,8 @@ modules/CMakeFiles/modules.dir/src/modules/model.cpp.o: /Users/ulrikisdahl/cplus
 
 /opt/homebrew/include/eigen3/Eigen/src/Core/util/ForwardDeclarations.h:
 
+/Library/Developer/CommandLineTools/SDKs/MacOSX13.3.sdk/usr/include/c++/v1/__random/random_device.h:
+
 /opt/homebrew/include/eigen3/Eigen/src/Core/util/DisableStupidWarnings.h:
 
 /opt/homebrew/include/eigen3/Eigen/src/Core/util/Constants.h:
@@ -3664,6 +3965,8 @@ modules/CMakeFiles/modules.dir/src/modules/model.cpp.o: /Users/ulrikisdahl/cplus
 /opt/homebrew/include/eigen3/Eigen/src/Core/SolverBase.h:
 
 /opt/homebrew/include/eigen3/Eigen/src/Core/SolveTriangular.h:
+
+/Library/Developer/CommandLineTools/SDKs/MacOSX13.3.sdk/usr/include/c++/v1/__random/shuffle_order_engine.h:
 
 /opt/homebrew/include/eigen3/Eigen/src/Core/Solve.h:
 
@@ -3760,10 +4063,6 @@ modules/CMakeFiles/modules.dir/src/modules/model.cpp.o: /Users/ulrikisdahl/cplus
 /opt/homebrew/include/eigen3/Eigen/src/Cholesky/LDLT.h:
 
 /opt/homebrew/include/eigen3/Eigen/QR:
-
-/Library/Developer/CommandLineTools/SDKs/MacOSX13.3.sdk/usr/include/c++/v1/__algorithm/ranges_reverse.h:
-
-/Library/Developer/CommandLineTools/SDKs/MacOSX13.3.sdk/usr/include/c++/v1/complex:
 
 /Users/ulrikisdahl/cplusplus/NeuralNetwork/modules/src/modules/activations.hpp:
 
@@ -3991,6 +4290,8 @@ modules/CMakeFiles/modules.dir/src/modules/model.cpp.o: /Users/ulrikisdahl/cplus
 
 /Library/Developer/CommandLineTools/SDKs/MacOSX13.3.sdk/usr/include/sys/_types/_clock_t.h:
 
+/Library/Developer/CommandLineTools/SDKs/MacOSX13.3.sdk/usr/include/c++/v1/__random/gamma_distribution.h:
+
 /Library/Developer/CommandLineTools/SDKs/MacOSX13.3.sdk/usr/include/c++/v1/__functional/binder1st.h:
 
 /Library/Developer/CommandLineTools/SDKs/MacOSX13.3.sdk/usr/include/machine/endian.h:
@@ -4020,6 +4321,10 @@ modules/CMakeFiles/modules.dir/src/modules/model.cpp.o: /Users/ulrikisdahl/cplus
 /Library/Developer/CommandLineTools/SDKs/MacOSX13.3.sdk/usr/include/c++/v1/cstddef:
 
 /Library/Developer/CommandLineTools/SDKs/MacOSX13.3.sdk/usr/include/c++/v1/cstdarg:
+
+/Library/Developer/CommandLineTools/SDKs/MacOSX13.3.sdk/usr/include/c++/v1/__algorithm/ranges_reverse.h:
+
+/Library/Developer/CommandLineTools/SDKs/MacOSX13.3.sdk/usr/include/c++/v1/complex:
 
 /Library/Developer/CommandLineTools/SDKs/MacOSX13.3.sdk/usr/include/c++/v1/cmath:
 
@@ -4175,9 +4480,13 @@ modules/CMakeFiles/modules.dir/src/modules/model.cpp.o: /Users/ulrikisdahl/cplus
 
 /Library/Developer/CommandLineTools/SDKs/MacOSX13.3.sdk/usr/include/c++/v1/__type_traits/is_same.h:
 
+/Library/Developer/CommandLineTools/SDKs/MacOSX13.3.sdk/usr/include/c++/v1/__numeric/gcd_lcm.h:
+
 /Library/Developer/CommandLineTools/SDKs/MacOSX13.3.sdk/usr/include/c++/v1/__algorithm/adjacent_find.h:
 
 /Library/Developer/CommandLineTools/SDKs/MacOSX13.3.sdk/usr/include/c++/v1/__type_traits/is_reference_wrapper.h:
+
+/Library/Developer/CommandLineTools/SDKs/MacOSX13.3.sdk/usr/include/c++/v1/__random/ranlux.h:
 
 /Library/Developer/CommandLineTools/SDKs/MacOSX13.3.sdk/usr/include/xlocale.h:
 
@@ -4190,6 +4499,10 @@ modules/CMakeFiles/modules.dir/src/modules/model.cpp.o: /Users/ulrikisdahl/cplus
 /Library/Developer/CommandLineTools/SDKs/MacOSX13.3.sdk/usr/include/c++/v1/__type_traits/make_unsigned.h:
 
 /Library/Developer/CommandLineTools/SDKs/MacOSX13.3.sdk/usr/include/c++/v1/__type_traits/is_nothrow_move_assignable.h:
+
+/Library/Developer/CommandLineTools/SDKs/MacOSX13.3.sdk/usr/include/c++/v1/__type_traits/is_final.h:
+
+/opt/homebrew/include/eigen3/Eigen/src/Core/MathFunctionsImpl.h:
 
 /Library/Developer/CommandLineTools/SDKs/MacOSX13.3.sdk/usr/include/c++/v1/__type_traits/is_nothrow_convertible.h:
 
@@ -4209,6 +4522,8 @@ modules/CMakeFiles/modules.dir/src/modules/model.cpp.o: /Users/ulrikisdahl/cplus
 
 /Library/Developer/CommandLineTools/SDKs/MacOSX13.3.sdk/usr/include/c++/v1/__type_traits/is_member_pointer.h:
 
+/Library/Developer/CommandLineTools/SDKs/MacOSX13.3.sdk/usr/include/c++/v1/__random/linear_congruential_engine.h:
+
 /Users/ulrikisdahl/cplusplus/NeuralNetwork/modules/src/modules/activations.cpp:
 
 /Library/Developer/CommandLineTools/SDKs/MacOSX13.3.sdk/usr/include/c++/v1/__concepts/class_or_enum.h:
@@ -4223,10 +4538,6 @@ modules/CMakeFiles/modules.dir/src/modules/model.cpp.o: /Users/ulrikisdahl/cplus
 
 /Library/Developer/CommandLineTools/SDKs/MacOSX13.3.sdk/usr/include/c++/v1/__type_traits/is_integral.h:
 
-/opt/homebrew/include/eigen3/Eigen/src/Core/MathFunctionsImpl.h:
-
-/Library/Developer/CommandLineTools/SDKs/MacOSX13.3.sdk/usr/include/c++/v1/__type_traits/is_final.h:
-
 /Library/Developer/CommandLineTools/SDKs/MacOSX13.3.sdk/usr/include/c++/v1/__type_traits/is_destructible.h:
 
 /opt/homebrew/include/eigen3/Eigen/src/Core/BandMatrix.h:
@@ -4236,6 +4547,8 @@ modules/CMakeFiles/modules.dir/src/modules/model.cpp.o: /Users/ulrikisdahl/cplus
 /Library/Developer/CommandLineTools/SDKs/MacOSX13.3.sdk/usr/include/c++/v1/__type_traits/is_core_convertible.h:
 
 /Library/Developer/CommandLineTools/SDKs/MacOSX13.3.sdk/usr/include/c++/v1/__type_traits/is_copy_assignable.h:
+
+/Library/Developer/CommandLineTools/SDKs/MacOSX13.3.sdk/usr/include/c++/v1/__random/extreme_value_distribution.h:
 
 /Library/Developer/CommandLineTools/SDKs/MacOSX13.3.sdk/usr/include/c++/v1/__type_traits/is_convertible.h:
 
@@ -4324,6 +4637,8 @@ modules/CMakeFiles/modules.dir/src/modules/model.cpp.o: /Users/ulrikisdahl/cplus
 /Library/Developer/CommandLineTools/SDKs/MacOSX13.3.sdk/usr/include/c++/v1/__tuple:
 
 /Library/Developer/CommandLineTools/SDKs/MacOSX13.3.sdk/usr/include/c++/v1/__thread/timed_backoff_policy.h:
+
+/Library/Developer/CommandLineTools/SDKs/MacOSX13.3.sdk/usr/include/c++/v1/__random/exponential_distribution.h:
 
 /Library/Developer/CommandLineTools/SDKs/MacOSX13.3.sdk/usr/include/c++/v1/__thread/poll_with_backoff.h:
 
@@ -4415,11 +4730,11 @@ modules/CMakeFiles/modules.dir/src/modules/model.cpp.o: /Users/ulrikisdahl/cplus
 
 /Library/Developer/CommandLineTools/SDKs/MacOSX13.3.sdk/usr/include/c++/v1/__memory/allocate_at_least.h:
 
-/Users/ulrikisdahl/cplusplus/NeuralNetwork/modules/src/modules/dense.cpp:
-
 /Library/Developer/CommandLineTools/SDKs/MacOSX13.3.sdk/usr/include/c++/v1/__concepts/same_as.h:
 
 /Library/Developer/CommandLineTools/SDKs/MacOSX13.3.sdk/usr/include/c++/v1/__memory/addressof.h:
+
+/Library/Developer/CommandLineTools/SDKs/MacOSX13.3.sdk/usr/include/c++/v1/__numeric/midpoint.h:
 
 /Library/Developer/CommandLineTools/SDKs/MacOSX13.3.sdk/usr/include/c++/v1/__functional/mem_fun_ref.h:
 
@@ -4512,6 +4827,8 @@ modules/CMakeFiles/modules.dir/src/modules/model.cpp.o: /Users/ulrikisdahl/cplus
 /Library/Developer/CommandLineTools/SDKs/MacOSX13.3.sdk/usr/include/c++/v1/__iterator/access.h:
 
 /Library/Developer/CommandLineTools/SDKs/MacOSX13.3.sdk/usr/include/c++/v1/__functional/pointer_to_binary_function.h:
+
+/Library/Developer/CommandLineTools/SDKs/MacOSX13.3.sdk/usr/include/c++/v1/__numeric/inner_product.h:
 
 /opt/homebrew/include/eigen3/Eigen/src/Core/TriangularMatrix.h:
 
@@ -4617,10 +4934,6 @@ modules/CMakeFiles/modules.dir/src/modules/model.cpp.o: /Users/ulrikisdahl/cplus
 
 /Library/Developer/CommandLineTools/SDKs/MacOSX13.3.sdk/usr/include/c++/v1/__compare/three_way_comparable.h:
 
-/Library/Developer/CommandLineTools/SDKs/MacOSX13.3.sdk/usr/include/c++/v1/__concepts/constructible.h:
-
-/Users/ulrikisdahl/cplusplus/NeuralNetwork/modules/src/modules/layer.hpp:
-
 /opt/homebrew/include/eigen3/Eigen/src/Core/util/Memory.h:
 
 /Library/Developer/CommandLineTools/SDKs/MacOSX13.3.sdk/usr/include/c++/v1/__algorithm/ranges_remove_if.h:
@@ -4684,6 +4997,10 @@ modules/CMakeFiles/modules.dir/src/modules/model.cpp.o: /Users/ulrikisdahl/cplus
 /Library/Developer/CommandLineTools/SDKs/MacOSX13.3.sdk/usr/include/c++/v1/__memory/uses_allocator.h:
 
 /Library/Developer/CommandLineTools/SDKs/MacOSX13.3.sdk/usr/include/c++/v1/__type_traits/is_scoped_enum.h:
+
+/Users/ulrikisdahl/cplusplus/NeuralNetwork/modules/src/modules/layer.hpp:
+
+/Library/Developer/CommandLineTools/SDKs/MacOSX13.3.sdk/usr/include/c++/v1/__concepts/constructible.h:
 
 /Library/Developer/CommandLineTools/SDKs/MacOSX13.3.sdk/usr/include/c++/v1/__chrono/year_month_day.h:
 
@@ -4813,6 +5130,8 @@ modules/CMakeFiles/modules.dir/src/modules/model.cpp.o: /Users/ulrikisdahl/cplus
 
 /Library/Developer/CommandLineTools/SDKs/MacOSX13.3.sdk/usr/include/c++/v1/__algorithm/search.h:
 
+/Library/Developer/CommandLineTools/SDKs/MacOSX13.3.sdk/usr/include/c++/v1/__numeric/reduce.h:
+
 /Library/Developer/CommandLineTools/SDKs/MacOSX13.3.sdk/usr/include/c++/v1/__algorithm/ranges_stable_partition.h:
 
 /Library/Developer/CommandLineTools/SDKs/MacOSX13.3.sdk/usr/include/c++/v1/__algorithm/sample.h:
@@ -4825,6 +5144,8 @@ modules/CMakeFiles/modules.dir/src/modules/model.cpp.o: /Users/ulrikisdahl/cplus
 
 /Library/Developer/CommandLineTools/SDKs/MacOSX13.3.sdk/usr/include/sys/_types/_in_port_t.h:
 
+/Library/Developer/CommandLineTools/SDKs/MacOSX13.3.sdk/usr/include/c++/v1/__random/chi_squared_distribution.h:
+
 /Library/Developer/CommandLineTools/SDKs/MacOSX13.3.sdk/usr/include/c++/v1/__algorithm/reverse.h:
 
 /Library/Developer/CommandLineTools/SDKs/MacOSX13.3.sdk/usr/include/c++/v1/__algorithm/replace_copy_if.h:
@@ -4832,6 +5153,8 @@ modules/CMakeFiles/modules.dir/src/modules/model.cpp.o: /Users/ulrikisdahl/cplus
 /Library/Developer/CommandLineTools/SDKs/MacOSX13.3.sdk/usr/include/_types/_nl_item.h:
 
 /Library/Developer/CommandLineTools/SDKs/MacOSX13.3.sdk/usr/include/c++/v1/__algorithm/ranges_find_end.h:
+
+/Library/Developer/CommandLineTools/SDKs/MacOSX13.3.sdk/usr/include/c++/v1/__numeric/accumulate.h:
 
 /Library/Developer/CommandLineTools/SDKs/MacOSX13.3.sdk/usr/include/c++/v1/__type_traits/is_const.h:
 
@@ -4864,6 +5187,8 @@ modules/CMakeFiles/modules.dir/src/modules/model.cpp.o: /Users/ulrikisdahl/cplus
 /Library/Developer/CommandLineTools/SDKs/MacOSX13.3.sdk/usr/include/c++/v1/__algorithm/ranges_set_intersection.h:
 
 /Library/Developer/CommandLineTools/SDKs/MacOSX13.3.sdk/usr/include/c++/v1/__algorithm/ranges_is_heap_until.h:
+
+/Library/Developer/CommandLineTools/SDKs/MacOSX13.3.sdk/usr/include/c++/v1/random:
 
 /Library/Developer/CommandLineTools/SDKs/MacOSX13.3.sdk/usr/include/c++/v1/__algorithm/ranges_replace_copy_if.h:
 
@@ -4911,6 +5236,8 @@ modules/CMakeFiles/modules.dir/src/modules/model.cpp.o: /Users/ulrikisdahl/cplus
 
 /Library/Developer/CommandLineTools/SDKs/MacOSX13.3.sdk/usr/include/c++/v1/__algorithm/ranges_remove_copy_if.h:
 
+/Library/Developer/CommandLineTools/SDKs/MacOSX13.3.sdk/usr/include/c++/v1/__random/bernoulli_distribution.h:
+
 /Library/Developer/CommandLineTools/SDKs/MacOSX13.3.sdk/usr/include/c++/v1/__algorithm/next_permutation.h:
 
 /Library/Developer/CommandLineTools/SDKs/MacOSX13.3.sdk/usr/include/c++/v1/__algorithm/ranges_remove.h:
@@ -4953,6 +5280,10 @@ modules/CMakeFiles/modules.dir/src/modules/model.cpp.o: /Users/ulrikisdahl/cplus
 
 /Library/Developer/CommandLineTools/SDKs/MacOSX13.3.sdk/usr/include/c++/v1/__algorithm/set_union.h:
 
+/Library/Developer/CommandLineTools/SDKs/MacOSX13.3.sdk/usr/include/c++/v1/locale:
+
+/opt/homebrew/include/eigen3/Eigen/src/Core/Matrix.h:
+
 /Library/Developer/CommandLineTools/SDKs/MacOSX13.3.sdk/usr/include/c++/v1/__algorithm/ranges_min_element.h:
 
 /Library/Developer/CommandLineTools/SDKs/MacOSX13.3.sdk/usr/include/c++/v1/__chrono/month.h:
@@ -4979,19 +5310,15 @@ modules/CMakeFiles/modules.dir/src/modules/model.cpp.o: /Users/ulrikisdahl/cplus
 
 /Library/Developer/CommandLineTools/SDKs/MacOSX13.3.sdk/usr/include/c++/v1/__algorithm/ranges_lower_bound.h:
 
-/opt/homebrew/include/eigen3/Eigen/src/Core/Matrix.h:
-
-/Library/Developer/CommandLineTools/SDKs/MacOSX13.3.sdk/usr/include/c++/v1/locale:
-
 /Library/Developer/CommandLineTools/SDKs/MacOSX13.3.sdk/usr/include/c++/v1/__chrono/steady_clock.h:
 
 /Library/Developer/CommandLineTools/SDKs/MacOSX13.3.sdk/usr/include/c++/v1/__algorithm/max_element.h:
 
 /Library/Developer/CommandLineTools/SDKs/MacOSX13.3.sdk/usr/include/c++/v1/__type_traits/is_callable.h:
 
-/opt/homebrew/include/eigen3/Eigen/src/Geometry/Rotation2D.h:
-
 /Users/ulrikisdahl/cplusplus/NeuralNetwork/modules/src/modules/dense.hpp:
+
+/opt/homebrew/include/eigen3/Eigen/src/Geometry/Rotation2D.h:
 
 /Library/Developer/CommandLineTools/SDKs/MacOSX13.3.sdk/usr/include/c++/v1/__chrono/duration.h:
 
@@ -5047,6 +5374,8 @@ modules/CMakeFiles/modules.dir/src/modules/model.cpp.o: /Users/ulrikisdahl/cplus
 
 /Library/Developer/CommandLineTools/SDKs/MacOSX13.3.sdk/usr/include/c++/v1/__concepts/copyable.h:
 
+/Library/Developer/CommandLineTools/SDKs/MacOSX13.3.sdk/usr/include/c++/v1/__random/default_random_engine.h:
+
 /Library/Developer/CommandLineTools/SDKs/MacOSX13.3.sdk/usr/include/c++/v1/__algorithm/ranges_sort.h:
 
 /Library/Developer/CommandLineTools/SDKs/MacOSX13.3.sdk/usr/include/c++/v1/__type_traits/integral_constant.h:
@@ -5068,6 +5397,8 @@ modules/CMakeFiles/modules.dir/src/modules/model.cpp.o: /Users/ulrikisdahl/cplus
 /Library/Developer/CommandLineTools/SDKs/MacOSX13.3.sdk/usr/include/c++/v1/__algorithm/prev_permutation.h:
 
 /Library/Developer/CommandLineTools/SDKs/MacOSX13.3.sdk/usr/include/c++/v1/__algorithm/pop_heap.h:
+
+/Library/Developer/CommandLineTools/SDKs/MacOSX13.3.sdk/usr/include/c++/v1/__numeric/partial_sum.h:
 
 /Library/Developer/CommandLineTools/SDKs/MacOSX13.3.sdk/usr/include/c++/v1/__algorithm/ranges_iterator_concept.h:
 
@@ -5227,6 +5558,8 @@ modules/CMakeFiles/modules.dir/src/modules/model.cpp.o: /Users/ulrikisdahl/cplus
 
 /Library/Developer/CommandLineTools/SDKs/MacOSX13.3.sdk/usr/include/c++/v1/__type_traits/is_function.h:
 
+/Library/Developer/CommandLineTools/SDKs/MacOSX13.3.sdk/usr/include/c++/v1/__random/knuth_b.h:
+
 /Library/Developer/CommandLineTools/SDKs/MacOSX13.3.sdk/usr/include/arm/types.h:
 
 /opt/homebrew/include/eigen3/Eigen/Jacobi:
@@ -5283,6 +5616,8 @@ modules/CMakeFiles/modules.dir/src/modules/model.cpp.o: /Users/ulrikisdahl/cplus
 
 /Library/Developer/CommandLineTools/SDKs/MacOSX13.3.sdk/usr/include/c++/v1/__algorithm/ranges_replace.h:
 
+/Library/Developer/CommandLineTools/SDKs/MacOSX13.3.sdk/usr/include/c++/v1/__random/weibull_distribution.h:
+
 /Library/Developer/CommandLineTools/SDKs/MacOSX13.3.sdk/usr/include/arm/arch.h:
 
 /Library/Developer/CommandLineTools/SDKs/MacOSX13.3.sdk/usr/include/c++/v1/__format/enable_insertable.h:
@@ -5296,6 +5631,8 @@ modules/CMakeFiles/modules.dir/src/modules/model.cpp.o: /Users/ulrikisdahl/cplus
 /opt/homebrew/include/eigen3/Eigen/src/Eigenvalues/EigenSolver.h:
 
 /Library/Developer/CommandLineTools/SDKs/MacOSX13.3.sdk/usr/include/c++/v1/__algorithm/comp_ref_type.h:
+
+/Library/Developer/CommandLineTools/SDKs/MacOSX13.3.sdk/usr/include/c++/v1/__random/fisher_f_distribution.h:
 
 /Library/Developer/CommandLineTools/SDKs/MacOSX13.3.sdk/usr/include/c++/v1/__random/uniform_int_distribution.h:
 
