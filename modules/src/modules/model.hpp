@@ -7,9 +7,11 @@ using namespace std;
 
 class Model{
     public:
-        Model(string, int);
+        Model();
         void addLayer(std::unique_ptr<Layer>);
-        void fit(Eigen::MatrixXf&, Eigen::VectorXf&, int, float);
+        void fit(Eigen::MatrixXf&, Eigen::MatrixXf&, int, float);
+        void evaluate(Eigen::MatrixXf, Eigen::MatrixXf&, bool);
+        Eigen::MatrixXf predict(Eigen::MatrixXf&);
 
     private:
         int batchSize;

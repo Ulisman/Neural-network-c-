@@ -7,7 +7,6 @@ using namespace std;
 
 
 Input::Input(Eigen::MatrixXf input, string name){
-    this->inputs = input;
     this->name = name;
 }
 
@@ -16,7 +15,8 @@ Eigen::MatrixXf Input::getOutputActivations() const{
 }
 
 Eigen::MatrixXf Input::forward(const Eigen::MatrixXf& input) {
-    return this->inputs;
+    this->inputs = input;
+    return inputs;
 }
 
 

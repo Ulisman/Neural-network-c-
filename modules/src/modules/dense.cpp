@@ -23,8 +23,8 @@ Dense::Dense(int neurons, string activationFunction, string layerName){ //Dense:
  */
 void Dense::initializeWeights(const int& rows, const int& cols){
     //He weight initialization
-    float k = std::sqrt(1/(cols));
-    std::default_random_engine generator(static_cast<unsigned int>(time(0)));
+    static std::default_random_engine generator(static_cast<unsigned int>(time(0)));
+    float k = std::sqrt(1/(float)cols);
     std::uniform_real_distribution<float> distribution(-k, k);
     this->weights = Eigen::MatrixXf::Zero(rows, cols).unaryExpr([&](float x){return distribution(generator);});
 }
@@ -35,11 +35,15 @@ Eigen::MatrixXf Dense::forward(const Eigen::MatrixXf& input){
         this->initializeWeights(input.cols(), this->neurons);
     }
 
-    this->rawOutputs = input * this->weights;
-     //We don't need the activations for backprop (only raw outputs) so we can use local variable here
+    this->rawOutputs = input * this->weights; //logits
+    
     if(this->activationFunction == "sigmoid"){
         this->outputActivations = this->rawOutputs.unaryExpr(std::function<float(float)>(activations::sigmoid));
-    } else {
+    } 
+    else if (this->activationFunction == "softmax"){
+        this->outputActivations = activations::softmax(this->rawOutputs);
+    }
+    else {
         return this->rawOutputs;
     }
 
@@ -67,7 +71,7 @@ Eigen::MatrixXf Dense::getDeltas() const{
 }
 
 void Dense::applyGradients(float lr){
-    this->weights -= lr * this->gradients;
+    this->weights = this->weights - lr * this->gradients;
 }
 
 Eigen::MatrixXf Dense::getOutputActivations() const{
