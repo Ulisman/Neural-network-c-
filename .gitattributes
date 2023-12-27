@@ -4,3 +4,5 @@
 *.cmake linguist-detectable=false
 *.d linguist-detectable=false
 *.internal linguist-detectable=false
+*.mk linguist-detectable=false
+Makefile linguist-documentation=true
