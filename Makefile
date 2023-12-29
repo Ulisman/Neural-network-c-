@@ -220,18 +220,9 @@ cmake_check_build_system:
 	$(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 0
 .PHONY : cmake_check_build_system
 
-.PHONY: all runTest runNN runMain
-all: runTest runNN runMain
+.PHONY: all runMain
+all: runMain
 
-runTest:
-	@cd build && cmake ..
-	@cd build && cmake --build .
-	@cd build && ./test
-
-runNN:
-	@cd build && cmake ..
-	@cd build && cmake --build .
-	@cd build && ./nn
 
 runMain:
 	@cd build && cmake ..

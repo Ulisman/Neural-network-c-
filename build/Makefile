@@ -117,32 +117,6 @@ depend:
 .PHONY : depend
 
 #=============================================================================
-# Target rules for targets named nn
-
-# Build rule for target.
-nn: cmake_check_build_system
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 nn
-.PHONY : nn
-
-# fast build rule for target.
-nn/fast:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/nn.dir/build.make CMakeFiles/nn.dir/build
-.PHONY : nn/fast
-
-#=============================================================================
-# Target rules for targets named test
-
-# Build rule for target.
-test: cmake_check_build_system
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 test
-.PHONY : test
-
-# fast build rule for target.
-test/fast:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/test.dir/build.make CMakeFiles/test.dir/build
-.PHONY : test/fast
-
-#=============================================================================
 # Target rules for targets named modules
 
 # Build rule for target.
@@ -168,54 +142,6 @@ main/fast:
 	$(MAKE) $(MAKESILENT) -f inference/CMakeFiles/main.dir/build.make inference/CMakeFiles/main.dir/build
 .PHONY : main/fast
 
-nn.o: nn.cpp.o
-.PHONY : nn.o
-
-# target to build an object file
-nn.cpp.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/nn.dir/build.make CMakeFiles/nn.dir/nn.cpp.o
-.PHONY : nn.cpp.o
-
-nn.i: nn.cpp.i
-.PHONY : nn.i
-
-# target to preprocess a source file
-nn.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/nn.dir/build.make CMakeFiles/nn.dir/nn.cpp.i
-.PHONY : nn.cpp.i
-
-nn.s: nn.cpp.s
-.PHONY : nn.s
-
-# target to generate assembly for a file
-nn.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/nn.dir/build.make CMakeFiles/nn.dir/nn.cpp.s
-.PHONY : nn.cpp.s
-
-testEigen.o: testEigen.cpp.o
-.PHONY : testEigen.o
-
-# target to build an object file
-testEigen.cpp.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/test.dir/build.make CMakeFiles/test.dir/testEigen.cpp.o
-.PHONY : testEigen.cpp.o
-
-testEigen.i: testEigen.cpp.i
-.PHONY : testEigen.i
-
-# target to preprocess a source file
-testEigen.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/test.dir/build.make CMakeFiles/test.dir/testEigen.cpp.i
-.PHONY : testEigen.cpp.i
-
-testEigen.s: testEigen.cpp.s
-.PHONY : testEigen.s
-
-# target to generate assembly for a file
-testEigen.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/test.dir/build.make CMakeFiles/test.dir/testEigen.cpp.s
-.PHONY : testEigen.cpp.s
-
 # Help Target
 help:
 	@echo "The following are some of the valid targets for this Makefile:"
@@ -226,14 +152,6 @@ help:
 	@echo "... rebuild_cache"
 	@echo "... main"
 	@echo "... modules"
-	@echo "... nn"
-	@echo "... test"
-	@echo "... nn.o"
-	@echo "... nn.i"
-	@echo "... nn.s"
-	@echo "... testEigen.o"
-	@echo "... testEigen.i"
-	@echo "... testEigen.s"
 .PHONY : help
 
 

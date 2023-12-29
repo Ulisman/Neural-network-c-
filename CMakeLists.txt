@@ -10,15 +10,8 @@ include_directories(${EIGEN3_INCLUDE_DIR})
 #Find opencv
 find_package(OpenCV REQUIRED) 
 include_directories(${OpenCV_INCLUDE_DIRS})
-#Add the executable
-add_executable(nn nn.cpp)
-add_executable(test testEigen.cpp)
+
 #Link eigen - link the executable (nn) to the Eigen library
-target_link_libraries(nn Eigen3::Eigen)
-target_link_libraries(test Eigen3::Eigen) 
-#Link opencv
-target_link_libraries(nn ${OpenCV_LIBS})
-target_link_libraries(test ${OpenCV_LIBS})
 
 add_subdirectory(modules)
 add_subdirectory(inference) #must be after Eigen, OpenCV and modules are found because the CmakeLists inside /app will use all of them

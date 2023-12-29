@@ -60,8 +60,6 @@ set(CMAKE_MAKEFILE_PRODUCTS
 
 # Dependency information for all targets:
 set(CMAKE_DEPEND_INFO_FILES
-  "CMakeFiles/nn.dir/DependInfo.cmake"
-  "CMakeFiles/test.dir/DependInfo.cmake"
   "modules/CMakeFiles/modules.dir/DependInfo.cmake"
   "inference/CMakeFiles/main.dir/DependInfo.cmake"
   )
